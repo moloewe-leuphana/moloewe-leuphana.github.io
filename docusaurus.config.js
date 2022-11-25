@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: ' MoLöwe - Mobile Lösungswerkstatt',
+  title: ' MoLoewe - Mobile Lösungswerkstatt',
   tagline: 'Faculty of Sustainability - Leuphana University',
-  url: 'https://moloewe.leuphana.de',
-  baseUrl: '/documentation/',
+  url: 'https://moloewe-leuphana.github.io',
+  baseUrl: '/docs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'moloewe', // Usually your GitHub org/user name.
+  organizationName: 'moloewe-leuphana', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
   deploymentBranch: 'main'      // Branch for deployment
 
@@ -54,38 +54,27 @@ const config = {
     ],
   ],
 
-  // Configure header and footer
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Mobile Lösungswerkstatt - MoLöwe',
+        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/leuphanaLogo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
-            // Go to documentation, top-left
             type: 'doc',
-            docId: 'welcome-moloewe', // either using docID of page
+            docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: 'Tutorial',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: 'faq',
-            label: 'FAQ',
-            position: 'left',
-          },
-          {
-            to: 'gallery',
-            label: 'Gallery',
-            position: 'left',
-          },
-          {
-            to: 'contact',
-            label: 'Contact',
-            position: 'left',
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
@@ -93,28 +82,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Links',
+            title: 'Docs',
             items: [
               {
-                label: 'Documentation',
-                to: '/docs/welcome-moloewe',
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'FAQ',
-                to: 'faq',
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Gallery',
-                to: 'gallery',
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: 'Contact',
-                to: 'contact',
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
