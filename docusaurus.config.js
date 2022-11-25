@@ -9,7 +9,7 @@ const config = {
   title: ' MoLoewe - Mobile Lösungswerkstatt',
   tagline: 'Faculty of Sustainability - Leuphana University',
   url: 'https://moloewe-leuphana.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'moloewe-leuphana', // Usually your GitHub org/user name.
   projectName: 'moloewe-leuphana.github.io', // Usually your repo name.
-  deploymentBranch: 'main',      // Branch for deployment
+  deploymentBranch: 'source',      // Branch for deployment
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
