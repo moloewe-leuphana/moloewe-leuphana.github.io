@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: ' MoLoewe - Mobile Lösungswerkstatt',
-  tagline: 'Faculty of Sustainability - Leuphana University',
+  title: 'MoLoewe Mobile Loesungswerkstatt',
+  tagline: 'Faculty of Sustainability Leuphana University',
   url: 'https://moloewe-leuphana.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
