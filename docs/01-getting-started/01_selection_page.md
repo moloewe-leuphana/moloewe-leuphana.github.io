@@ -6,6 +6,8 @@ The user lands on this page when they have successfully logged in. On this page,
 
 ## **1 Edit Mode**
 
+hello test
+
 In the edit mode, a presentation/a project can be created, worked on, changed & up- or downloaded. This mode is necessary when planning and preparing a workshop.
 
 ## **2 Presentation Mode**
