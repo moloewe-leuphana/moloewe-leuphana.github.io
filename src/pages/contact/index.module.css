@@ -13,6 +13,20 @@
   color: white;
 }
 
+.contactBanner {
+  padding: 10% 25%;
+  text-align: center;
+}
+
+.FAQContainer {
+  padding: 10% 5%;
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+}
+
 .abstractBanner {
   padding: 60px;
   box-sizing: border-box;
@@ -33,8 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(118, 0, 50, 255);
-  padding: 5% 0%;
+  padding: 1rem 0;
 }
 
 .purple-background {
