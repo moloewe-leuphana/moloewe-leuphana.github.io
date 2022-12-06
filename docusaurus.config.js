@@ -55,27 +55,38 @@ const config = {
     ],
   ],
 
+  // Configure header and footer
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Mobile Lösungswerkstatt - MoLöwe',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/leuphanaLogo.svg',
         },
         items: [
           {
+            // Go to documentation, top-left
             type: 'doc',
-            docId: 'intro',
+            docId: 'welcome-moloewe',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: 'faq',
+            label: 'FAQ',
+            position: 'left',
+          },
+          {
+            to: 'gallery',
+            label: 'Gallery',
+            position: 'left',
+          },
+          {
+            to: 'contact',
+            label: 'Contact',
+            position: 'left',
           },
         ],
       },
@@ -83,46 +94,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Documentation',
+                to: '/docs/welcome-moloewe',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'FAQ',
+                to: 'faq',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Gallery',
+                to: 'gallery',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contact',
+                to: 'contact',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`,
       },
       prism: {
         theme: lightCodeTheme,
