@@ -115,7 +115,12 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`,
+        logo: {
+            alt: 'DBU Logo',
+            src: 'img/dbuLogo.svg',
+            href: 'https://www.dbu.de',
+        },
+        copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`
       },
       prism: {
         theme: lightCodeTheme,
