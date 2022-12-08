@@ -5,17 +5,22 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import PrintFAQ from '@site/src/components/FAQList';
 
-import styles from './index.module.css';
+
+// import styles from './index.module.css';
+import styles from '@site/src/pages/index.module.css'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={'header'}>
-      <div className={clsx('container', styles.heroBanner)}>
-        <h1 className="hero__title">{'Mobile Solution Workshop'}</h1>
-        <h1 className="hero__title__2">{'Contact'}</h1>
-      </div>
+    <header className={clsx('hero hero--primary', styles.heroBannerContact)}>
+        <div className="container">
+         <h1>{'Leuphana University Lüneburg'}</h1>
+         <p>{'Faculty of Sustainability'}</p>
+         <p>{'Universitätsallee 1, 21335 Lüneburg, Germany'}</p>
+         <p>{'moloewe@leuphana.de'}</p>
+        </div>
     </header>
+
   );
 }
 
@@ -24,32 +29,11 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Mobile Lösungswerkstatt (MoLöwe)`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
 
-      <main>
-        <img
-          className="landingPhoto"
-          src="img/landingPhoto.jpg"
-          alt="Grapefruit slice atop a pile of other slices"
-        ></img>
-
-        <div className={clsx('contactContent', styles.contactBanner)}>
-          <h2>{'Leuphana University Lüneburg'}</h2>
-          <h3>{'Faculty of Sustainability'}</h3>
-          <p>{'Universitätsallee 1, 21335 Lüneburg, Germany'}</p>
-          <p>{'moloewe@leuphana.de'}</p>
-        </div>
-      </main>
     </Layout>
   );
 }
-
-/*
-Leuphana University Lüneburg
-Faculty of Sustainability
-Universitätsallee 1, 21335 Lüneburg, Germany
-Email: moloewe@leuphana.de
-*/

@@ -25,17 +25,12 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Mobile Lösungswerkstatt (MoLöwe)`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
 
       <main>
-        <img
-          className="landingPhoto"
-          src="img/landingPhoto.jpg"
-          alt="Grapefruit slice atop a pile of other slices"
-        ></img>
         <div className={clsx('container', styles.FAQContainer)}>
           <PrintFAQ />
         </div>
