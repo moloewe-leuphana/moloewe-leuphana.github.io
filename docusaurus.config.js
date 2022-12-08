@@ -92,34 +92,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Links',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/welcome-moloewe',
-              },
-              {
-                label: 'FAQ',
-                to: 'faq',
-              },
-              {
-                label: 'Gallery',
-                to: 'gallery',
-              },
-              {
-                label: 'Contact',
-                to: 'contact',
-              },
-            ],
-          },
-        ],
-        logo: {
-            alt: 'DBU Logo',
-            src: 'img/dbuLogo.svg',
-            href: 'https://www.dbu.de',
-        },
         copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`
       },
       prism: {
@@ -128,5 +100,7 @@ const config = {
       },
     }),
 };
+
+
 
 module.exports = config;

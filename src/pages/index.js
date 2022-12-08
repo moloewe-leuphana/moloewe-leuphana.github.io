@@ -71,6 +71,10 @@ export default function Home() {
           alt="Landing Photo"
         ></img>
         <HomepageFeatures />
+        <div className={styles.footerLogosDiv} align="center">
+          <img className={styles.footerLogos} src="img/dbuLogo.svg" alt="dbu logo"></img>
+          <img className={styles.footerLogos} src="img/leuphLogo.png" alt="leuphana logo"></img>
+        </div>
       </main>
     </Layout>
   );

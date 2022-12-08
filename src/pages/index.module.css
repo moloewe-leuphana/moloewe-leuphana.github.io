@@ -19,7 +19,7 @@
   text-align: justify;
   position: relative;
   overflow: hidden;
-  background-color: rgba(58, 58, 75, 1);
+  background-color: #303846;
   color: white;
 }
 
@@ -54,3 +54,17 @@
   color: rgba(118, 0, 50, 255);
   text-align: center;
 }
+
+.footerLogosDiv {
+  background-color: #303846;
+}
+
+.footerLogos{
+  width:300px;
+  height:300px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: -90px;
+  margin-top: -50px;
+  object-fit:scale-down;
+  }
