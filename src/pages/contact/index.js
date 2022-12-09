@@ -14,7 +14,7 @@ export default function Home() {
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
     <div className={styles.background}>
         <div className={styles.table}>
-            <div className={styles.cell}>
+            <div className={styles.tcell}>
                 <h1>{'Leuphana University Lüneburg'}</h1>
                 <p>{'Faculty of Sustainability'}</p>
                 <p>{'Universitätsallee 1, 21335 Lüneburg, Germany'}</p>

@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.cell {
+.tcell {
     display: table-cell;
     vertical-align: middle;
     color: white;
@@ -51,7 +51,7 @@
   padding: 5% 0%;
 }
 
-.background {
+.tbackground {
     position: fixed;
     display: table;
     width: 100%;
