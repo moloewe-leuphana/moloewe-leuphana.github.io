@@ -91,3 +91,12 @@
   margin-top: -50px;
   object-fit:scale-down;
   }
+
+.FAQContainer {
+  padding: 10% 5%;
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+  color: black;
+  background-color: rgba(118, 0, 50, 255)
+}
