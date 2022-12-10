@@ -37,10 +37,12 @@ export default function PrintFAQ() {
     <div>
       {FAQList.map((FAQ) => {
         return (
-          <div>
-            <h2>{FAQ.question}</h2>
-            <p>{FAQ.answer}</p>
-          </div>
+            <div className={styles.container}>
+                <details>
+                  <summary> {FAQ.question} </summary>
+                  <div> {FAQ.answer} </div>
+                </details>
+            </div>
         );
       })}
     </div>

@@ -1,34 +1,12 @@
-/* This is style for the title*/
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-color: rgba(118, 0, 50, 255);
-  color: white;
-}
-
-.FAQContainer {
-  padding: 10% 5%;
-  text-align: justify;
-  position: relative;
-  overflow: hidden;
-  background-color: white;
-  color: black;
-}
-
-.abstractBanner {
-  padding: 60px;
-  box-sizing: border-box;
-  text-align: justify;
-  position: relative;
-  overflow: hidden;
-  background-color: rgba(58, 58, 75, 1);
-  color: white;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.background {
+    position: fixed;
+    display: table;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(118, 0, 50, 255);
+    z-index: -1
 }

@@ -4,17 +4,19 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import PrintFAQ from '@site/src/components/FAQList';
-// import styles from './index.module.css';
-import styles from '@site/src/pages/index.module.css'
+import styles from './index.module.css';
+
 
 // Where the structure of the page lives
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
-        <div className={styles.FAQContainer}>
-            <PrintFAQ />
-        </div>
+
+    <div className={styles.background}></div>
+
+    <PrintFAQ />
+
     </Layout>
   );
 }
