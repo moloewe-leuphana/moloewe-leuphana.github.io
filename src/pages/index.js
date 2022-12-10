@@ -34,30 +34,35 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
-      <HomepageHeader />
-      <main>
 
-        <div className={clsx('hero hero--primary', styles.abstractBanner)}>
-            <p className="abstract">{abstractText}</p>
-        </div>
 
-        <img
-          className="landingPhoto"
-          src="img/landingPhoto.jpg"
-          alt="Landing Photo"
-        ></img>
+    <HomepageHeader />
 
-        <HomepageFeatures />
 
-        <div className={styles.footerLogosDiv} align="center">
-            <a href="https://www.dbu.de/">
-                <img className={styles.footerLogos} src="img/dbuLogo.svg" alt="dbu logo"></img>
-            </a>
-            <a href="https://www.leuphana.de/">
-                <img className={styles.footerLogos} src="img/leuphLogo.png" alt="leuphana logo"></img>
-            </a>
-        </div>
-      </main>
+    <div className={clsx('hero hero--primary', styles.abstractBanner)}>
+        <p className="abstract">{abstractText}</p>
+    </div>
+
+
+    <img
+      className="landingPhoto"
+      src="img/landingPhoto.jpg"
+      alt="Landing Photo"
+    ></img>
+
+
+    <HomepageFeatures />
+
+
+    <div className={styles.footerLogosDiv} align="center">
+        <a href="https://www.dbu.de/">
+            <img className={styles.footerLogos} src="img/dbuLogo.svg" alt="dbu logo"></img>
+        </a>
+        <a href="https://www.leuphana.de/">
+            <img className={styles.footerLogos} src="img/leuphanaFooter.png" alt="leuphana footer"></img>
+        </a>
+    </div>
+
     </Layout>
   );
 }
