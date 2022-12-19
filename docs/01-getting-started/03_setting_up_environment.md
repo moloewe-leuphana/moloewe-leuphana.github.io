@@ -1,14 +1,12 @@
 # Setting up an Environment
 
-MoLöwe projects are setup using a Jupyter Notebook file, called **MoLöwe Notebook**, and the options available on the MoLöwe platform.
+MoLöwe projects are set up using a Jupyter Notebook file, called *MoLöwe Notebook*, and the options available on the MoLöwe platform.
+
+The easiest way to develop a Jupyter Notebook is to use the [**JupyterHub server**](jupyter.leuphana.de). But you can also manually install the different software components on your own computer to have your local environment to develop a notebook to use it in MoLöwe. 
+
+---
 
 MoLöwe has been tested with Python 3.7 and Plotly v4. This section provides information on how to install Python and the required packages so that you can get started with writing a MoLöwe Notebook for your project.
-
-:::caution
-
-The easiest way to develop a Jupyter Notebook to run it in MoLöwe is to use the jupyter.leuphana.de JupyterHub server. But you can also manually install the different software components on your own computer to have your local environment to develop a notebook to use it in MoLöwe. 
-
-:::
 
 At the time of writing, Jupyter Lab does not work reliably with Plotly. As such, using Jupyter Notebook is recommended.
 

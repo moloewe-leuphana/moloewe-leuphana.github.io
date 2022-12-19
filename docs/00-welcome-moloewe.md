@@ -1,5 +1,38 @@
-# Welcome to the MoLöwe Documentation
+import {Tech, Technical, MGMT, Management} from './Highlight';
 
+# MoLöwe Workflow
+
+Preparing a MoLöwe workshop requires certain steps presented and explained in the following workflow.
+Each step is classified to be either <Tech> technical </Tech> or <MGMT> project management </MGMT>.
+Technical steps are broken down into one or more instructions listed in the sidebar to your left.
+
+**Please use this workflow as your guide in order to ensure a smooth and successful workshop preparation.**
+
+:::info Before you start
+Please familiarize yourself with the MoLöwe first by reading our <a href="https://moloewe-leuphana.github.io/faq">**FAQ**</a> 
+and checking out the information on our <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
+::::
+
+---
+
+<Technical> 1. Create a User Account </Technical>
+LINK
+
+1) server
+or
+
+
+2) local (need access to room on campus)
+
+<Management> 2. Define your Workshop Goal </Management>
+
+- for scientists
+- for stakeholders
+
+
+
+
+---
 - "MoLöwe" is short for "Mobile Lösungswerkstatt" (eng. "Mobile Solution Workshop")
 - see [Glossary](06_glossary.md)
 - Software to create and run interactive browser based dashboard.

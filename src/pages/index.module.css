@@ -1,6 +1,6 @@
 /* This is style for the title*/
 .heroBanner {
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -9,13 +9,15 @@
 }
 
 .abstractBanner {
-  padding: 60px;
+  padding: 50px;
   box-sizing: border-box;
-  text-align: justify;
+  text-align: center;
   position: relative;
   overflow: hidden;
   background-color: #303846;
   color: white;
+  font-size: 22px;
+  line-height: 2;
 }
 
 @media screen and (max-width: 996px) {
