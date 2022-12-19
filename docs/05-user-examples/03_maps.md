@@ -8,7 +8,7 @@
 
 ## **2 How to start**
 
-There are two ways to incorporate a map in MoLöwe: [Here's a simple flowchart](https://miro.com/app/board/uXjVPfd4oZ8=/?share_link_id=811493081374)
+There are two ways to incorporate a map in MoLöwe: [**Here's a simple flowchart**](https://miro.com/app/board/uXjVPfd4oZ8=/?share_link_id=811493081374)
 
 If your gis file (e.g. shapefile) is…
 - **smaller** than 45 Mb: use Mapbox

@@ -27,9 +27,11 @@ export function Technical({children}) {
         "border-style": "solid",
         "border-color": "black",
         "border-width": "2.5px",
+        "margin-bottom": "-40px"
       }}>
       {children}
     </div>
+
   );
 }
 
@@ -60,6 +62,7 @@ export function Management({children}) {
         "border-style": "solid",
         "border-color": "black",
         "border-width": "2.5px",
+        "margin-bottom": "-40px"
       }}>
       {children}
     </div>

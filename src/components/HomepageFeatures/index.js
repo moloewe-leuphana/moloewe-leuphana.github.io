@@ -63,7 +63,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h1 className={styles.headerFeatures}> Why MoLöWe?</h1>
+        <h1 className={styles.headerFeatures}> Why MoLöwe?</h1>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
