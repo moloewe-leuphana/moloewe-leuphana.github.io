@@ -7,17 +7,33 @@ Each step is classified as either <Tech>technical</Tech> or <MGMT>project manage
 Technical steps are broken down into one or more instructions listed in the sidebar to your left.
 
 :::info Before you start
-Before you jump into the following steps, please familiarize yourself with the MoLöwe basics first by reading our <a href="https://moloewe-leuphana.github.io/faq">**FAQ**</a> 
+Before you jump into the steps, please familiarize yourself with the MoLöwe basics first by reading our <a href="https://moloewe-leuphana.github.io/faq">**FAQ**</a> 
 and checking out the information on our <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
 ::::
 
 ---
-## <Management> 1. Define your Workshop Goal </Management>
+## <Management> 1. Check Venue & Logistical Requirements </Management>
 
-Due to its unique setup and wide range of capabilities, you can achieve a variety of goals with the MoLöwe.
+Please verify that following requirements are met.
+
+**Workshop Venue**:
+
+- sufficient space for the MoLöwe setup + audience (maße?)?
+- stable WIFI connection
+
+**Logistics**:
+
+- can the moving costs be covered by your budget?
+- rent transport vehicle (maße?)
+- people to move and set up the MoLöwe (at least ?people)
+
+
+## <Management> 2. Define your Workshop Goal </Management>
+
+Due to its unique setup and wide range of capabilities, your workshop can achieve a variety of goals with the MoLöwe.
 These are already covered in the "Why MoLöwe" section of the <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
  
-## <Management> 2. Create a Storyboard </Management>
+## <Management> 3. Create a Storyboard </Management>
 
 Once you've defined your workshop goal, it is time to create a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
@@ -25,7 +41,7 @@ A storyboard will help you plan your content and how you arrange it.
 
 A storyboard includes an overview of all the pages in your workshop, arranged by their chronological order.
 Try to be as detailed as possible: add descriptions, images, the presenting person (if you're presenting in a team) and
-if the respective page will be displayed on a monitor or a tablet.
+on which monitor or tablet the respective page will be displayed on.
 
 [**Click here for a storyboard example**](https://miro.com/app/board/uXjVOvm7up8=/?share_link_id=930839406781)
 
