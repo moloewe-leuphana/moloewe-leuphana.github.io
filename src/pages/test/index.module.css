@@ -1,32 +1,23 @@
-body, html {
-  height: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.bg_image {
-  /* The image used */
-  background-image: url("https://de.wikipedia.org/wiki/Leuphana_Universit%C3%A4t_L%C3%BCneburg#/media/Datei:Leuphana_Universit%C3%A4t_L%C3%BCneburg_Logo_2020.svg");
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
+.background {
+  background-image: url(https://github.com/moloewe-leuphana/moloewe-leuphana.github.io/blob/8078be3301e58eb1828886e7b72439160f7dc52a/static/img/landingPhoto.jpg?raw=true);
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
-/* Position text in the middle of the page/image */
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 100vh;
+  width: 100%;
+}
+
 .bg_text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  backdrop-filter: blur(4px);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -39,3 +30,4 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+

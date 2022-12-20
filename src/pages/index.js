@@ -35,23 +35,18 @@ export default function Home() {
   return (
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
 
+    <div className={styles.background}>
+    </div>
 
-    <HomepageHeader />
+    <div className={styles.bg_text}>
+      <div>MoLöwe (Mobile Lösungswerkstatt)</div>
+    </div>
 
     <div className={clsx('hero hero--primary', styles.abstractBanner)}>
         <p className="abstract">{abstractText}</p>
     </div>
 
-
-    <img
-      className="landingPhoto"
-      src="img/landingPhoto.jpg"
-      alt="Landing Photo"
-    ></img>
-
-
     <HomepageFeatures />
-
 
     <div className={styles.footerLogosDiv} align="center">
         <a href="https://www.dbu.de/">

@@ -88,11 +88,6 @@ const config = {
             label: 'Contact',
             position: 'left',
           },
-        {
-            to: 'test',
-            label: 'test',
-            position: 'left',
-          },
         ],
       },
       footer: {
