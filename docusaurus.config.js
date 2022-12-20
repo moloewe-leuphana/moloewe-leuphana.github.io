@@ -69,7 +69,7 @@ const config = {
           {
             // Go to documentation, top-left
             type: 'doc',
-            docId: 'welcome-moloewe',
+            docId: 'about',
             position: 'left',
             label: 'Manual',
           },
@@ -86,6 +86,11 @@ const config = {
           {
             to: 'contact',
             label: 'Contact',
+            position: 'left',
+          },
+        {
+            to: 'test',
+            label: 'test',
             position: 'left',
           },
         ],

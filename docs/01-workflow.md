@@ -12,28 +12,13 @@ and checking out the information on our <a href="https://moloewe-leuphana.github
 ::::
 
 ---
-## <Management> 1. Check Venue & Logistical Requirements </Management>
 
-Please verify that following requirements are met.
-
-**Workshop Venue**:
-
-- sufficient space for the MoLöwe setup + audience (maße?)?
-- stable WIFI connection
-
-**Logistics**:
-
-- can the moving costs be covered by your budget?
-- rent transport vehicle (maße?)
-- people to move and set up the MoLöwe (at least ?people)
-
-
-## <Management> 2. Define your Workshop Goal </Management>
+## <Management> 1. Define your Workshop Goal </Management>
 
 Due to its unique setup and wide range of capabilities, your workshop can achieve a variety of goals with the MoLöwe.
-These are already covered in the "Why MoLöwe" section of the <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
+The goals are already covered in the "Why MoLöwe" section of the <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
  
-## <Management> 3. Create a Storyboard </Management>
+## <Management> 2. Create a Storyboard </Management>
 
 Once you've defined your workshop goal, it is time to create a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
@@ -43,9 +28,11 @@ A storyboard includes an overview of all the pages in your workshop, arranged by
 Try to be as detailed as possible: add descriptions, images, the presenting person (if you're presenting in a team) and
 on which monitor or tablet the respective page will be displayed on.
 
-[**Click here for a storyboard example**](https://miro.com/app/board/uXjVOvm7up8=/?share_link_id=930839406781)
+**Here's a storyboard example:**
 
-## <Technical> 1. Create a User Account </Technical>
+
+
+## <Technical> 3. Create a User Account </Technical>
 LINK
 
 1) server
@@ -54,7 +41,9 @@ or
 
 2) local (need access to room on campus)
 
-
+:::note 
+For information on how to use MoLöwe on campus, see chapter "Working on Campus" of the MoLöwe Manual
+:::
 
 ---
 - "MoLöwe" is short for "Mobile Lösungswerkstatt" (eng. "Mobile Solution Workshop")

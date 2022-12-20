@@ -38,7 +38,6 @@ export default function Home() {
 
     <HomepageHeader />
 
-
     <div className={clsx('hero hero--primary', styles.abstractBanner)}>
         <p className="abstract">{abstractText}</p>
     </div>
