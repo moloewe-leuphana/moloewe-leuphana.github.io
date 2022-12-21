@@ -16,12 +16,13 @@ export default function Home() {
   return (
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
 
-    <div>
-        <div className={styles.background}></div>
-            <div className={styles.bg_text}>
-                <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
-            </div>
+    <div className={clsx('hero hero--primary', styles.abstractBanner)}></div>
+
+    <div className={styles.background}></div>
+
+    <div className={styles.bg_text}>
+        <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
     </div>
 
     <div className={clsx('hero hero--primary', styles.abstractBanner)}>
