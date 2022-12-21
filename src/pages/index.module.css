@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Background and Blur */
 .background {
   background-image: url(https://github.com/moloewe-leuphana/moloewe-leuphana.github.io/blob/8078be3301e58eb1828886e7b72439160f7dc52a/static/img/landingPhoto.jpg?raw=true);
@@ -46,11 +51,13 @@
   line-height: 2;
 }
 
+/*
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
 }
+*/
 
 .buttons {
   display: flex;
