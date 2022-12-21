@@ -71,7 +71,7 @@ const config = {
             type: 'doc',
             docId: 'about',
             position: 'left',
-            label: 'Manual',
+            label: 'Tutorial',
           },
           {
             to: 'faq',

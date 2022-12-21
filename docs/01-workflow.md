@@ -3,13 +3,15 @@ import {Tech, Technical, MGMT, Management} from './Highlight';
 # MoLöwe Workflow
 
 Preparing a workshop with the MoLöwe requires certain steps presented and explained in the following workflow.
-Each step is classified as either <Tech>technical</Tech> or <MGMT>project management</MGMT>.
+We classify each step as either <Tech>technical</Tech> or <MGMT>project management</MGMT>.
 Technical steps are broken down into one or more instructions listed in the sidebar to your left.
 
 :::info Before you start
 Before you jump into the steps, please familiarize yourself with the MoLöwe basics first by reading our <a href="https://moloewe-leuphana.github.io/faq">**FAQ**</a> 
 and checking out the information on our <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
 ::::
+
+ANDERS WORT ALS MANAGEMENT
 
 ---
 
