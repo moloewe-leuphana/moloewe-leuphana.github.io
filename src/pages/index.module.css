@@ -12,10 +12,9 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
-  /* margin: -90px 0px -110px 0px;*/
-  margin: -10% 0px -10% 0px;
+  margin-bottom: -7%
 }
 
 .blur {
