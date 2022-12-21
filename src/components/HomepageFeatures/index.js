@@ -9,8 +9,8 @@ const FeatureList = [
     Svg: require('@site/static/img/leuphana_logo_granit.svg').default,
     description: (
       <>
-        Scientists break down and visualise complex problems across five 65’’
-        screens into comprehensible steps.
+        Break down and visualise complex problems across five 65’’
+        screens into steps that are easily comprehensible for your audience.
       </>
     ),
   },
@@ -19,8 +19,7 @@ const FeatureList = [
     Svg: require('@site/static/img/leuphana_logo_haematit.svg').default,
     description: (
       <>
-        In the Mobile Solution Workshop, scientists can put their models to the
-        practical test and receive participants’ feedback on interventions.
+        Put your models to the practical test and receive participants’ feedback on interventions.
       </>
     ),
   },
@@ -29,8 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/leuphana_logo_pyrit.svg').default,
     description: (
       <>
-        Participants can experience and design interactive scenarios to jointly
-        develop solution with scientists.
+        Design interactive scenarios cooperatively with participants.
       </>
     ),
   },
@@ -38,7 +36,7 @@ const FeatureList = [
     title: 'Empowerment',
     Svg: require('@site/static/img/leuphana_logo_tigerauge.svg').default,
     description: (
-      <>Implementation strategies are developed jointly and visualised.</>
+      <> Empower your participants by jointly developing and visualising solutions and implementation strategies.</>
     ),
   },
 ];

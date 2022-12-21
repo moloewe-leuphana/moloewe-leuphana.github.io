@@ -3,7 +3,7 @@ import {Tech, Technical, MGMT, Management} from './Highlight';
 # MoLöwe Workflow
 
 Preparing a workshop with the MoLöwe requires certain steps presented and explained in the following workflow.
-We classify each step as either <Tech>technical</Tech> or <MGMT>project management</MGMT>.
+We classify each step as either <MGMT>preparatory</MGMT> or <Tech>technical</Tech>.
 Technical steps are broken down into one or more instructions listed in the sidebar to your left.
 
 :::info Before you start
@@ -11,14 +11,13 @@ Before you jump into the steps, please familiarize yourself with the MoLöwe bas
 and checking out the information on our <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
 ::::
 
-ANDERS WORT ALS MANAGEMENT
-
 ---
 
-## <Management> 1. Define your Workshop Goal </Management>
+## <Management> 1. Define your Workshop Goal(s) </Management>
 
-Due to its unique setup and wide range of capabilities, your workshop can achieve a variety of goals with the MoLöwe.
-The goals are already covered in the "Why MoLöwe" section of the <a href="https://moloewe-leuphana.github.io/">**main page**</a>.
+Due to MoLöwes unique setup and wide range of capabilities, you can achieve a variety of goals with your workshop.
+Please refer to section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
+inspiration.
  
 ## <Management> 2. Create a Storyboard </Management>
 
@@ -26,13 +25,15 @@ Once you've defined your workshop goal, it is time to create a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
 A storyboard will help you plan your content and how you arrange it.
 
-A storyboard includes an overview of all the pages in your workshop, arranged by their chronological order.
-Try to be as detailed as possible: add descriptions, images, the presenting person (if you're presenting in a team) and
-on which monitor or tablet the respective page will be displayed on.
+A storyboard includes an overview of all the [**slides**](docs/06_glossary.md#slide) in your workshop, 
+arranged by their chronological order. Try to be as detailed as possible in your slide descriptions.
+
+
+images, the presenting person (if you're presenting in a team).
 
 **Here's a storyboard example:**
 
-
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP4f8EE0=/?moveToViewport=-1088,-159,1407,669&embedId=549552744929" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ## <Technical> 3. Create a User Account </Technical>
 LINK

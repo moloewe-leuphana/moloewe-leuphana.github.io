@@ -9,4 +9,4 @@ realise your ideas in the MoLöwe.
 If you like to share your feedback or have ideas on how to further improve this tutorial, please do not hesitate to 
 contact us at the email address mentioned above.
 
-Sincerely, <br />your MoLöwe Team
+Sincerely, <br />your MoLöwe Team 🦁
