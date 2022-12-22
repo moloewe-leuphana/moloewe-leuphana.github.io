@@ -39,24 +39,39 @@ storyboard later.
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP4f8EE0=/?moveToViewport=-1088,-159,1407,669&embedId=549552744929" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-:::info
+:::note
 You are free to use this example as your template. Please contact the MoLöwe team if you're interested.
-:::info
+:::note
 
-## <Technical> 3. Create a User Account </Technical>
-LINK
+## <Management> 3. Request a User Account </Management>
 
-1) server
-or
+You're going to build your MoLöwe project in the **MoLöwe software** (browser based i.e. no local installation needed),
+which you can use remotely from your office, home, anywhere.
+Accessing the MoLöwe software requires a user account (name and password).
 
+User accounts are limited to researchers and student courses at Leuphana.
+Please send a request to **moloewe@leuphana.de** and state your research project or course.
+User accounts for workshop participants will be provided the day of the workshop session.
 
-2) local (need access to room on campus)
+Once you received your username and password, you can access the MoLöwe software [**here**](https://moloewe.leuphana.de/login).
 
-:::note 
-For information on how to use MoLöwe on campus, see chapter "Working on Campus" of the MoLöwe Booklet.
+:::info Working at the MoLöwe campus site 
+You will also receive a second user account, which will be valid for the MoLöwe campus site.
+For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 :::
 
+## <Technical> 4. Getting Started </Technical>
+
+## <Technical> 5. Create a new Project </Technical>
+
 ---
+**About User privileges**
+
+User privileges can be assigned to one or several MoLöwe projects and modes. User privileges can be given for presentation mode 
+(advisable for workshop participants) or edit mode.<br />
+Each MoLöwe project will belong to one user group and have one user as the owner/author.
+The user group will be set during the creation of a project and can be changed by the user group administrator.
+For each user account privileges may be given to certain functionalities in edit mode (e.g. import/export, creating new projects).
 - "MoLöwe" is short for "Mobile Lösungswerkstatt" (eng. "Mobile Solution Workshop")
 - see [Glossary](06_glossary.md)
 - Software to create and run interactive browser based dashboard.

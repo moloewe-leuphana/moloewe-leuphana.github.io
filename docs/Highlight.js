@@ -25,7 +25,7 @@ export function Technical({children}) {
         borderRadius: '2px',
         color: '#fff',
         "border-style": "solid",
-        "border-color": "black",
+        "border-color": "grey",
         "border-width": "2px",
         "margin-bottom": "-40px"
       }}>
