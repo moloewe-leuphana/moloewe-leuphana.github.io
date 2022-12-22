@@ -26,7 +26,7 @@ export function Technical({children}) {
         color: '#fff',
         "border-style": "solid",
         "border-color": "black",
-        "border-width": "2.5px",
+        "border-width": "2px",
         "margin-bottom": "-40px"
       }}>
       {children}
@@ -61,7 +61,7 @@ export function Management({children}) {
         color: '#fff',
         "border-style": "solid",
         "border-color": "black",
-        "border-width": "2.5px",
+        "border-width": "2px",
         "margin-bottom": "-40px"
       }}>
       {children}

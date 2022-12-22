@@ -16,7 +16,7 @@ and checking out the information on our <a href="https://moloewe-leuphana.github
 ## <Management> 1. Define your Workshop Goal(s) </Management>
 
 Due to MoLöwes unique setup and wide range of capabilities, you can achieve a variety of goals with your workshop.
-Please refer to section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
+Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
 inspiration.
  
 ## <Management> 2. Create a Storyboard </Management>
@@ -26,14 +26,22 @@ With five monitors, each having a respective tablet, it is easy to lose track of
 A storyboard will help you plan your content and how you arrange it.
 
 A storyboard includes an overview of all the [**slides**](docs/06_glossary.md#slide) in your workshop, 
-arranged by their chronological order. Try to be as detailed as possible in your slide descriptions.
+arranged by their chronological order. Try to be as detailed as possible.
 
+:::info
+We especially advise you to add the respective [**slide names**](docs/03-the-interface/05_slides.md#2-editing-slide-details) in your storyboard.
+This will make switching between slides much easier later on using the see [**Change Scene Button**](docs/04-moloewe-tools/11_change-scene.md).
+However, at this point of the tutorial you haven't created or named any slides yet. You can add the slide names to your
+storyboard later.
+:::info
 
-images, the presenting person (if you're presenting in a team).
-
-**Here's a storyboard example:**
+**Here's an example of a simple storyboard:**
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP4f8EE0=/?moveToViewport=-1088,-159,1407,669&embedId=549552744929" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+:::info
+You are free to use this example as your template. Please contact the MoLöwe team if you're interested.
+:::info
 
 ## <Technical> 3. Create a User Account </Technical>
 LINK
@@ -45,7 +53,7 @@ or
 2) local (need access to room on campus)
 
 :::note 
-For information on how to use MoLöwe on campus, see chapter "Working on Campus" of the MoLöwe Manual
+For information on how to use MoLöwe on campus, see chapter "Working on Campus" of the MoLöwe Booklet.
 :::
 
 ---
