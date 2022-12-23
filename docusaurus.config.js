@@ -92,7 +92,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'primary',
+        style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`
       },
       prism: {
