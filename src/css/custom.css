@@ -1,6 +1,6 @@
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #303846;
+  --ifm-color-primary: rgba(118, 0, 50, 255);
   --ifm-color-primary-dark: #5f142e;
   --ifm-color-primary-darker: #59132b;
   --ifm-color-primary-darkest: #4a0f24;
@@ -10,6 +10,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
+/*rgba(118, 0, 50, 255)*/
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {

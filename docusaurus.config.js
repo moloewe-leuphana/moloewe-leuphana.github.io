@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        style: 'primary',
+
         title: 'Mobile Lösungswerkstatt - MoLöwe',
         logo: {
           alt: 'My Site Logo',

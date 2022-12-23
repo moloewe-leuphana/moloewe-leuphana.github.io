@@ -1,10 +1,11 @@
-import {Tech, Technical, MGMT, Management} from './Highlight';
+import {Highlight} from './Highlight';
 
 # MoLöwe Workflow
 
 Preparing a workshop with the MoLöwe requires certain steps presented and explained in the following workflow.
-We classify each step as either <MGMT>preparatory</MGMT> or <Tech>technical</Tech>.
-Technical steps are broken down into one or more instructions listed in the sidebar to your left.
+
+/* We classify each step as either preparatory or technical.
+Technical steps are broken down into one or more instructions listed in the sidebar to your left.*/
 
 :::info Before you start
 Before you jump into the steps, please familiarize yourself with the MoLöwe basics first by reading our <a href="https://moloewe-leuphana.github.io/faq">**FAQ**</a> 
@@ -13,13 +14,13 @@ and checking out the information on our <a href="https://moloewe-leuphana.github
 
 ---
 
-## <Management> 1. Define your Workshop Goal(s) </Management>
+## <Highlight> 1. Define your Workshop Goal(s) </Highlight>
 
 Due to MoLöwes unique setup and wide range of capabilities, you can achieve a variety of goals with your workshop.
 Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
 inspiration.
  
-## <Management> 2. Create a Storyboard </Management>
+## <Highlight> 2. Create a Storyboard </Highlight>
 
 Once you've defined your workshop goal, it is time to create a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
@@ -43,26 +44,29 @@ storyboard later.
 You are free to use this example as your template. Please contact the MoLöwe team if you're interested.
 :::note
 
-## <Management> 3. Request a User Account </Management>
+## <Highlight> 3. Request a User Account </Highlight>
 
 You're going to build your MoLöwe project in the **MoLöwe software** (browser based i.e. no local installation needed),
 which you can use remotely from your office, home, anywhere.
 Accessing the MoLöwe software requires a user account (name and password).
 
 User accounts are limited to researchers and student courses at Leuphana.
-Please send a request to **moloewe@leuphana.de** and state your research project or course.
+Please send a request for a user account to **moloewe@leuphana.de** and state your research project or course.
 User accounts for workshop participants will be provided the day of the workshop session.
 
 Once you received your username and password, you can access the MoLöwe software [**here**](https://moloewe.leuphana.de/login).
 
 :::info Working at the MoLöwe campus site 
-You will also receive a second user account, which will be valid for the MoLöwe campus site.
+You will also receive a second user account for the MoLöwe campus site.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 :::
 
-## <Technical> 4. Getting Started </Technical>
+## <Highlight> 4. Getting Started </Highlight>
 
-## <Technical> 5. Create a new Project </Technical>
+After you logged in, you will be directed to the **Selection Page** where you can select a **mode**.
+Please familiarize yourself with modes by reading the [**Selection Page chapter**](docs/02-getting-started/01_selection_page.md).
+
+## <Highlight> 5. Create a new Project </Highlight>
 
 ---
 **About User privileges**

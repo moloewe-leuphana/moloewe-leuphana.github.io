@@ -16,8 +16,6 @@ export default function Home() {
   return (
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
 
-
-
     <div className={styles.background}></div>
 
     <div className={styles.bg_text}>

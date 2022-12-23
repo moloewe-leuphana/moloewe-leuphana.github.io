@@ -25,10 +25,13 @@ This dropdown list shows all screens meaning all available 5 Monitors (for furth
 
 ### 2.3 Presentation
 
-The user can choose between **Presentation** and **Controller** (see Section 3) in this dropdown menu. To start a presentation, a controller is necessary. The controller has more rights and options during the presentation. There can be multiple presenters that cannot however control the presentation. 
+The user can choose between **Presentation** and **Controller** (see Section 3) in this dropdown menu. To start a presentation, a controller is necessary.
+The controller has more rights and options during the presentation.
 
 ### 2.4 From Start
-This dropdown list may not be clickable everytime, since it needs saved (previous) sessions as other options. If the presentation has not been presented yet or no earlier session was saved, then the presentation can only start from the start, so to say. If there are however old session that were saved (i.e. during a workshop at the end of a day) than the presentation can be started from that exact version.
+This dropdown list may not be clickable everytime, since it needs saved (previous) sessions as other options.
+If the presentation has not been presented yet or no earlier session was saved, then the presentation can only start from the start, so to say.
+If there are however old session that were saved (i.e. during a workshop at the end of a day) than the presentation can be started from that exact version.
 
 To start the presentation, the user then clicks on the **Start** button after filling out all dropdown lists.
 
@@ -36,4 +39,10 @@ To start the presentation, the user then clicks on the **Start** button after fi
 
 This mode can be entered on the presentation page in the third dropdown list. 
 When a presentation is being carried out using MoLöwe, the presenter interacts with MoLöwe in Controller Mode.
-Controller Mode allows users to change the Slides that are associated with Screens. Additionally, the Controller Mode also allows users to change the Screens that are placed on the different Display Devices.
+Controller Mode allows users to change the Slides that are associated with Screens.
+Additionally, the Controller Mode also allows users to change the Screens that are placed on the different display devices.
+
+:::info A presentation will not begin until the controller mode was started.
+To begin a presentation, you must first start the presentation slides (the message "Please wait for the presentation to start" will appear on the screens)
+and then start the controller slide in controller mode.
+:::info

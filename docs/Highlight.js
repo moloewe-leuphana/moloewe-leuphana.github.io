@@ -1,5 +1,65 @@
 import React from 'react';
 
+export function Highlight({children}) {
+  return (
+    <div
+      style={{
+        color: 'white',
+        fontWeight: "bold",
+        "font-size": '30px',
+        "text-indent": "5px",
+        backgroundColor: "rgba(118, 0, 50, 255)",
+        borderRadius: '2px',
+        "margin-bottom": "-40px"
+      }}>
+      {children}
+    </div>
+  );
+}
+
+/*
+
+export function Technical({children}) {
+  return (
+    <div
+      style={{
+        color: '#fff',
+        fontWeight: "bold",
+        "font-size": '30px',
+        "text-indent": "5px",
+        backgroundColor: "MediumTurquoise",
+        borderRadius: '2px',
+        "border-style": "solid",
+        "border-color": "grey",
+        "border-width": "2px",
+        "margin-bottom": "-40px"
+      }}>
+      {children}
+    </div>
+
+  );
+}
+
+export function Management({children}) {
+  return (
+    <div
+      style={{
+        color: 'white',
+        fontWeight: "bold",
+        "font-size": '30px',
+        "text-indent": "5px",
+        backgroundColor: "rgba(118, 0, 50, 255)",
+        borderRadius: '2px',
+        "border-style": "solid",
+        "border-color": "grey",
+        "border-width": "2px",
+        "margin-bottom": "-40px"
+      }}>
+      {children}
+    </div>
+  );
+}
+
 export function Tech({children}) {
   return (
     <span
@@ -12,26 +72,6 @@ export function Tech({children}) {
       }}>
       {children}
     </span>
-  );
-}
-
-export function Technical({children}) {
-  return (
-    <div
-      style={{
-        "font-size": '30px',
-        fontWeight: "bold",
-        backgroundColor: "MediumTurquoise",
-        borderRadius: '2px',
-        color: '#fff',
-        "border-style": "solid",
-        "border-color": "grey",
-        "border-width": "2px",
-        "margin-bottom": "-40px"
-      }}>
-      {children}
-    </div>
-
   );
 }
 
@@ -50,23 +90,7 @@ export function MGMT({children}) {
   );
 }
 
-export function Management({children}) {
-  return (
-    <div
-      style={{
-        "font-size": '30px',
-        fontWeight: "bold",
-        backgroundColor: 'rgba(118, 0, 50, 255)',
-        borderRadius: '2px',
-        color: '#fff',
-        "border-style": "solid",
-        "border-color": "black",
-        "border-width": "2px",
-        "margin-bottom": "-40px"
-      }}>
-      {children}
-    </div>
-  );
-}
-
 export default {Tech, Technical, MGMT, Management};
+*/
+
+export default {Highlight};
