@@ -60,6 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        style: 'primary',
         title: 'Mobile Lösungswerkstatt - MoLöwe',
         logo: {
           alt: 'My Site Logo',
@@ -91,7 +92,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'primary',
         copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`
       },
       prism: {

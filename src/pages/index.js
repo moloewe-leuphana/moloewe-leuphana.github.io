@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
 
-    <div className={clsx('hero hero--primary', styles.abstractBanner)}></div>
+
 
     <div className={styles.background}></div>
 
