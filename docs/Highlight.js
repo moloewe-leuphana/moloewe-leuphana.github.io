@@ -5,10 +5,25 @@ export function Highlight({children}) {
     <div
       style={{
         color: 'white',
-        fontWeight: "bold",
-        "font-size": '30px',
         "text-indent": "5px",
         backgroundColor: "rgba(118, 0, 50, 255)",
+        opacity: 0.85,
+        borderRadius: '2px',
+        "margin-bottom": "-40px"
+      }}>
+      {children}
+    </div>
+  );
+}
+
+export function Started({children}) {
+  return (
+    <div
+      style={{
+        color: 'white',
+        "text-indent": "5px",
+        backgroundColor: "grey",
+        opacity: 0.85,
         borderRadius: '2px',
         "margin-bottom": "-40px"
       }}>
@@ -93,4 +108,4 @@ export function MGMT({children}) {
 export default {Tech, Technical, MGMT, Management};
 */
 
-export default {Highlight};
+export default {Highlight, Started};

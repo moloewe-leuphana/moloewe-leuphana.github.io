@@ -1,4 +1,4 @@
-import {Highlight} from './Highlight';
+import {Highlight, Started} from './Highlight';
 
 # MoLöwe Workflow
 
@@ -14,15 +14,35 @@ and checking out the information on our <a href="https://moloewe-leuphana.github
 
 ---
 
-## <Highlight> 1. Define your Workshop Goal(s) </Highlight>
+## <Highlight> 1. Request a User Account </Highlight>
+
+You're going to build your MoLöwe project in the **MoLöwe software** (browser based i.e. no local installation needed),
+which you can use remotely from your office, home, anywhere.
+Accessing the MoLöwe software requires a user account (name and password).
+
+User accounts are limited to researchers and student courses at Leuphana.
+Please send a request for a user account to **moloewe@leuphana.de** and state your research project or course.
+User accounts for workshop participants will be provided the day of the workshop session.
+
+:::info Working at the MoLöwe campus site 
+You will also receive a user account for the MoLöwe campus site.
+For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
+:::
+
+[**While you wait for your user account, please go through the following two chapters.**](#define-your-workshop-goals)
+
+---
+
+## Define your Workshop Goal(s)
 
 Due to MoLöwes unique setup and wide range of capabilities, you can achieve a variety of goals with your workshop.
+It is important to define your workshop goals before starting a project.
 Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
 inspiration.
  
-## <Highlight> 2. Create a Storyboard </Highlight>
+## Create a Storyboard
 
-Once you've defined your workshop goal, it is time to create a storyboard.
+Once you've defined your workshop goal(s), it is time to create a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
 A storyboard will help you plan your content and how you arrange it.
 
@@ -31,7 +51,7 @@ arranged by their chronological order. Try to be as detailed as possible.
 
 :::info
 We especially advise you to add the respective [**slide names**](docs/03-the-interface/05_slides.md#2-editing-slide-details) in your storyboard.
-This will make switching between slides much easier later on using the see [**Change Scene Button**](docs/04-moloewe-tools/11_change-scene.md).
+This will make switching between slides much easier later on.
 However, at this point of the tutorial you haven't created or named any slides yet. You can add the slide names to your
 storyboard later.
 :::info
@@ -44,31 +64,32 @@ storyboard later.
 You are free to use this example as your template. Please contact the MoLöwe team if you're interested.
 :::note
 
-## <Highlight> 3. Request a User Account </Highlight>
+---
 
-You're going to build your MoLöwe project in the **MoLöwe software** (browser based i.e. no local installation needed),
-which you can use remotely from your office, home, anywhere.
-Accessing the MoLöwe software requires a user account (name and password).
-
-User accounts are limited to researchers and student courses at Leuphana.
-Please send a request for a user account to **moloewe@leuphana.de** and state your research project or course.
-User accounts for workshop participants will be provided the day of the workshop session.
+## <Highlight> 2. Explore the Front-End </Highlight>
 
 Once you received your username and password, you can access the MoLöwe software [**here**](https://moloewe.leuphana.de/login).
 
-:::info Working at the MoLöwe campus site 
-You will also receive a second user account for the MoLöwe campus site.
-For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
-:::
+Please familiarize yourself with the Front-End (i.e. user interface) of the MoLöwe with the help of the [**Front-End chapter**](docs/03-the-interface/01_user_interface.md).
 
-## <Highlight> 4. Getting Started </Highlight>
 
-After you logged in, you will be directed to the **Selection Page** where you can select a **mode**.
-Please familiarize yourself with modes by reading the [**Selection Page chapter**](docs/02-getting-started/01_selection_page.md).
+## <Highlight> 3. Create a Project </Highlight>
 
-## <Highlight> 5. Create a new Project </Highlight>
+## <Highlight> 4. Start a Test Presentation </Highlight>
+
+See the [**presentation mode chapter**](docs/03-the-interface/01_user_interface.md#2-presentation-mode).
+
+Open a new tab for each monitor and select respective screen and mode.
 
 ---
+
+Further information on the different features of the projects page is presented in its own section: [**Projects Page**](02_projects.md).
+Further information on the different features of the notebooks page is presented in its own section: [**Notebooks Page**](03_notebooks.md).
+Further information on the different features of the files page is presented in its own section: [**Files Page**](04_files.md).
+Further information on this and the other features of the slides page is presented in its own section: [**Slides Page**](05_slides.md).
+Further information on the different features of the screens page is presented in its own section: [**Screens Page**](06_screens.md).
+Further information on the different features of the sessions page is presented in its own section: [**Sessions Page**](07_sessions.md).
+
 **About User privileges**
 
 User privileges can be assigned to one or several MoLöwe projects and modes. User privileges can be given for presentation mode 

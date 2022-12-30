@@ -93,7 +93,7 @@ class tool_switch:
 
 To place a Switch Tool on a Slide, first define the Switch Tool on the Project Notebook and upload the notebook to MoLöwe. Then, open the slide in which the Switch Tool needs to be placed in Edit Mode.
 
-Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/02-the-interface/05_slides.md#4-editing-slides-edit-mode).
+Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
 
 Following that, click on the Switch icon.
 

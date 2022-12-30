@@ -6,7 +6,7 @@ The Textbox Tool does not require definition of a function on the Project Notebo
 
 ## **Uploading Text Files to MoLöwe**
 
-The text files that need to be placed on a slide can be uploaded from the Front-End with the [**process described here**](docs/02-the-interface/04_files.md#2-upload-a-new-file).
+The text files that need to be placed on a slide can be uploaded from the Front-End with the [**process described here**](docs/03-the-interface/04_files.md#2-upload-a-new-file).
 
 The supported file formats are `.txt`, `.md`, and `.html`.
 
@@ -14,7 +14,7 @@ The supported file formats are `.txt`, `.md`, and `.html`.
 
 To place a Text Tool on a Slide, first upload the text file to MoLöwe. Then, open the slide in which the Textbox Tool needs to be placed in Edit Mode.
 
-Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/02-the-interface/05_slides.md#4-editing-slides-edit-mode).
+Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
 
 Following that, click on the Textbox icon.
 

@@ -74,7 +74,7 @@ Users are referred to the official Plotly documentations for information on how 
 
 To place a Graph Tool on a Slide, first define the Graph Tool on the Project Notebook and upload the notebook to MoLöwe. Then, open the slide in which the Graph Tool needs to be placed in Edit Mode.
 
-Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/02-the-interface/05_slides.md#4-editing-slides-edit-mode).
+Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
 
 Following that, click on the Graph icon (signified by a bar chart).
 
@@ -92,7 +92,7 @@ Clicking on this icon opens an interface that allows users to select the graph t
 
 ![](/img/doc/41_choose_graph.jpg)
 
-The required fields in this interface are **Tool Name** and **Get Function**. The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* is a function that is defined in the [Project Notebook](docs/04-working-with-notebooks/00_template_notebook.md). The Header and Footer text are optional.
+The required fields in this interface are **Tool Name** and **Get Function**. The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* is a function that is defined in the [Project Notebook](docs/05-working-with-notebooks/00_template_notebook.md). The Header and Footer text are optional.
 
 When the Tool Name and Get Functions have been set/selected, users can click on the "Save" button. Then, users are taken back to the slide in Edit Mode.
 
@@ -133,7 +133,7 @@ class tool_graph:
         return fig.to_dict()
 ```
 
-The project path defined in the beginning of the Project Notebook (more [**here**](docs/04-working-with-notebooks/00_template_notebook.md#21-mandatory-section)) allows loading the data using the relative path. The relative path is stored in a global variable named `data`. The user does not have to know that is stored in `data`; as long as a user knows the file name of a data file, they can load the data by simply using the relative path to the file that is created by concatenating the string of the file name to the `data` variable.
+The project path defined in the beginning of the Project Notebook (more [**here**](docs/05-working-with-notebooks/00_template_notebook.md#21-mandatory-section)) allows loading the data using the relative path. The relative path is stored in a global variable named `data`. The user does not have to know that is stored in `data`; as long as a user knows the file name of a data file, they can load the data by simply using the relative path to the file that is created by concatenating the string of the file name to the `data` variable.
 
 ### Loading Data from URL
 

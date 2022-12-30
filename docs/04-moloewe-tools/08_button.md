@@ -12,7 +12,7 @@ The first two features of the Button tool do not require any definition in the P
 
 In order to put a button on a slide, follow the following steps:
 
-First, open the tool selection panel in Edit Mode on the page that you want to place a button in by following steps outlined [**here**](docs/02-the-interface/05_slides.md#4-editing-slides-edit-mode).
+First, open the tool selection panel in Edit Mode on the page that you want to place a button in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
 
 Then, click on the Button icon (signified by a circle).
 

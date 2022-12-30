@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
+import Head from '@docusaurus/Head';
 import styles from './index.module.css';
 
 var abstractText =
@@ -14,30 +14,32 @@ var abstractText =
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
+
     <Layout title={`Mobile Lösungswerkstatt (MoLöwe)`}>
 
-    <div className={styles.background}></div>
+        <div className={styles.background}></div>
 
-    <div className={styles.bg_text}>
-        <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-    </div>
+        <div className={styles.bg_text}>
+            <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+        </div>
 
-    <div className={clsx('hero hero--primary', styles.abstractBanner)}>
-        <p className="abstract">{abstractText}</p>
-    </div>
+        <div className={clsx('hero hero--primary', styles.abstractBanner)}>
+            <p className="abstract">{abstractText}</p>
+        </div>
 
-    <HomepageFeatures />
+        <HomepageFeatures />
 
-    <div className={styles.footerLogosDiv} align="center">
-        <a href="https://www.dbu.de/">
-            <img className={styles.footerLogos} src="img/dbuLogo.svg" alt="dbu logo"></img>
-        </a>
-        <a href="https://www.leuphana.de/">
-            <img className={styles.footerLogos} src="img/leuphanaFooter.png" alt="leuphana footer"></img>
-        </a>
-    </div>
+        <div className={styles.footerLogosDiv} align="center">
+            <a href="https://www.dbu.de/">
+                <img className={styles.footerLogos} src="img/dbuLogo.svg" alt="dbu logo"></img>
+            </a>
+            <a href="https://www.leuphana.de/">
+                <img className={styles.footerLogos} src="img/leuphanaFooter.png" alt="leuphana footer"></img>
+            </a>
+        </div>
 
     </Layout>
+
   );
 }

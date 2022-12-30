@@ -24,6 +24,6 @@ Below are some details that pertain specifically to the map tool.
 
 - In the current implementation of MoLöwe, only Plotly maps are supported. Users are referred to the [**Official Documentation from Plotly**](https://plotly.com/python/maps/) for more information about creating maps using Plotly and Python.
 - If [**Mapbox**](https://plotly.com/python/mapbox-layers/) is being used to create maps, an API Key (or Access Token) from Mapbox might be required.
-- See [**Project Notebook**](docs/04-working-with-notebooks/00_template_notebook.md#214-definition-of-api-tokens-and-keys) for information on how and where to put the API Key.
+- See [**Project Notebook**](docs/05-working-with-notebooks/00_template_notebook.md#214-definition-of-api-tokens-and-keys) for information on how and where to put the API Key.
 - See [**Official Documentation from Mapbox**](https://docs.mapbox.com/help/getting-started/access-tokens/) to learn how to create an access token on Mapbox.
 - See the [**Maps User Example**](docs/05-user-examples/03_maps.md) for in depth information and examples.

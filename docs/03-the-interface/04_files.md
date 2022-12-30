@@ -24,7 +24,7 @@ Below are the files that can be uploaded and the directories in the project that
 | `.shp`, `.shx`, `.prj` and `.dbf`        | `/data`               | Shapefile extensions |
 
 :::info
-Accessing files via the Project Notebook is discussed in the chapter on [**Template Notebook**](docs/04-working-with-notebooks/00_template_notebook.md).
+Accessing files via the Project Notebook is discussed in the chapter on [**Template Notebook**](docs/05-working-with-notebooks/00_template_notebook.md).
 :::
 
 ## **2 Upload a new File**

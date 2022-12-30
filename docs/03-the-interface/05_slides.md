@@ -79,7 +79,7 @@ To edit a slide (in this case "Slide 1"), click on the name of the slide.
 
 :::info
 
-Loading slides runs the contents of the [**Template Notebook**](docs/04-working-with-notebooks/00_template_notebook.md). Depending on the amount of code placed in the notebook, it might take some time to load the slide.
+Loading slides runs the contents of the [**Template Notebook**](docs/05-working-with-notebooks/00_template_notebook.md). Depending on the amount of code placed in the notebook, it might take some time to load the slide.
 
 :::
 
@@ -115,7 +115,7 @@ Clicking on this icon opens an interface that allows users to select the graph t
 
 ![](/img/doc/41_choose_graph.jpg)
 
-The required fields in this interface are **Tool Name** and **Get Function**. The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* is a function that is defined in the [Project Notebook](docs/04-working-with-notebooks/00_template_notebook.md). The Header and Footer text are optional.
+The required fields in this interface are **Tool Name** and **Get Function**. The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* is a function that is defined in the [Project Notebook](docs/05-working-with-notebooks/00_template_notebook.md). The Header and Footer text are optional.
 
 :::note
 
@@ -151,7 +151,7 @@ This will place a container for the Slider Tool onto the slide. This will look i
 
 ![](/img/doc/44_choose_slider.jpg)
 
-The required fields in this interface are **Tool Name**, **Get Function**, and **Set Function**. The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* and the *Set Function* are functions that are defined in the [Project Notebook](docs/04-working-with-notebooks/00_template_notebook.md). The Header, Footer, and Description texts are optional.
+The required fields in this interface are **Tool Name**, **Get Function**, and **Set Function**. The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* and the *Set Function* are functions that are defined in the [Project Notebook](docs/05-working-with-notebooks/00_template_notebook.md). The Header, Footer, and Description texts are optional.
 
 :::note
 
