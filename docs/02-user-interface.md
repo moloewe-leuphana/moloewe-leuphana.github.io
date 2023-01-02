@@ -1,18 +1,19 @@
-# Front-End
+# User Interface
 
-The *front-end* of MoLöwe refers to all the pages that you see when you visit MoLöwe on your web browser ([**link**](https://moloewe.leuphana.de/login)).
+The *user interface* of MoLöwe refers to all the pages that you see when you visit MoLöwe on your web browser ([**link**](https://moloewe.leuphana.de/login)).
 
-The front-end allows users to access, create, and edit projects. Further, provided that a user has project edit rights, the front-end also allows
-to upload new MoLöwe notebooks, upload files, and set up slides and screens.
-Finally, if a user has presentation access rights, the front-end also allows users to start or view interactive presentations from different projects.
+Here you can:
+- access, create, and edit projects
+- upload new notebooks, upload files, and set up slides and screens (provided you have project edit rights)
+- start or view interactive presentations from different projects (provided you have presentation access rights)
 
 Users are assigned the required access rights by the administrator of MoLöwe.
 
-The pages that constitute the front-end are described in this section.
+The pages that constitute the user interface are described in this section.
 
 ## **1 Login Page**
 
-Login page is where you log in to the MoLöwe system via your web browser.
+Login page is where you log in to the MoLöwe software via your web browser.
 
 ![](/img/doc/01_login_page.png)
 
@@ -28,18 +29,18 @@ The user account system in MoLöwe is primarily in place to organize the access 
 
 ## **2 Selection Page**
 
-The user lands on this page when they have successfully logged in. On this page, the user can select between the **edit mode** and **presentation mode**.
+The user lands on this page when they have successfully logged in. On this page, the user can select between the **Edit Mode** and **Presentation Mode**.
 The two modes are explained in the following chapters.
 
 ![](/img/doc/SelectionPage.png)
 
 ## **3 Edit Mode**
 
-In the edit mode, a presentation/a project can be created, worked on, changed & up- or downloaded. This mode is necessary when planning and preparing a workshop.
+In Edit Mode, a project can be created, worked on, changed & up- or downloaded. This mode is necessary when planning and preparing a workshop.
 
 ### 3.1 Projects Page
 
-This is the first page a user sees when they open edit mode. In this page, all projects associated with the user are listed.
+This is the first page a user sees when they open Edit Mode. In this page, all projects associated with the user are listed.
 
 ![](/img/doc/02_projects_page.jpg)
 
@@ -94,15 +95,15 @@ This page lists all the sessions that have been created during a presentation se
 
 ### 3.7 Starting a Presentation
 
-You can start presentation mode directly from edit mode by pressing on the button on the bottom-left part of the edit page.
+You can start Presentation Mode directly from Edit Mode by pressing on the button on the bottom-left part of the edit page.
 
 ![](/img/doc/10_start_presentation.jpg)
 
-When this button is pressed, the presentation mode will open which allows users to start a presentation by selecting a project.
+When this button is pressed, the Presentation Mode will open which allows users to start a presentation by selecting a project.
 
 ![](/img/doc/11_presentation_selection_page.jpg)
 
-Of course, you can also start presentation mode from the selection page if you prefer.
+Of course, you can also start Presentation Mode from the selection page if you prefer.
 
 ## **4 Presentation Mode**
 
@@ -118,17 +119,17 @@ This dropdown list contains all projects the user has access rights to and that 
 
 ### 4.2 Select screen
 
-This dropdown list shows all screens meaning all available 5 Monitors (for further clarification, see [**Glossary**](docs/06_glossary.md#screen)).
+This dropdown list shows all screens meaning all available 5 Monitors (for further clarification, see [**Glossary**](06_glossary.md#screen)).
 
 ### 4.3 Presentation
 
-In this dropdown menu, the user can choose if the selected screen should be in **Presentation** or **Controller** mode.
+In this dropdown menu, the user can choose if the selected screen should be deployed in **Presentation** or **Controller** mode.
 
-Presentation mode is selected for screens that are displayed to the audience.
+Presentation Mode is selected for screens that are displayed to the audience.
 Controller mode is selected for the moderators' tablet, where she/he can switch between the displayed slides.
 
-:::info A presentation will not begin until the controller mode is started.
-To begin a presentation, first start your presentation screens in presentation mode (the message "Please wait for the presentation to start" will appear)
+:::info A presentation will not launch until the controller mode is started.
+To begin a presentation, first start your presentation screens in Presentation Mode (the message "Please wait for the presentation to start" will appear)
 and then start the controller screen (i.e. moderators' tablet) in controller mode.
 :::info
 
@@ -141,6 +142,6 @@ To start the presentation, the user then clicks on the **Start** button after fi
 
 ## **5 Logging Out of MoLöwe**
 
-Users can log out from MoLöwe at any time by clicking on the icon on the top right of the pages in the front-end next to the user name.
+Users can log out from MoLöwe at any time by clicking on the icon on the top right of the pages in the user interface next to the user name.
 
 ![](/img/doc/9999_log_out.jpg)

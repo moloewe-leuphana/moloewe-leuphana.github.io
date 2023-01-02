@@ -6,8 +6,7 @@ export function Highlight({children}) {
       style={{
         color: 'white',
         "text-indent": "5px",
-        backgroundColor: "rgba(118, 0, 50, 255)",
-        opacity: 0.85,
+        backgroundColor: "rgba(118, 0, 50, 0.7)",
         borderRadius: '2px',
         "margin-bottom": "-40px"
       }}>
