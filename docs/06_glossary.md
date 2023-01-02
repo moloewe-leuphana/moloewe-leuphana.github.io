@@ -19,7 +19,11 @@ The terms "Slide(s)" are used in MoLöwe are not the same as the slides that are
 The colloquial meaning of screens as display devices differs from the meaning assigned to "Screen(s)" in MoLöwe. Display devices are referred to either as "monitor(s)" or as "display device(s)". This means, that a project/presentation needs information on the number of display devices available, the number of slides and the number of screens. These numbers don’t have to be the same and it is possible to define more screens than display devices available. A Screen is the current browser window open on any device. On this Screen (browser window) any Slide can be opened. For the naming of Screens it is advised to follow the naming of the display devices (e.g. Monitor1, Tablet1, etc.)
 
 ## **Session**
-When a workshop is executed, the presentation can be saved as a session in case of taking a break or pausing for the day. This enables the presenter to start at exactly the same spot and with the same results as before the break. Sessions can only be created from the Controller Mode during a presentation. Until a new session has been saved from the Controller Mode during a presentation, the sessions Page will not list any sessions.
+
+When a workshop is executed, the presentation can be saved as a session in case of taking a break or pausing for the day.
+This enables the presenter to start at exactly the same spot and with the same results as before the break.
+Sessions can only be created from the Controller Mode during a presentation.
+Until a new session has been saved from the Controller Mode during a presentation, the sessions Page will not list any sessions.
 
 ## **Tools**
 All the elements of MoLöwe that can be placed on a **Slide** are called *MoLöwe Tools* or *Tools*. These tools are visible during presentations and can be used to display information or to allow presentation visitors to interact with other MoLöwe Tools.

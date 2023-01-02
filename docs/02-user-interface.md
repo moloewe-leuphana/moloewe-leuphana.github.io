@@ -7,18 +7,15 @@ Here you can:
 - upload new notebooks, upload files, and set up slides and screens (provided you have project edit rights)
 - start or view interactive presentations from different projects (provided you have presentation access rights)
 
-Users are assigned the required access rights by the administrator of MoLöwe.
+User rights are assigned by the MoLöwe administrator (**moloewe@leuphana.de**).
 
-The pages that constitute the user interface are described in this section.
+The pages that constitute the user interface are described in this chapter.
 
 ## **1 Login Page**
 
 Login page is where you log in to the MoLöwe software via your web browser.
 
 ![](/img/doc/01_login_page.png)
-
-If you are using MoLöwe for the first time, this will be the first page that you encounter. This is also the page that you will see when you visit MoLöwe when you 
-have not logged in yet.
 
 :::caution
 
@@ -50,8 +47,12 @@ In this example, a project named "Font + Line Width Test" was selected.
 
 ![](/img/doc/04_project_details.jpg)
 
-When you have selected a project, you can access the different sub-pages that belong to the project from which you can upload your custom notebook and files, 
-and create slides. The different pages related to the selected project are discussed below.
+When you have selected a project, you can access the different subpages that belong to the project from which you can upload your custom notebook and files, 
+and create slides.
+
+Further information on the different features of the Projects Page is presented in its own section: [**Projects Page**](02_projects.md).
+
+The subpages of the Project Page are also discussed below.
 
 ### 3.2 Notebooks Page
 
@@ -61,6 +62,8 @@ Users can upload a new notebook for their project using the "Import Notebook" bu
 
 ![](/img/doc/05_notebooks_page.jpg)
 
+Further information on the different features of the Notebooks Page is presented in its own section: [**Notebooks Page**](03_notebooks.md).
+
 ### 3.3 Files Page
 
 This page lists all the files that have been uploaded to a project.
@@ -68,6 +71,8 @@ This page lists all the files that have been uploaded to a project.
 Users can upload a new file by using the "Import File" button.
 
 ![](/img/doc/06_files_page.jpg)
+
+Further information on the different features of the Files Page is presented in its own section: [**Files Page**](04_files.md).
 
 ### 3.4 Slides Page
 
@@ -79,6 +84,8 @@ Users can edit slide contents on this page.
 
 ![](/img/doc/07_slides_page.jpg)
 
+Further information on this and the other features of the Slides Page is presented in its own section: [**Slides Page**](05_slides.md).
+
 ### 3.5 Screens Page
 
 This page lists all the screens that have been created in a project. 
@@ -87,11 +94,15 @@ When a new project is created, an empty slide with the name "Screen 1" will auto
 
 ![](/img/doc/08_screens_page.jpg)
 
+Further information on the different features of the Screens Page is presented in its own section: [**Screens Page**](06_screens.md).
+
 ### 3.6 Sessions Page
 
 This page lists all the sessions that have been created during a presentation session of a project.
 
 ![](/img/doc/09_sessions_page.jpg)
+
+Further information on the different features of the Sessions Page is presented in its own section: [**Sessions Page**](07_sessions.md).
 
 ### 3.7 Starting a Presentation
 
@@ -129,8 +140,8 @@ Presentation Mode is selected for screens that are displayed to the audience.
 Controller mode is selected for the moderators' tablet, where she/he can switch between the displayed slides.
 
 :::info A presentation will not launch until the controller mode is started.
-To begin a presentation, first start your presentation screens in Presentation Mode (the message "Please wait for the presentation to start" will appear)
-and then start the controller screen (i.e. moderators' tablet) in controller mode.
+To launch a presentation, first start your presentation screens (the message "Please wait for the presentation to start" will appear)
+and then start the controller screen.
 :::info
 
 ### 4.4 From Start

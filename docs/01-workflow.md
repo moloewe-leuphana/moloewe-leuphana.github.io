@@ -36,25 +36,23 @@ It is important to define your workshop goal(s) before starting a project.
 Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
 inspiration.
  
-## Create a Storyboard
+## Start a Storyboard
 
-Once you've defined your workshop goal(s), it is time to create a storyboard.
+Once you've defined your workshop goal(s), it is time to start a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
 A storyboard will help you plan your content and how you arrange it.
 
-A storyboard includes an overview of all the [**slides**](06_glossary.md#slide) in your workshop, 
-arranged by their chronological order. Try to be as detailed as possible.
+A storyboard includes an overview of all the [**slides**](06_glossary.md#slide) in your workshop,
+with information about their content and other properties such as the respective slide names and the [**tools**](06_glossary.md#tools) you want to use.
 
 :::info
-We especially advise you to add the respective **slide names** in your storyboard.
-This will make switching between slides much easier during a presentation.
-However, at this point of the tutorial you haven't created or named any slides yet. You can add the slide names to your
-storyboard later.
+Certain properties like **slide names** and **tools** have not been discussed yet.
+We will discuss these properties in the course of this workflow after which you can update your storyboard.
 :::info
 
-**Here's an example of a simple storyboard:**
+**Here's an example of a storyboard:**
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP4f8EE0=/?moveToViewport=-1088,-159,1407,669&embedId=549552744929" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/board/uXjVP1njcGM=/?share_link_id=59867996560" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 :::note
 You are free to use this example as your template. Please contact the MoLöwe team if you're interested.
@@ -66,13 +64,21 @@ You are free to use this example as your template. Please contact the MoLöwe te
 
 Once you received your username and password, you can access the MoLöwe software [**here**](https://moloewe.leuphana.de/login).
 
-Please familiarize yourself with the user interface of the MoLöwe with the help of the [**user interface chapter**](02-user-interface.md).
+Please familiarize yourself with the user interface of the MoLöwe with the help of the [**User Interface Chapter**](02-user-interface.md).
 
 :::info
 There is no need to fully understand all subpages of the Edit Mode yet. They will be explained in the course of this workflow.
 :::info
 
 ## <Highlight> 3 Create a Project </Highlight>
+
+## <Highlight> 4 Explore Tools </Highlight>
+
+Add Tools to your storyboard
+
+## <Highlight> 5 Create Slides </Highlight>
+
+Add Slide names to your storyboard
 
 ## <Highlight> 4 Start a Test Presentation </Highlight>
 
@@ -84,13 +90,6 @@ Erklären, dass man im Presentation Mode nicht slides öffnet, sondern screens.
 Für jeden Screen einen neuen tab.
 
 ---
-
-Further information on the different features of the projects page is presented in its own section: [**Projects Page**](02_projects.md).
-Further information on the different features of the notebooks page is presented in its own section: [**Notebooks Page**](03_notebooks.md).
-Further information on the different features of the files page is presented in its own section: [**Files Page**](04_files.md).
-Further information on this and the other features of the slides page is presented in its own section: [**Slides Page**](05_slides.md).
-Further information on the different features of the screens page is presented in its own section: [**Screens Page**](06_screens.md).
-Further information on the different features of the sessions page is presented in its own section: [**Sessions Page**](07_sessions.md).
 
 **About User privileges**
 
