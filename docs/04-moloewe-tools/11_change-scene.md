@@ -1,6 +1,13 @@
 # Change Scene Button
 
-The Change Scene Button tool looks like and works similarly to the Button tool. It is used to interact with the presentation and allows that several screens will switch to different slides at the same time.This makes it possible to create presentations that are more suited for exhibitions and self-guided environments.
+Clicking this button will switch several screens to different slides at the same time.
+
+In a list of drop-down options, the user editing the tool on the slide can choose which slide will be shown on which screen
+making it possible e.g. that clicking on this button in presentation mode changes screens Screen1 to SlideA, Screen2 to SlideB, 
+Screen3 to SlideC (and so on) at the same time - in effect changing the scene of a setup of Screens.
+The tool preferences also have an optional setting for a time period after which this button function is executed automatically.
+This makes it possible to create presentations that are more suited for exhibitions and self-guided environments and to
+switch Slides on several Screens at the same time during presentation.
 
 ## **Place Change Scene Button on a Slide**
 

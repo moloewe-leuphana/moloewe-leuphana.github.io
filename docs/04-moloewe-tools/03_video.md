@@ -2,17 +2,21 @@
 
 The Video Tool is used to display a video during a presentation.
 
+It requires a video to be uploaded to MoLöwe beforehand.
+
 The Video Tool does not require definition of a function on the Project Notebook.
 
 ## **Uploading video Files to MoLöwe**
 
-The videos that need to be placed on a slide can be uploaded from the Front-End with the [**process described here**](docs/03-the-interface/04_files.md#2-upload-a-new-file).
+The videos that need to be placed on a slide can be uploaded with the
+[**process described here**](docs/03-edit-mode/03_files.md#2-upload-a-new-file).
 
 ## **Placing Video Tool on a Slide (Edit Mode)**
 
 To place a Video Tool on a Slide, first upload the video to MoLöwe. Then, open the slide in which the Video Tool needs to be placed in Edit Mode.
 
-Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
+Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps
+outlined [**here**](docs/03-edit-mode/05_slides.md#4-editing-slides-edit-mode).
 
 Following that, click on the video icon.
 

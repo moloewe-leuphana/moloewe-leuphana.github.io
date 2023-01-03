@@ -57,7 +57,7 @@ When it comes to accessing Slides in MoLöwe, there are three main modes: "Edit 
 
 Edit Mode allows users to edit the contents of the slide. This means that any MoLöwe Tool (e.g. Graphs, Maps, Range Sliders, Buttons, etc.) that the user wants to place into a slide can be done by entering the Edit Mode.
 
-Details on how to access Edit Mode have been presented in Section 4 of this page.
+Details on how to access Edit Mode are presented in Section 4 of this page.
 
 ### 3.2 Controller Mode
 
@@ -71,7 +71,7 @@ When a presentation is being carried out using MoLöwe, the audience members of 
 
 ## **4 Editing Slides (Edit Mode)**
 
-Edit Mode allows users to edit the contents of the slide. This means that any [**MoLöwe Tool**](docs/03-moloewe-tools/00_overview.md) (e.g. Graphs, Maps, Range Sliders, Buttons, etc.) that the user wants to place into a slide can be done by entering the Edit Mode.
+Edit Mode allows users to edit the contents of the slide. This means that any [**MoLöwe Tool**](docs/04-moloewe-tools/00_overview.md) (e.g. Graphs, Maps, Range Sliders, Buttons, etc.) that the user wants to place into a slide can be done by entering the Edit Mode.
 
 To edit a slide (in this case "Slide 1"), click on the name of the slide.
 

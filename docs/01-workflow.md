@@ -29,14 +29,14 @@ For information on how to use MoLöwe on campus, see chapters "Local vs. Server 
 
 ---
 
-## Define your Workshop Goal(s)
+### Define your Workshop Goal(s)
 
 Due to MoLöwes unique setup and wide range of capabilities, you can achieve a variety of goals with your workshop.
 It is important to define your workshop goal(s) before starting a project.
 Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
 inspiration.
  
-## Start a Storyboard
+### Start a Storyboard
 
 Once you've defined your workshop goal(s), it is time to start a storyboard.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
@@ -47,7 +47,7 @@ with information about their content and other properties such as the respective
 
 :::info
 Certain properties like **slide names** and **tools** have not been discussed yet.
-We will discuss these properties in the course of this workflow after which you can update your storyboard.
+We will discuss these in the course of this workflow after which you can update your storyboard.
 :::info
 
 **Here's an example of a storyboard:**
@@ -70,17 +70,26 @@ Please familiarize yourself with the user interface of the MoLöwe with the help
 There is no need to fully understand all subpages of the Edit Mode yet. They will be explained in the course of this workflow.
 :::info
 
-## <Highlight> 3 Create a Project </Highlight>
+## <Highlight> 3 Create a Project and Explore Tools</Highlight>
 
-## <Highlight> 4 Explore Tools </Highlight>
+Now, please create a MoLöwe project according to the [**Projects Page**](docs/03-edit-mode/01_projects.md).
 
-Add Tools to your storyboard
+Before you start adding slides to your project, you need to plan which [**tools**](06_glossary.md#tools) you want to use.
+Please visit the [**Tools Chapter**](docs/04-moloewe-tools/00_overview.md) to explore the available MoLöwe tools.
 
-## <Highlight> 5 Create Slides </Highlight>
+:::info
+When you're done, you can update your storyboard by adding the tools you've chosen.
+:::info
+
+## <Highlight> 4 Prepare a Project Notebook </Highlight>
+
+This will determine whether you'll need to prepare a custom [**Project Notebook**](06_glossary.md#notebook) in the next step of this workflow.
+
+## <Highlight> ? Create Slides </Highlight>
 
 Add Slide names to your storyboard
 
-## <Highlight> 4 Start a Test Presentation </Highlight>
+## <Highlight> ? Start a Test Presentation </Highlight>
 
 See the [**Presentation Mode chapter**](02-user-interface.md#4-presentation-mode).
 

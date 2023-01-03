@@ -4,6 +4,7 @@ export function Highlight({children}) {
   return (
     <div
       style={{
+        "font-size": '25px',
         color: 'white',
         "text-indent": "5px",
         backgroundColor: "rgba(118, 0, 50, 0.7)",

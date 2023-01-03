@@ -1,6 +1,6 @@
 # User Interface
 
-The *user interface* of MoLöwe refers to all the pages that you see when you visit MoLöwe on your web browser ([**link**](https://moloewe.leuphana.de/login)).
+The *user interface* refers to all the pages you see when you visit the MoLöwe software ([**link**](https://moloewe.leuphana.de/login)).
 
 Here you can:
 - access, create, and edit projects
@@ -50,7 +50,7 @@ In this example, a project named "Font + Line Width Test" was selected.
 When you have selected a project, you can access the different subpages that belong to the project from which you can upload your custom notebook and files, 
 and create slides.
 
-Further information on the different features of the Projects Page is presented in its own section: [**Projects Page**](02_projects.md).
+Further information on the different features of the Projects Page is presented in its own section: [**Projects Page**](docs/03-edit-mode/01_projects.md).
 
 The subpages of the Project Page are also discussed below.
 
@@ -62,7 +62,7 @@ Users can upload a new notebook for their project using the "Import Notebook" bu
 
 ![](/img/doc/05_notebooks_page.jpg)
 
-Further information on the different features of the Notebooks Page is presented in its own section: [**Notebooks Page**](03_notebooks.md).
+Further information on the different features of the Notebooks Page is presented in its own section: [**Notebooks Page**](docs/03-edit-mode/02_notebooks.md).
 
 ### 3.3 Files Page
 
@@ -72,7 +72,7 @@ Users can upload a new file by using the "Import File" button.
 
 ![](/img/doc/06_files_page.jpg)
 
-Further information on the different features of the Files Page is presented in its own section: [**Files Page**](04_files.md).
+Further information on the different features of the Files Page is presented in its own section: [**Files Page**](docs/03-edit-mode/03_files.md).
 
 ### 3.4 Slides Page
 
@@ -84,7 +84,7 @@ Users can edit slide contents on this page.
 
 ![](/img/doc/07_slides_page.jpg)
 
-Further information on this and the other features of the Slides Page is presented in its own section: [**Slides Page**](05_slides.md).
+Further information on this and the other features of the Slides Page is presented in its own section: [**Slides Page**](docs/03-edit-mode/05_slides.md).
 
 ### 3.5 Screens Page
 
@@ -94,7 +94,7 @@ When a new project is created, an empty slide with the name "Screen 1" will auto
 
 ![](/img/doc/08_screens_page.jpg)
 
-Further information on the different features of the Screens Page is presented in its own section: [**Screens Page**](06_screens.md).
+Further information on the different features of the Screens Page is presented in its own section: [**Screens Page**](docs/03-edit-mode/06_screens.md).
 
 ### 3.6 Sessions Page
 
@@ -102,7 +102,7 @@ This page lists all the sessions that have been created during a presentation se
 
 ![](/img/doc/09_sessions_page.jpg)
 
-Further information on the different features of the Sessions Page is presented in its own section: [**Sessions Page**](07_sessions.md).
+Further information on the different features of the Sessions Page is presented in its own section: [**Sessions Page**](docs/03-edit-mode/07_sessions.md).
 
 ### 3.7 Starting a Presentation
 
