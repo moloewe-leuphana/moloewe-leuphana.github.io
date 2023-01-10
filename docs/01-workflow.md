@@ -15,6 +15,7 @@ and checking out the information on our <a href="https://moloewe-leuphana.github
 
 You're going to build your MoLöwe project in the **MoLöwe software** (browser based i.e. no local installation needed),
 which you can use remotely from your office, home, anywhere.
+The software is accessible through any browser, but use **Mozilla Firefox** for optimal results.
 Accessing the MoLöwe software requires a user account (name and password).
 
 User accounts are limited to researchers and student courses at Leuphana.
@@ -24,7 +25,7 @@ User accounts for workshop participants will be provided the day of the workshop
 You will also receive a user account for the MoLöwe campus site.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 
-:::info While you wait for your user account, please continue with the following two chapters.
+:::info While you wait for your user account, please continue with the following two subchapters.
 :::
 
 ---
@@ -36,9 +37,9 @@ It is important to define your workshop goal(s) before starting a project.
 Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
 inspiration.
  
-### Start a Storyboard
+### Start your Workshop Plan
 
-Once you've defined your workshop goal(s), it is time to start a storyboard.
+Once you've defined your workshop goal(s), it is time to start your workshop plan.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
 A storyboard will help you plan your content and how you arrange it.
 
@@ -47,7 +48,7 @@ with information about their content and other properties such as the respective
 
 :::info
 Certain properties like **slide names** and **tools** have not been discussed yet.
-We will discuss these in the course of this workflow after which you can update your storyboard.
+We will discuss these in the course of this workflow after which you can update your Workshop Plan.
 :::info
 
 **Here's an example of a storyboard:**
@@ -78,7 +79,7 @@ Before you start adding slides to your project, you need to plan which [**tools*
 Please visit the [**Tools Chapter**](docs/04-moloewe-tools/00_overview.md) to explore the available MoLöwe tools.
 
 :::info
-When you're done, you can update your storyboard by adding the tools you've chosen.
+Please add the tools you want to use to your **storyboard**.
 :::info
 
 ## <Highlight> 4 Prepare a Project Notebook </Highlight>
