@@ -13,7 +13,7 @@ with information about their content and other properties such as the respective
 [**tools**](glossary.md#tools) you want to use.
 
 :::info
-Certain properties like **slide names** and **tools** have not been discussed yet.
+Certain properties like **slide names** and **tools** may have not been discussed yet.
 We will discuss these in the course of this workflow after which you can update your workshop plan.
 :::info
 
