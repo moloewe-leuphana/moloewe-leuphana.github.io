@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # User Interface
 
 The *user interface* refers to all the pages you see when you visit the MoLöwe software ([**link**](https://moloewe.leuphana.de/login)).
@@ -50,7 +54,7 @@ In this example, a project named "Font + Line Width Test" was selected.
 When you have selected a project, you can access the different subpages that belong to the project from which you can upload your custom notebook and files, 
 and create slides.
 
-Further information on the different features of the Projects Page is presented in its own section: [**Projects Page**](docs/03-edit-mode/01_projects.md).
+Further information on the different features of the Projects Page is presented in its own section: [**Projects Page**](docs/edit-mode/01_projects.md).
 
 The subpages of the Project Page are also discussed below.
 
@@ -62,7 +66,7 @@ Users can upload a new notebook for their project using the "Import Notebook" bu
 
 ![](/img/doc/05_notebooks_page.jpg)
 
-Further information on the different features of the Notebooks Page is presented in its own section: [**Notebooks Page**](docs/03-edit-mode/02_notebooks.md).
+Further information on the different features of the Notebooks Page is presented in its own section: [**Notebooks Page**](docs/edit-mode/02_notebooks.md).
 
 ### 3.3 Files Page
 
@@ -72,7 +76,7 @@ Users can upload a new file by using the "Import File" button.
 
 ![](/img/doc/06_files_page.jpg)
 
-Further information on the different features of the Files Page is presented in its own section: [**Files Page**](docs/03-edit-mode/03_files.md).
+Further information on the different features of the Files Page is presented in its own section: [**Files Page**](docs/edit-mode/03_files.md).
 
 ### 3.4 Slides Page
 
@@ -84,7 +88,7 @@ Users can edit slide contents on this page.
 
 ![](/img/doc/07_slides_page.jpg)
 
-Further information on this and the other features of the Slides Page is presented in its own section: [**Slides Page**](docs/03-edit-mode/05_slides.md).
+Further information on this and the other features of the Slides Page is presented in its own section: [**Slides Page**](docs/edit-mode/05_slides.md).
 
 ### 3.5 Screens Page
 
@@ -94,7 +98,7 @@ When a new project is created, an empty slide with the name "Screen 1" will auto
 
 ![](/img/doc/08_screens_page.jpg)
 
-Further information on the different features of the Screens Page is presented in its own section: [**Screens Page**](docs/03-edit-mode/06_screens.md).
+Further information on the different features of the Screens Page is presented in its own section: [**Screens Page**](docs/edit-mode/06_screens.md).
 
 ### 3.6 Sessions Page
 
@@ -102,7 +106,7 @@ This page lists all the sessions that have been created during a presentation se
 
 ![](/img/doc/09_sessions_page.jpg)
 
-Further information on the different features of the Sessions Page is presented in its own section: [**Sessions Page**](docs/03-edit-mode/07_sessions.md).
+Further information on the different features of the Sessions Page is presented in its own section: [**Sessions Page**](docs/edit-mode/07_sessions.md).
 
 ### 3.7 Starting a Presentation
 
@@ -130,7 +134,7 @@ This dropdown list contains all projects the user has access rights to and that 
 
 ### 4.2 Select screen
 
-This dropdown list shows all screens meaning all available 5 Monitors (for further clarification, see [**Glossary**](06_glossary.md#screen)).
+This dropdown list shows all screens meaning all available 5 Monitors (for further clarification, see [**Glossary**](glossary.md#screen)).
 
 ### 4.3 Presentation
 
@@ -153,6 +157,6 @@ To start the presentation, the user then clicks on the **Start** button after fi
 
 ## **5 Logging Out of MoLöwe**
 
-Users can log out from MoLöwe at any time by clicking on the icon on the top right of the pages in the user interface next to the user name.
+Users can log out from MoLöwe at any time by clicking on the icon on the top right of the pages in the user interface next to the username.
 
 ![](/img/doc/9999_log_out.jpg)

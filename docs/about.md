@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # About This Tutorial
 
 This Tutorial is an addition to the official **MoLöwe booklet**, which you can request via email at 

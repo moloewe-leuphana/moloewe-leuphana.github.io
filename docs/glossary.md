@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Glossary
 
 ## **Mobile Lösungswerkstatt**

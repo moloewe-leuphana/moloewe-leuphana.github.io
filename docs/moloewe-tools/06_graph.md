@@ -74,7 +74,7 @@ Users are referred to the official Plotly documentations for information on how 
 
 To place a Graph Tool on a Slide, first define the Graph Tool on the Project Notebook and upload the notebook to MoLöwe. Then, open the slide in which the Graph Tool needs to be placed in Edit Mode.
 
-Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
+Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 
 Following that, click on the Graph icon (signified by a bar chart).
 

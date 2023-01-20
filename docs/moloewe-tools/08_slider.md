@@ -92,7 +92,7 @@ class tool_slider:
 
 To place a Slider Tool on a Slide, first define the Slider Tool on the Project Notebook and upload the notebook to MoLöwe. Then, open the slide in which the Slider Tool needs to be placed in Edit Mode.
 
-Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
+Then, open the tool selection panel in Edit Mode on the page that you want to place the tool in by following steps outlined [**here**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 
 Following that, click on the slider icon (signified by 3 lines with ticks for values).
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 import {Highlight, Started} from './Highlight';
 
 # MoLöwe Workflow
@@ -22,36 +26,27 @@ User accounts are limited to researchers and student courses at Leuphana.
 Please send a request for a user account to **moloewe@leuphana.de** and state your research project or course.
 User accounts for workshop participants will be provided the day of the workshop session.
 
-You will also receive a user account for the MoLöwe campus site.
+You will also receive a user account for the **MoLöwe campus site**.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 
-:::info While you wait for your user account, please continue with the following two subchapters.
+:::info While you wait for your user account, please read chapter [**Defining Your Workshop Goals**](docs/getting-started/goals.md).
 :::
-
----
-
-### Define your Workshop Goal(s)
-
-Due to MoLöwes unique setup and wide range of capabilities, you can achieve a variety of goals with your workshop.
-It is important to define your workshop goal(s) before starting a project.
-Please see section "Why MoLöwe?" on the <a href="https://moloewe-leuphana.github.io/">**main page**</a> for
-inspiration.
  
 ### Start your Workshop Plan
 
 Once you've defined your workshop goal(s), it is time to start your workshop plan.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
-A storyboard will help you plan your content and how you arrange it.
+A workshop plan will help you define your content and how you arrange it.
 
-A storyboard includes an overview of all the [**slides**](06_glossary.md#slide) in your workshop,
-with information about their content and other properties such as the respective slide names and the [**tools**](06_glossary.md#tools) you want to use.
+A workshop plan includes an overview of all the [**slides**](glossary.md#slide) in your workshop,
+with information about their content and other properties such as the respective slide names and the [**tools**](glossary.md#tools) you want to use.
 
 :::info
 Certain properties like **slide names** and **tools** have not been discussed yet.
-We will discuss these in the course of this workflow after which you can update your Workshop Plan.
+We will discuss these in the course of this workflow after which you can update your workshop plan.
 :::info
 
-**Here's an example of a storyboard:**
+**Here's an example of a workshop plan:**
 
 <iframe width="768" height="432" src="https://miro.com/app/board/uXjVP1njcGM=/?share_link_id=59867996560" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
@@ -65,7 +60,7 @@ You are free to use this example as your template. Please contact the MoLöwe te
 
 Once you received your username and password, you can access the MoLöwe software [**here**](https://moloewe.leuphana.de/login).
 
-Please familiarize yourself with the user interface of the MoLöwe with the help of the [**User Interface Chapter**](02-user-interface.md).
+Please familiarize yourself with the user interface of the MoLöwe with the help of the [**User Interface Chapter**](user-interface.md).
 
 :::info
 There is no need to fully understand all subpages of the Edit Mode yet. They will be explained in the course of this workflow.
@@ -73,18 +68,18 @@ There is no need to fully understand all subpages of the Edit Mode yet. They wil
 
 ## <Highlight> 3 Create a Project and Explore Tools</Highlight>
 
-Now, please create a MoLöwe project according to the [**Projects Page**](docs/03-edit-mode/01_projects.md).
+Now, please create a MoLöwe project according to the [**Projects Page**](docs/edit-mode/01_projects.md).
 
-Before you start adding slides to your project, you need to plan which [**tools**](06_glossary.md#tools) you want to use.
-Please visit the [**Tools Chapter**](docs/04-moloewe-tools/00_overview.md) to explore the available MoLöwe tools.
+Before you start adding slides to your project, you need to plan which [**tools**](glossary.md#tools) you want to use.
+Please visit the [**Tools Chapter**](docs/moloewe-tools/00_overview.md) to explore the available MoLöwe tools.
 
 :::info
-Please add the tools you want to use to your **storyboard**.
+Now, please add the tools you want to use to your **workshop plan**.
 :::info
 
 ## <Highlight> 4 Prepare a Project Notebook </Highlight>
 
-This will determine whether you'll need to prepare a custom [**Project Notebook**](06_glossary.md#notebook) in the next step of this workflow.
+This will determine whether you'll need to prepare a custom [**Project Notebook**](glossary.md#notebook) in the next step of this workflow.
 
 ## <Highlight> ? Create Slides </Highlight>
 
@@ -92,7 +87,7 @@ Add Slide names to your storyboard
 
 ## <Highlight> ? Start a Test Presentation </Highlight>
 
-See the [**Presentation Mode chapter**](02-user-interface.md#4-presentation-mode).
+See the [**Presentation Mode chapter**](docs/edit-mode.md#4-presentation-mode).
 
 Open a new tab for each monitor and select respective screen and mode.
 
@@ -109,7 +104,7 @@ Each MoLöwe project will belong to one user group and have one user as the owne
 The user group will be set during the creation of a project and can be changed by the user group administrator.
 For each user account privileges may be given to certain functionalities in Edit Mode (e.g. import/export, creating new projects).
 - "MoLöwe" is short for "Mobile Lösungswerkstatt" (eng. "Mobile Solution Workshop")
-- see [Glossary](06_glossary.md)
+- see [Glossary](glossary.md)
 - Software to create and run interactive browser based dashboard.
 - Based on open standard frameworks (_plotly, Echarts, mapbox_).
 - With control elements for interactive data visualisation (button, switch, dropdown, slider).

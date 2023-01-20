@@ -2,7 +2,8 @@
 
 Once you select a project, you can visit the Files page of the project by clicking on "Files" on the left panel of the user interface.
 
-The files page displays the files associated with a selected project. Additionally, this page allows users to upload files that they need for their project.
+The files page displays the files associated with a selected project. Additionally, this page allows users to upload
+files that they need for their project.
 
 ![](/img/doc/06_files_page.jpg)
 
@@ -24,7 +25,8 @@ Below are the files that can be uploaded and the directories in the project that
 | `.shp`, `.shx`, `.prj` and `.dbf`        | `/data`               | Shapefile extensions |
 
 :::info
-Accessing files via the Project Notebook is discussed in the chapter on [**Template Notebook**](docs/05-working-with-notebooks/00_template_notebook.md).
+Accessing files via the Project Notebook is discussed in the chapter on
+[**Template Notebook**](docs/05-working-with-notebooks/00_template_notebook.md).
 :::
 
 ## **2 Upload a new File**
@@ -57,11 +59,13 @@ When that button is pressed, the interface changes into a page that allows for t
 
 ![](/img/doc/28_change_file_details_interface.jpg)
 
-Once a description text has been typed in to the description box, the changes can be saved by clicking on the "Save" button on the bottom right.
+Once a description text has been typed in to the description box, the changes can be saved by clicking on the "Save"
+button on the bottom right.
 
 ## **4 Delete a File**
 
-To delete a file, enter the interface that allows users to change file details by following section 3 outlined above. This should take users to the following page.
+To delete a file, enter the interface that allows users to change file details by following section 3 outlined above.
+This should take users to the following page.
 
 ![](/img/doc/28_change_file_details_interface.jpg)
 

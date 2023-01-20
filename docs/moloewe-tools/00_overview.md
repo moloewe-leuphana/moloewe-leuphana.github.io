@@ -3,21 +3,21 @@
 All elements on a slide are called "MoLöwe Tools" or "Tools". 
 Tools are visible during presentations and can be used to display information or to allow interaction.
 
-The only way to place the tool on a slide is from the [**Edit Mode**](docs/03-edit-mode/05_slides.md#4-editing-slides-edit-mode).
+The only way to place the tool on a slide is from the [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 However, some tools need to be first set up in the Project Notebook, with a Python code written in a specific structure (i.e. function).
 You will find the specifics of each tool in its respective subpage.
 
 ### Tools without Project Notebook
 
-| Tool                             | Description                                                                                       | Requires Project Notebook?                                             |
-|----------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**Textbox**](01_textbox.md)     | Displays a text during a presentation                                                             | ❌                                                                      |
-| [**Image**](02_image.md)         | Displays an image during a presentation                                                           | ❌                                                                      |
-| [**Video**](03_video.md)         | Displays a video during a presentation                                                            | ❌                                                                      |
-| [**Slideshow**](04_slideshow.md) | Displays multiple images in sequence during a presentation                                        | ❌                                                                      |
-| [**Button**](05_button.md)       | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ✅ <br/> (Changing the value of a variable requires a Project Notebook) |
-| [**Video**](03_video.md)         |                                                                                                   | ❌                                                                      |
-| [**Video**](03_video.md)         |                                                                                                   | ❌                                                                      |
+| Tool                             | Description                                                                                       | Requires Project Notebook?<br/> (✅ Yes / ❌ No)                                       |
+|----------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [**Textbox**](01_textbox.md)     | Displays a text during a presentation                                                             | ❌                                                                                    |
+| [**Image**](02_image.md)         | Displays an image during a presentation                                                           | ❌                                                                                    |
+| [**Video**](03_video.md)         | Displays a video during a presentation                                                            | ❌                                                                                    |
+| [**Slideshow**](04_slideshow.md) | Displays multiple images in sequence during a presentation                                        | ❌                                                                                    |
+| [**Button**](05_button.md)       | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> (However, changing the value of a variable does require a Project Notebook!) |
+| [**Video**](03_video.md)         |                                                                                                   | ❌✅                                                                                   |
+| [**Video**](03_video.md)         |                                                                                                   | ❌                                                                                    |
 
 
 * **Tool Change Scene Button**: Clicking the Change Scene Button will switch several screens to different slides at the same time.
@@ -25,7 +25,7 @@ This tool has been described in detail [**here**](11_change-scene.md).
 
 The tools above (except Tool Button and Tool Change Scene Button) require files to be uploaded to MoLöwe.
 Once the files have been uploaded, these tools can be defined in a Slide by opening the slide
-in [**Edit Mode**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
+in [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 
 ### Tools with Project Notebook
 
@@ -41,8 +41,8 @@ This tool has been described in detail [**here**](05_button.md).
 * **Graph Tool**: This tool has been described in detail [**here**](06_graph.md).
 
 Once all the necessary tools have been defined in the Notebook and the Project Notebook has been
-[**uploaded**](docs/03-the-interface/03_notebooks.md) to MoLöwe, these tools can be created in a slide by opening
-the slide in [**Edit Mode**](docs/03-the-interface/05_slides.md#4-editing-slides-edit-mode).
+[**uploaded**](docs/edit-mode/02_notebooks.md) to MoLöwe, these tools can be created in a slide by opening
+the slide in [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 More details are presented on the pages that describe each tool.
 
 ## **Resize a Tool**

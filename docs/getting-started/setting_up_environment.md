@@ -2,11 +2,14 @@
 
 MoLöwe projects are set up using a Jupyter Notebook file, called *MoLöwe Notebook*, and the options available on the MoLöwe platform.
 
-The easiest way to develop a Jupyter Notebook is to use the [**JupyterHub server**](jupyter.leuphana.de). But you can also manually install the different software components on your own computer to have your local environment to develop a notebook to use it in MoLöwe. 
+The easiest way to develop a Jupyter Notebook is to use the [**JupyterHub server**](jupyter.leuphana.de).
+But you can also manually install the different software components on your own computer to have your local
+environment to develop a notebook to use it in MoLöwe. 
 
 ---
 
-MoLöwe has been tested with Python 3.7 and Plotly v4. This section provides information on how to install Python and the required packages so that you can get started with writing a MoLöwe Notebook for your project.
+MoLöwe has been tested with Python 3.7 and Plotly v4. This section provides information on how to install Python
+and the required packages so that you can get started with writing a MoLöwe Notebook for your project.
 
 At the time of writing, Jupyter Lab does not work reliably with Plotly. As such, using Jupyter Notebook is recommended.
 
@@ -14,17 +17,21 @@ At the time of writing, Jupyter Lab does not work reliably with Plotly. As such,
 
 This shows you the way to manually install the different software components required. 
 
-An alternative to manual installation is to restore a conda environment, however doing so requires a deeper knowledge of managing conda environments. If you are familiar with conda environments, follow the instructions mentioned below.
+An alternative to manual installation is to restore a conda environment, however doing so requires a deeper
+knowledge of managing conda environments. If you are familiar with conda environments, follow the instructions mentioned below.
 
 ### Install Python 3
 
-You can download and install Python 3 on your computer system by following the instructions mentioned in the official website. ([*link here*](https://www.python.org/downloads/))
+You can download and install Python 3 on your computer system by following the instructions mentioned in the official website.
+([*link here*](https://www.python.org/downloads/))
 
 Please note that MoLöwe was tested to work with Python 3.7. Hence, we suggest this version of Python to be installed.
 
 ### Install Necessary Python Packages
 
-Once Python has been installed, you need two more packages (Jupyter Notebook and Plotly) to get started. However, installing three other packages that are used for data analysis is also advised. Therefore, the scripts in the instruction below will install five packages in total.
+Once Python has been installed, you need two more packages (Jupyter Notebook and Plotly) to get started.
+However, installing three other packages that are used for data analysis is also advised. Therefore, the scripts in
+the instruction below will install five packages in total.
 
 Instructions for installation:
 
