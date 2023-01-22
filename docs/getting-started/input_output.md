@@ -9,38 +9,30 @@ such as numbers, ratings, scenarios, maps, pictures, text or videos.
 You may already have content that serves as input data for your workshop.
 
 ***Data output*** refers to all the new information produced in the workshop.
-An example would be the results from an audience survey.
-The data output is based on knowledge gained from the data input.
+It is based on knowledge gained from the data input.
+An example would be the results from an audience survey at the end of the workshop.
 
-For your workshop, you need to think about how you want to use your input data,
-how it should be visualised and what output data you need in order to reach your workshop goal.
+You need to think about how you want to use your input data,
+how it should be **visualised** and what output data you need in order to reach your **workshop goal**.
 
 # Example
-Let us take the case of creating a **greener urban space**.
-To this end, researchers have captured the status quo of a city district in a **map**.
+Let us take the case of a project that deals with creating **new green urban spaces** in Lüneburg.
+In the workshop, researchers want to find out **which barriers hinder implementation** of green urban spaces in Lüneburg.
+To this end, they invite city planners and residents to obtain both professional expertise as well as public insight.
 
-The map contains information on the location, size and type of green spaces in this district
+For the data input, the researchers have captured the status quo of Lüneburg in a **map**.
+The map contains information on the location, size and type of green spaces in the city
 (trees, private lawns, parks …). Furthermore, the map contains information on buildings with roofs and facades
 suitable for planting green infrastructure.
-The researchers have also gathered data on the **costs and benefits** for increasing the green infrastructure,
-and they want to visualise this data in a graph.
-They also possess augmented (i.e. photoshopped) photos showing how the green spaces in the district
-would potentially look like.
+The researchers have also gathered data on the **costs and benefits** for increasing green infrastructure.
+They want to visualise this data in a graph.
+They also intend to present **augmented (i.e. photoshopped) photos** showing how new green spaces could potentially
+look like in Lüneburg.
 
-Workshop participants are **city planners and residents**. They can choose different types and amount of
-green infrastructure for their district, will see the effect their choice has on costs and benefits
-and experience the future district in forms of augmented photos. Therefore, abstract findings become
-tangible which in turn fosters **discussions and debates**.
-The researchers want to capture **which barriers hinder implementation** of greener urban spaces.
-This output data can be collected in the form of **ratings and surveys**.
+In the map, workshop participants can choose different types and amount of green infrastructure.
+They will see the effect their choice has on costs and benefits in the respective graphs and experience the future green
+spaces in Lüneburg in the augmented photos.
+With these tools, abstract findings become tangible which in turn fosters **discussions and debates**.
+This output data can then be collected in the form of **ratings and surveys**.
 
-**Workshop Goal:**
-* identify barriers that hinder implementation of a greener urban spaces
-
-**Data Input (interactive):**
-* Map with location, size, type of green spaces and potential buildings
-* Graphs with costs and benefits of green spaces
-* Augmented photos, showing how green spaces in the district would look like
-
-**Data Output:**
-* ratings & surveys, capturing barriers that hinder implementation of a greener urban spaces
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPv3HUyE=/?moveToViewport=-849,-243,2000,294&embedId=949741088143" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>

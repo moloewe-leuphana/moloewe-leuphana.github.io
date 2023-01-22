@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Start your Workshop Plan
+# Workshop Plan
 
-Once you've defined your workshop goal(s), it is time to start your workshop plan.
+Once you've defined your data input and output, it is time to start your **workshop plan**.
 With five monitors, each having a respective tablet, it is easy to lose track of your content.
 A workshop plan will help you define your content and how you arrange it.
 

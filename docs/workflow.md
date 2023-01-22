@@ -19,7 +19,6 @@ and checking out the information on our <a href="https://moloewe-leuphana.github
 
 You're going to build your MoLöwe project in the **MoLöwe software** (browser based i.e. no local installation needed),
 which you can use remotely from your office, home, anywhere.
-The software is accessible through any browser, but use **Mozilla Firefox** for optimal results.
 Accessing the MoLöwe software requires a user account (name and password).
 
 User accounts are limited to researchers and student courses at Leuphana.
@@ -29,11 +28,13 @@ User accounts for workshop participants will be provided the day of the workshop
 You will also receive a user account for the **MoLöwe campus site**.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 
-**While you wait for your user account, please read chapter [**Getting Started**](docs/getting-started).**
+While you wait for your user account, please read chapters [**Data Input & Output**](docs/getting-started/input_output.md)
+and [**Workshop Plan**](docs/getting-started/input_output.md).
 
 ## <Highlight> 2 Explore the User Interface </Highlight>
 
 Once you received your username and password, you can access the MoLöwe software [**here**](https://moloewe.leuphana.de/login).
+The software is accessible through any browser, but use **Mozilla Firefox** for optimal results.
 
 Please familiarize yourself with the user interface of the MoLöwe with the help of the [**User Interface Chapter**](user-interface.md).
 
