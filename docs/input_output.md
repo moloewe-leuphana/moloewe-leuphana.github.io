@@ -19,9 +19,9 @@ how it should be **visualised** and what output data you need in order to reach 
 Let us take the case of a project that deals with creating **new green urban spaces** in Lüneburg.
 
 The workshop goals are:
-* for researchers: understand how to overcome barriers for creating more green urban infrastructure and which type of
+* Researchers: understand how to overcome barriers for creating more green urban infrastructure and which type of
 infrastructure is most likely to be implemented (green roofs, facades, planting of trees). 
-* for participants: Understand costs and benefits of green infrastructure and learn perspective of other parties involved.
+* Participants: Understand costs and benefits of green infrastructure and learn perspective of other parties involved.
 
 To this end, they invite city planners and residents to obtain both professional expertise as well as public insight.
 
