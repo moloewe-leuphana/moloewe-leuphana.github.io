@@ -28,8 +28,7 @@ User accounts for workshop participants will be provided the day of the workshop
 You will also receive a user account for the **MoLöwe campus site**.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 
-While you wait for your user account, please read chapters [**Data Input & Output**](docs/getting-started/input_output.md)
-and [**Storyboard**](docs/getting-started/storyboard.md).
+While you wait for your user account, please read chapters [**Data Input & Output**](docs/getting-started/input_output.md).
 
 ## <Highlight> 2 Explore the User Interface </Highlight>
 
