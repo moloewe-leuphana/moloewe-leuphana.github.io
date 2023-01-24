@@ -11,6 +11,9 @@ const FeatureList = [
       <>
         Break down and visualise complex problems across five 65’’
         screens into steps that are easily comprehensible for your audience.
+
+        <b>Participants choose a location and scenario for increasing green infrastructure and learn through interactive graphs and
+        images about the costs and benefits.</b>
       </>
     ),
   },
@@ -20,6 +23,8 @@ const FeatureList = [
     description: (
       <>
         Put your models to the practical test and receive participants’ feedback on interventions.
+
+        <b>City planners and residents give their feedback on the suggested scenario to replace parking spots with green areas.</b>
       </>
     ),
   },
@@ -29,6 +34,9 @@ const FeatureList = [
     description: (
       <>
         Design interactive scenarios cooperatively with participants.
+
+        <b>City planners suggest an adjusted scenario, which includes a park and ride area to compensate for the lost parking spots
+        and to include green traffic islands for traffic management.</b>
       </>
     ),
   },
@@ -36,7 +44,12 @@ const FeatureList = [
     title: 'Empowerment',
     Svg: require('@site/static/img/leuphana_logo_tigerauge.svg').default,
     description: (
-      <> Empower your participants by jointly developing and visualising solutions and implementation strategies.</>
+      <> Empower your participants by jointly developing and visualising solutions and implementation strategies.
+
+      <b>For the second workshop session scientist have incorporated input from residents and city planners to visualise the
+      planned green spaces for a concrete neighbourhood. Participants leave the workshop with a list of steps and time table
+      towards implementation, images of the planned green infrastructure and responsibilities to put plans into action are clear.</b>
+      </>
     ),
   },
 ];

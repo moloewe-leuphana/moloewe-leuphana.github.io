@@ -24,6 +24,11 @@ export default function Home() {
             <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
 
+         <div className={styles.bg_text}>
+            <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+        </div>
+
         <div className={clsx('hero hero--primary', styles.abstractBanner)}>
             <p className="abstract">{abstractText}</p>
         </div>
