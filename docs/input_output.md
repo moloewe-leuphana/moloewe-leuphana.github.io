@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Data Input & Output
@@ -17,7 +17,12 @@ how it should be **visualised** and what output data you need in order to reach 
 
 # Example
 Let us take the case of a project that deals with creating **new green urban spaces** in Lüneburg.
-In the workshop, researchers want to find out how to overcome barriers for implementing new green urban spaces in Lüneburg.
+
+The workshop goals are:
+* for researchers: understand how to overcome barriers for creating more green urban infrastructure and which type of
+infrastructure is most likely to be implemented (green roofs, facades, planting of trees). 
+* for participants: Understand costs and benefits of green infrastructure and learn perspective of other parties involved.
+
 To this end, they invite city planners and residents to obtain both professional expertise as well as public insight.
 
 For the data input, the researchers have captured the status quo of green urban spaces in Lüneburg in a **map**.
