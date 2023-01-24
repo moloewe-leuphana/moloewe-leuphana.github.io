@@ -17,21 +17,22 @@ how it should be **visualised** and what output data you need in order to reach 
 
 # Example
 Let us take the case of a project that deals with creating **new green urban spaces** in Lüneburg.
-In the workshop, researchers want to find out **which barriers hinder implementation** of green urban spaces in Lüneburg.
+In the workshop, researchers want to find out how to overcome barriers for implementing new green urban spaces in Lüneburg.
 To this end, they invite city planners and residents to obtain both professional expertise as well as public insight.
 
-For the data input, the researchers have captured the status quo of Lüneburg in a **map**.
+For the data input, the researchers have captured the status quo of green urban spaces in Lüneburg in a **map**.
 The map contains information on the location, size and type of green spaces in the city
-(trees, private lawns, parks …). Furthermore, the map contains information on buildings with roofs and facades
+(trees, private lawns, parks …). Furthermore, it contains information on buildings with roofs and facades
 suitable for planting green infrastructure.
 The researchers have also gathered data on the **costs and benefits** for increasing green infrastructure.
-They want to visualise this data in a graph.
-They also intend to present **augmented (i.e. photoshopped) photos** showing how new green spaces could potentially
+They also have **augmented (i.e. photoshopped) photos** showing how new green spaces could potentially
 look like in Lüneburg.
 
-In the map, workshop participants can choose different types and amount of green infrastructure.
+From this data, the researchers developed three possible **scenarios** that vary in the amount of new green urban spaces.
+
+Using a tablet, workshop participants can now explore the different scenarios.
 They will see the effect their choice has on costs and benefits in the respective graphs and experience the future green
-spaces in Lüneburg in the augmented photos.
+spaces in Lüneburg in the augmented photos. The map shows the spatial differences (i.e. increase in trees of parks).
 With these tools, abstract findings become tangible which in turn fosters **discussions and debates**.
 This output data can then be collected in the form of **ratings and surveys**.
 
