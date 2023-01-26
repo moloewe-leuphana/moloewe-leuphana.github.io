@@ -24,16 +24,25 @@ export default function Home() {
             <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
 
-         <div className={styles.bg_text}>
-            <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
-            <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.footerLogosDiv} align="center">
+
+            <img className={styles.WhyLogos} src="img/leuphana_logo_granit_text.png" alt="logo granit"></img>
+
+            <img className={styles.WhyLogos} src="img/leuphana_logo_haematit_text.png" alt="logo haematit"></img>
+
+            <img className={styles.WhyLogos} src="img/leuphana_logo_pyrit_text.png" alt="logo pyrit"></img>
+
+            <div className={styles.container}>
+                <img className={styles.WhyLogos} src="img/leuphana_logo_tigerauge_text.png" alt="logo tigerauge"></img>
+                <div className={styles.overlay}>
+                    <div className={styles.text}>Hello World</div>
+                </div>
+            </div>
         </div>
 
         <div className={clsx('hero hero--primary', styles.abstractBanner)}>
             <p className="abstract">{abstractText}</p>
         </div>
-
-        <HomepageFeatures />
 
         <div className={styles.footerLogosDiv} align="center">
             <a href="https://www.dbu.de/">
