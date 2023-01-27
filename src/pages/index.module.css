@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.TitleText {
+  color: white;
+  font-weight: bold;
+  font-size: 350%;
+  text-shadow: 4px 4px rgb(0,0,0);
+}
+
 /* Background and Blur */
 .background {
   background-image: url(https://github.com/moloewe-leuphana/moloewe-leuphana.github.io/blob/8078be3301e58eb1828886e7b72439160f7dc52a/static/img/landingPhoto.jpg?raw=true);
@@ -82,7 +89,7 @@
 .WhyMoloeweText {
   color: white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 45px;
   text-shadow: 4px 4px rgb(0,0,0);
   background-color: #303846;
 }
@@ -102,20 +109,6 @@
   background-color: #303846;
   }
 
-.footerLogosDiv {
-  background-color: #303846;
-}
-
-.footerLogos{
-  width:300px;
-  height:300px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-bottom: -90px;
-  margin-top: -50px;
-  object-fit:scale-down;
-  }
-
 .container {
     position: relative;
     width: 25%;
@@ -131,6 +124,7 @@
     transition: .5s ease;
     backface-visibility: hidden;
     padding: 70px;
+    margin-top: -10px;
 }
 
 .middle {
@@ -157,3 +151,17 @@
     color: white;
     font-size: 20px;
 }
+
+.footerLogosDiv {
+  background-color: #303846;
+}
+
+.footerLogos{
+  width:300px;
+  height:300px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: -90px;
+  margin-top: -50px;
+  object-fit:scale-down;
+  }

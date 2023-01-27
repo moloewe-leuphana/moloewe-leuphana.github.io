@@ -24,14 +24,9 @@ export default function Home() {
         <div className={styles.background}></div>
 
         <div className={styles.bg_text}>
-            <h1 className="hero__title">{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
+            <h1 className={styles.TitleText}>{'Mobile Lösungswerkstatt (MoLöwe)'}</h1>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
-
-        <div className={styles.WhyMoloeweDiv}>
-            <h1 className={styles.WhyMoloeweText}> Why MoLöwe? </h1>
-        </div>
-
 
         <div className={styles.container}>
             <img className={styles.image} src="img/information.png" alt="logo granit"></img>
