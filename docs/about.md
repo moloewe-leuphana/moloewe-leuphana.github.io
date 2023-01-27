@@ -8,7 +8,7 @@ This Tutorial is an addition to the official **MoLöwe booklet**, which you can 
 **moloewe@leuphana.de**.
 
 While the booklet acts as a project management guide, this tutorial will give you the **technical** instructions on how to
-create a workshop in the MoLöwe software.
+prepare a workshop in MoLöwe.
 
 If you like to share your feedback or have ideas on how to further improve this tutorial, please do not hesitate to 
 contact us at the email address mentioned above.

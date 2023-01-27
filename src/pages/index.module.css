@@ -50,18 +50,6 @@
 
 }
 
-.abstractBanner {
-  padding: 16px;
-  box-sizing: border-box;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-color: #303846;
-  color: white;
-  font-size: 22px;
-  line-height: 2;
-}
-
 /*
 @media screen and (max-width: 996px) {
   .heroBanner {
@@ -150,6 +138,38 @@
     /* background-color: rgba(118, 0, 50, 255);*/
     color: white;
     font-size: 20px;
+}
+
+.abstractBanner {
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #303846;
+  color: white;
+  font-size: 22px;
+  line-height: 2;
+}
+
+.abstractBanner::before {
+  content: ''; /* required to display pseudo elements */
+  height: 3px; /* this works like a border-width */
+  width: 95%; /* you can use a percentage of parent or fixed px value */
+  background: white; /* the color of border */
+  position: absolute;
+  top: 0; /* position it at the bottom of parent */
+  margin: 0 auto; left: 0; right: 0; /* horizontal centering */
+}
+
+.abstractBanner::after {
+  content: ''; /* required to display pseudo elements */
+  height: 3px; /* this works like a border-width */
+  width: 95%; /* you can use a percentage of parent or fixed px value */
+  background: white; /* the color of border */
+  position: absolute;
+  bottom: 0; /* position it at the bottom of parent */
+  margin: 0 auto; left: 0; right: 0; /* horizontal centering */
 }
 
 .footerLogosDiv {

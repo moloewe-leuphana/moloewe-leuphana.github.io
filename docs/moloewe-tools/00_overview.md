@@ -1,36 +1,26 @@
 # Overview
 
-All elements on a slide are called "MoLöwe Tools" or "Tools". 
+All elements on a slide are called "MoLöwe Tools" or just "Tools". 
 Tools are visible during presentations and can be used to display information or to allow interaction.
 
 The only way to place the tool on a slide is from the [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
-However, some tools need to be first set up in the Project Notebook, with a Python code written in a specific structure (i.e. function).
-You will find the specifics of each tool in its respective subpage.
+However, some tools need to be set up in the Project Notebook first, with a Python code written in a specific structure (i.e. function).
+In addition, some tools require files (e.g. images or videos) to be uploaded to MoLöwe beforehand.
 
-### Tools without Project Notebook
+## **Tools Overview**
 
-| Tool                             | Description                                                                                       | Requires Project Notebook?<br/> (✅ Yes / ❌ No)                                       |
-|----------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**Textbox**](01_textbox.md)     | Displays a text during a presentation                                                             | ❌                                                                                    |
-| [**Image**](02_image.md)         | Displays an image during a presentation                                                           | ❌                                                                                    |
-| [**Video**](03_video.md)         | Displays a video during a presentation                                                            | ❌                                                                                    |
-| [**Slideshow**](04_slideshow.md) | Displays multiple images in sequence during a presentation                                        | ❌                                                                                    |
-| [**Button**](05_button.md)       | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> (However, changing the value of a variable does require a Project Notebook!) |
-| [**Video**](03_video.md)         |                                                                                                   | ❌✅                                                                                   |
-| [**Video**](03_video.md)         |                                                                                                   | ❌                                                                                    |
+| Tool                                          | Description                                                                                       | Requires Project Notebook?<br/> (✅ Yes / ❌ No)                                     | Requires Files?<br/> (✅ Yes / ❌ No) |
+|-----------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------|
+| [**Textbox**](01_textbox.md)                  | Displays a text during a presentation                                                             | ❌                                                                                  | ✅                                  |
+| [**Image**](02_image.md)                      | Displays an image during a presentation                                                           | ❌                                                                                  | ✅                                  |
+| [**Video**](03_video.md)                      | Displays a video during a presentation                                                            | ❌                                                                                  | ✅                                  |
+| [**Slideshow**](04_slideshow.md)              | Displays multiple images in sequence during a presentation                                        | ❌                                                                                  | ✅                                  |
+| [**Button**](05_button.md)                    | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> (However, changing the value of a variable does require a Project Notebook) | ❌                                  |
+| [**Change Scene Button**](11_change-scene.md) | Switch several screens to different slides at the same time                                       | ❌                                                                                  | ❌                                  |
+| [**blah**](03_video.md)                       |                                                                                                   |                                                                                    |                                    |
 
 
-* **Tool Change Scene Button**: Clicking the Change Scene Button will switch several screens to different slides at the same time.
-This tool has been described in detail [**here**](11_change-scene.md).
-
-The tools above (except Tool Button and Tool Change Scene Button) require files to be uploaded to MoLöwe.
-Once the files have been uploaded, these tools can be defined in a Slide by opening the slide
-in [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
-
-### Tools with Project Notebook
-
-Some MoLöwe Tools need Python code written in a specific structure.
-The tools that require a code from the Project Notebook are listed below.
+## Tools with Project Notebook
 
 * **Switch Tool**: This tool has been described in detail [**here**](09_switch.md).
 * **Dropdown List Tool**: This tool has been described in detail [**here**](10_dropdown.md).

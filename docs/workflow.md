@@ -25,7 +25,7 @@ User accounts are limited to researchers and student courses at Leuphana.
 Please send a request for a user account to **moloewe@leuphana.de** and state your research project or course.
 User accounts for workshop participants will be provided the day of the workshop session.
 
-You will also receive a user account for the **MoLöwe campus site**.
+You will receive a user account for the **MoLöwe campus site** as well.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 
 While you wait for your user account, please read chapters [**Data Input & Output**](input_output.md).

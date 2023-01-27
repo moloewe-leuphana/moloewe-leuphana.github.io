@@ -28,6 +28,7 @@ export default function Home() {
             <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
 
+
         <div className={styles.container}>
             <img className={styles.image} src="img/information.png" alt="logo granit"></img>
             <div className={styles.middle}>
@@ -55,6 +56,7 @@ export default function Home() {
                 <div className={styles.text}>{empowerment}</div>
             </div>
         </div>
+
 
         <div className={clsx('hero hero--primary', styles.abstractBanner)}>
             <p> {abstractText} </p>
