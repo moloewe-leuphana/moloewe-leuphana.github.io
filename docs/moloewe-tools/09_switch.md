@@ -1,6 +1,7 @@
 # Switch
 
-A Switch tool is used to interact with a presentation and allows users to switch the value (of any Python type) stored in a variable from one to the other.
+A Switch tool is used to interact with a presentation and allows users to switch the value (of any Python type)
+stored in a variable from one to another.
 
 The Switch tool requires definition of a function on the Project Notebook.
 

@@ -50,7 +50,11 @@ Please visit the [**Tools Chapter**](docs/moloewe-tools/00_overview.md) to explo
 
 ## <Highlight> 4 Prepare a Project Notebook </Highlight>
 
-This will determine whether you'll need to prepare a custom [**Project Notebook**](glossary.md#notebook) in the next step of this workflow.
+This step is relevant for you, if the tools you want to use need to be set up in
+the [**Project Notebook**](glossary.md#notebook) first.
+
+Otherwise, you can skip to the next step.
+
 
 ## <Highlight> ? Create Slides </Highlight>
 

@@ -5,35 +5,25 @@ Tools are visible during presentations and can be used to display information or
 
 The only way to place the tool on a slide is from the [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 However, some tools need to be set up in the Project Notebook first, with a Python code written in a specific structure (i.e. function).
-In addition, some tools require files (e.g. images or videos) to be uploaded to MoLöwe beforehand.
+Also, some tools require files (e.g. images or videos) to be uploaded to MoLöwe before you can set them up.
 
 ## **Tools Overview**
+✅ Yes/❌ No
 
-| Tool                                          | Description                                                                                       | Requires Project Notebook?<br/> (✅ Yes / ❌ No)                                     | Requires Files?<br/> (✅ Yes / ❌ No) |
-|-----------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------|
-| [**Textbox**](01_textbox.md)                  | Displays a text during a presentation                                                             | ❌                                                                                  | ✅                                  |
-| [**Image**](02_image.md)                      | Displays an image during a presentation                                                           | ❌                                                                                  | ✅                                  |
-| [**Video**](03_video.md)                      | Displays a video during a presentation                                                            | ❌                                                                                  | ✅                                  |
-| [**Slideshow**](04_slideshow.md)              | Displays multiple images in sequence during a presentation                                        | ❌                                                                                  | ✅                                  |
-| [**Button**](05_button.md)                    | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> (However, changing the value of a variable does require a Project Notebook) | ❌                                  |
-| [**Change Scene Button**](11_change-scene.md) | Switch several screens to different slides at the same time                                       | ❌                                                                                  | ❌                                  |
-| [**blah**](03_video.md)                       |                                                                                                   |                                                                                    |                                    |
+| Tool                                         | Description                                                                                       | Requires Project Notebook? | Requires Files?               |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------|-------------------------------|
+| [**Textbox**](01_textbox.md)                 | Displays a text during a presentation                                                             | ❌                          | ✅                             |
+| [**Image**](02_image.md)                     | Displays an image during a presentation                                                           | ❌                          | ✅                             |
+| [**Video**](03_video.md)                     | Displays a video during a presentation                                                            | ❌                          | ✅                             |
+| [**Slideshow**](04_slideshow.md)             | Displays multiple images in sequence during a presentation                                        | ❌                          | ✅                             |
+| [**Button**](05_button.md)                   | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> ❌ <br/> ✅          | ❌                             |
+| [**Graph**](06_graph.md)                     | Display a graph during a presentation                                                             | ✅                          | ❌                             |
+| [**Map**](07_map.md)                         | Display a Map during a presentation                                                               | ✅                          | ❌                             |
+| [**Range Slider**](08_slider.md)             | Select a value from within a pre-defined range of values                                          | ✅                          | ❌                             |
+| [**Switch**](09_switch.md)                   | Switch the value stored in a variable from one to another                                         | ✅                          | ❌                             |
+| [**Dropdown List**](10_dropdown.md)          | Select a value from pre-defined options                                                           | ✅                          | ❌                             |
+| [**Change Scene Button**](11_change-scene.md) | Switch several screens to different slides at the same time                                       | ❌                          | ❌                             |
 
-
-## Tools with Project Notebook
-
-* **Switch Tool**: This tool has been described in detail [**here**](09_switch.md).
-* **Dropdown List Tool**: This tool has been described in detail [**here**](10_dropdown.md).
-* **Button Tool**: Some functions of the Button Tool require code from the Project Notebook.
-This tool has been described in detail [**here**](05_button.md).
-* **Range Slider Tool**: This tool has been described in detail [**here**](08_slider.md).
-* **Map Tool**: This tool has been described in detail [**here**](07_map.md).
-* **Graph Tool**: This tool has been described in detail [**here**](06_graph.md).
-
-Once all the necessary tools have been defined in the Notebook and the Project Notebook has been
-[**uploaded**](docs/edit-mode/02_notebooks.md) to MoLöwe, these tools can be created in a slide by opening
-the slide in [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
-More details are presented on the pages that describe each tool.
 
 ## **Resize a Tool**
 Once a tool has been placed on a slide, it can be resized by hovering the mouse pointer on the bottom right of the tool
