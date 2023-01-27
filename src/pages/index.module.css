@@ -30,6 +30,7 @@
   backdrop-filter: blur(2px);
   color: white;
   font-weight: bold;
+  text-shadow: 4px 4px rgb(0,0,0);
   /* border: 3px solid #f1f1f1; */
   position: absolute;
   top: 42%;
@@ -39,6 +40,7 @@
   width: 80%;
   padding: 20px;
   text-align: center;
+
 }
 
 .abstractBanner {
@@ -80,8 +82,8 @@
 .WhyMoloeweText {
   color: white;
   font-weight: bold;
-  font-size: 60px;
-  text-shadow: 4px 4px rgba(118, 0, 50, 255);
+  font-size: 40px;
+  text-shadow: 4px 4px rgb(0,0,0);
   background-color: #303846;
 }
 
@@ -128,7 +130,7 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    padding: 50px;
+    padding: 70px;
 }
 
 .middle {

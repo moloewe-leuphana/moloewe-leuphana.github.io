@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         <div className={styles.WhyMoloeweDiv}>
-            <h1 className={styles.WhyMoloeweText}> Why MoLöwe?</h1>
+            <h1 className={styles.WhyMoloeweText}> Why MoLöwe? </h1>
         </div>
 
 

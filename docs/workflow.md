@@ -48,10 +48,6 @@ Now, please create a MoLöwe project according to the [**Projects Page**](docs/e
 Before you start adding slides to your project, you need to plan which [**tools**](glossary.md#tools) you want to use.
 Please visit the [**Tools Chapter**](docs/moloewe-tools/00_overview.md) to explore the available MoLöwe tools.
 
-:::info
-Now, please add the tools you want to use to your **workshop plan**.
-:::info
-
 ## <Highlight> 4 Prepare a Project Notebook </Highlight>
 
 This will determine whether you'll need to prepare a custom [**Project Notebook**](glossary.md#notebook) in the next step of this workflow.
