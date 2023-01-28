@@ -5,7 +5,7 @@ Tools are visible during presentations and can be used to display information or
 
 The only way to place the tool on a slide is from the [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
 However, some tools need to be set up in the Project Notebook first, with a Python code written in a specific structure (i.e. function).
-Also, some tools require files (e.g. images or videos) to be uploaded to MoLöwe before you can set them up.
+Also, some tools require files (e.g. images or videos) to be uploaded to MoLöwe beforehand.
 
 ## **Tools Overview**
 ✅ Yes/❌ No

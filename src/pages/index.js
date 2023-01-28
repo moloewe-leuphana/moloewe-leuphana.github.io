@@ -27,7 +27,6 @@ export default function Home() {
             <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
 
-
         <div className={styles.container}>
             <img className={styles.image} src="img/information.png" alt="logo granit"></img>
             <div className={styles.middle}>

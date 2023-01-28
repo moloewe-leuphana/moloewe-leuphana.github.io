@@ -4,9 +4,9 @@ A Graph Tool is used to display a Plotly graph during a presentation. Additional
 
 The Graph tool requires definition of a function on the Project Notebook.
 
-## **Defining Graph Tool on Project Notebook**
+## **Defining Graph Tool in Project Notebook**
 
-All the graph tools that needs to be defined for a presentation need to be placed under a single class named `tool_graph`.
+All graph tools need to be placed under a single class named `tool_graph`.
 
 Each graph tool is defined using a single `get_` function. It is recommended that the naming of the `get_` and `set_` functions is set in a consistent manner as shown in the example below.
 

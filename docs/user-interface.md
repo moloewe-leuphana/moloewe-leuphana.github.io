@@ -6,18 +6,18 @@ sidebar_position: 4
 
 The *user interface* refers to all the pages you see when you visit the MoLöwe software ([**link**](https://moloewe.leuphana.de/login)).
 
-Here you can:
+In the software you can:
 - access, create, and edit projects
 - upload new notebooks, upload files, and set up slides and screens (provided you have project edit rights)
 - start or view interactive presentations from different projects (provided you have presentation access rights)
 
-User rights are assigned by the MoLöwe administrator (**moloewe@leuphana.de**).
+User rights (e.g. project edit rights, presentation access rights) are assigned by the MoLöwe administrator (**moloewe@leuphana.de**).
 
 The pages that constitute the user interface are described in this chapter.
 
 ## **1 Login Page**
 
-Login page is where you log in to the MoLöwe software via your web browser.
+Here you log in to the MoLöwe software via your web browser.
 
 ![](/img/doc/01_login_page.png)
 
@@ -30,14 +30,16 @@ The user account system in MoLöwe is primarily in place to organize the access 
 
 ## **2 Selection Page**
 
-The user lands on this page when they have successfully logged in. On this page, the user can select between the **Edit Mode** and **Presentation Mode**.
+The user lands on this page when they have successfully logged in.
+On this page, the user can select between the **Edit Mode** and **Presentation Mode**.
 The two modes are explained in the following chapters.
 
 ![](/img/doc/SelectionPage.png)
 
 ## **3 Edit Mode**
 
-In Edit Mode, a project can be created, worked on, changed & up- or downloaded. This mode is necessary when planning and preparing a workshop.
+In Edit Mode, a project can be created, worked on, changed & up- or downloaded.
+This mode is used for planning and preparing a workshop.
 
 ### 3.1 Projects Page
 
@@ -51,12 +53,10 @@ In this example, a project named "Font + Line Width Test" was selected.
 
 ![](/img/doc/04_project_details.jpg)
 
-When you have selected a project, you can access the different subpages that belong to the project from which you can upload your custom notebook and files, 
-and create slides.
-
 Further information on the different features of the Projects Page is presented in its own section: [**Projects Page**](docs/edit-mode/01_projects.md).
 
-The subpages of the Project Page are also discussed below.
+You can access the different subpages of the project in the navigation bar on the left.
+The subpages are discussed below.
 
 ### 3.2 Notebooks Page
 
@@ -80,7 +80,8 @@ Further information on the different features of the Files Page is presented in 
 
 ### 3.4 Slides Page
 
-This page lists all the slides that have been created in a project. When a new project is created, an empty slide with the name "Slide 1" will automatically be created.
+This page lists all the slides that have been created in a project.
+When a new project is created, an empty slide with the name "Slide 1" will automatically be created.
 
 New slides can be created by pressing the "Create Slide" button.
 

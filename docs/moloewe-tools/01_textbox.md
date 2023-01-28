@@ -9,7 +9,7 @@ It does not require definition of a function on the Project Notebook.
 ## **Uploading Text Files to MoLöwe**
 
 The text files that need to be placed on a slide can be uploaded with the
-[**process described here**](docs/03-edit-mode/03_files.md#2-upload-a-new-file).
+[**process described here**](docs/edit-mode/03_files.md#2-upload-a-new-file).
 
 The supported file formats are `.txt`, `.md`, and `.html`.
 

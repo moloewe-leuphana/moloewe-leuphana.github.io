@@ -58,13 +58,6 @@
 }
 */
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5% 0%;
-}
-
 .WhyMoloeweDiv {
   text-align: center;
   background-color: #303846;

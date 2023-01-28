@@ -48,13 +48,19 @@ Now, please create a MoLöwe project according to the [**Projects Page**](docs/e
 Before you start adding slides to your project, you need to plan which [**tools**](glossary.md#tools) you want to use.
 Please visit the [**Tools Chapter**](docs/moloewe-tools/00_overview.md) to explore the available MoLöwe tools.
 
-## <Highlight> 4 Prepare a Project Notebook </Highlight>
+:::info
+In the tools chapter, please note if the tools you want to use need to be set up in the [**Project Notebook**](glossary.md#notebook).
+This will determine if the following step will be relevant for you.
+:::info
 
-This step is relevant for you, if the tools you want to use need to be set up in
-the [**Project Notebook**](glossary.md#notebook) first.
+## <Highlight> 4 Prepare your Project Notebook </Highlight>
 
-Otherwise, you can skip to the next step.
+This step is relevant for you, if the tools you want to use need to be set up in the Project Notebook.
 
+**Otherwise, you can skip to the next step.**
+
+The functionality of a Project Notebook and how to set up the MoLöwe tools is described in chapter
+[**Project Notebook**](docs/project_notebook.md).
 
 ## <Highlight> ? Create Slides </Highlight>
 
