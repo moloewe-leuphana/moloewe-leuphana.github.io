@@ -25,10 +25,10 @@ User accounts are limited to researchers and student courses at Leuphana.
 Please send a request for a user account to **moloewe@leuphana.de** and state your research project or course.
 User accounts for workshop participants will be provided the day of the workshop session.
 
-You will receive a user account for the **MoLöwe campus site** as well.
+You will also receive a user account for the **MoLöwe campus site** and an account for **JupyterHub**.
 For information on how to use MoLöwe on campus, see chapters "Local vs. Server version" and "Working on Campus" of the MoLöwe Booklet.
 
-While you wait for your user account, please read chapters [**Data Input & Output**](input_output.md).
+While you wait for your user accounts, please read chapters [**Data Input & Output**](input_output.md).
 
 ## <Highlight> 2 Explore the User Interface </Highlight>
 
@@ -53,14 +53,12 @@ In the tools chapter, please note if the tools you want to use need to be set up
 This will determine if the following step will be relevant for you.
 :::info
 
-## <Highlight> 4 Prepare your Project Notebook </Highlight>
+## <Highlight> 4 Prepare a Project Notebook </Highlight>
 
 This step is relevant for you, if the tools you want to use need to be set up in the Project Notebook.
+In this case, please follow chapter [**Project Notebook**](docs/project_notebook.md).
 
 **Otherwise, you can skip to the next step.**
-
-The functionality of a Project Notebook and how to set up the MoLöwe tools is described in chapter
-[**Project Notebook**](docs/project_notebook.md).
 
 ## <Highlight> ? Create Slides </Highlight>
 

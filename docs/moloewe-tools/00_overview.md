@@ -3,9 +3,12 @@
 All elements on a slide are called "MoLöwe Tools" or just "Tools". 
 Tools are visible during presentations and can be used to display information or to allow interaction.
 
-The only way to place the tool on a slide is from the [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
-However, some tools need to be set up in the Project Notebook first, with a Python code written in a specific structure (i.e. function).
-Also, some tools require files (e.g. images or videos) to be uploaded to MoLöwe beforehand.
+The only way to place a tool on a slide is from the [**Edit Mode**](docs/edit-mode/05_slides.md#4-editing-slides-edit-mode).
+However, some tools need to be set up in the Project Notebook first.
+Also, for some tools you need to upload a file to MoLöwe first.
+For example, if you want to show an image on a slide, you need to **first** upload the image to MoLöwe and **then**
+add the image tool to the slide. Please visit the [**Files Subchapter**](docs/edit-mode/03_files.md#2-upload-a-new-file)
+to learn how to upload files to MoLöwe.
 
 ## **Tools Overview**
 ✅ Yes/❌ No
