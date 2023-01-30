@@ -2,6 +2,9 @@
 
 A Dropdown tool is used to interact with a presentation and allows users to select a value from pre-defined options.
 
+During presentation, users can interact with the Dropdown tool by pressing on the tool to view all the dropdown list
+items and selecting an option from the list.
+
 The Dropdown tool requires definition of a function on the Project Notebook.
 
 ## **Defining Dropdown on Project Notebook**

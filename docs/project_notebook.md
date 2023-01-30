@@ -4,8 +4,8 @@ sidebar_position: 7
 
 # Project Notebook
 
-Each MoLöwe project contains a [**Project Notebook**](glossary.md#notebook). 
-Here you can set up some of the [**MoLöwe tools**](docs/moloewe-tools/00_overview.md) using Python programming.
+Each MoLöwe project contains a [**Project Notebook**](glossary.md#project-notebook). 
+Here you can set up some of the **MoLöwe tools** using Python programming.
 The required steps to achieve this are presented in this chapter.
 
 (Note: Some MoLöwe tools do not require to be set up in the Project Notebook, see the
@@ -19,10 +19,10 @@ Please download the Notebook of your project by visiting the Notebooks page in y
 
 ## **2 Access and Edit the Project Notebook**
 
-You can access and edit the Project Notebook by using **JupyterHub**. You have received a username and password
-for JupyterHub together with your MoLöwe user account.
+You can access and edit the Project Notebook using **JupyterHub**. 
+You have received a username and password for JupyterHub together with your MoLöwe user account.
 
-## **2.1 Access and Edit the Project Notebook**
+You can open Jupyterhub [**here**](https://jupyter.leuphana.de/hub/login?next=%2Fhub%2F).
 
 ## **3 Structure of a Project Notebook**
 

@@ -3,13 +3,13 @@
 Once you select a project, you can visit the Notebooks page of the project by clicking on "Notebooks" on the left
 panel of the user interface.
 
-This page displays the Jupyter Notebook associated with a project that has been selected.
+This page displays the Project Notebook associated with a project that has been selected.
 
 ![](/img/doc/05_notebooks_page.jpg)
 
-By default, a new project has a notebook named *Template Notebook* automatically placed on this page. Users can
+By default, a new project has a Project Notebook named *Template Notebook* automatically placed on this page. Users can
 download this notebook and edit it for their project if they so choose. The steps for downloading the
-*Template Notebook* are outlined in Section 3 below.
+*Project Notebook* are outlined in Section 3 below.
 
 ##  **1 Upload a new Notebook** 
 
@@ -43,18 +43,18 @@ Once a description text has been typed in to the description box, the changes ca
 
 ##  **3 Download a Project Notebook** 
 
-To download a project notebook, enter the interface that allows users to change notebook details by following
+To download a Project Notebook, enter the interface that allows users to change notebook details by following
 Section 2 outlined above. This should take users to the following page.
 
 ![](/img/doc/23_change_notebook_details_interface.jpg)
 
-To download a project notebook, click on the "Export Notebook" button.
+To download a Project Notebook, click on the "Export Notebook" button.
 
 ##  **4 Delete a Project Notebook** 
 
-To delete a project notebook, enter the interface that allows users to change notebook details by following Section 2
+To delete a Project Notebook, enter the interface that allows users to change notebook details by following Section 2
 outlined above. This should take users to the following page.
 
 ![](/img/doc/23_change_notebook_details_interface.jpg)
 
-To delete a project notebook, click on the "Delete Notebook" button.
+To delete a Project Notebook, click on the "Delete Notebook" button.

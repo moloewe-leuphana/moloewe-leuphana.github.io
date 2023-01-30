@@ -60,7 +60,7 @@ The subpages are discussed below.
 
 ### 3.2 Notebooks Page
 
-This page lists the Jupyter Notebook associated with the selected project.
+This page lists the Project Notebook associated with the selected project.
 
 Users can upload a new notebook for their project using the "Import Notebook" button.
 

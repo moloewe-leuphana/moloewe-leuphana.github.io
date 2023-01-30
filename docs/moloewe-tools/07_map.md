@@ -1,6 +1,7 @@
 # Map
 
-A Map Tool is used to display a map created using Plotly during a presentation. Much like the [Graph Tool](06_graph.md), it supports input from other tools such as Dropdown Tool and Slider Tool.
+A Map Tool is used to display a map created using Plotly during a presentation.
+Much like the [Graph Tool](06_graph.md), it supports input from other tools such as Dropdown Tool and Slider Tool.
 
 The Map tool requires definition of a function on the Project Notebook.
 

@@ -5,7 +5,7 @@ It is used to set up some of the MoLöwe tools, using a Python code written in a
 
 [**Jupyter Notebook**](https://jupyter-notebook.readthedocs.io/en/stable/).
 
-MoLöwe system relies on a Jupyter Notebook that follows a particular structure.
+MoLöwe system relies on a Project Notebook that follows a particular structure.
 The notebook that follows this pre-defined structure and is uploaded to MoLöwe is called a *Project Notebook*.
 
 In this page, the structure of the Project Notebook is outlined and some code examples are provided.
@@ -20,7 +20,7 @@ available [*here*](https://jupyter-notebook.readthedocs.io/en/stable/).
 Creating a Project Notebook from the scratch is not recommended because this approach can lead to many user errors and frustrations.
 Instead, users are recommended to download the Project Notebook from the project.
 
-When a new project is created on MoLöwe, a project notebook named "Template Notebook" is automatically generated.
+When a new project is created on MoLöwe, a Project Notebook named "Template Notebook" is automatically generated.
 This notebook can be downloaded to the users' computer by visiting the Projects page
 (see chapter "Notebooks" - Section "3 Download a Project Notebook")).
 

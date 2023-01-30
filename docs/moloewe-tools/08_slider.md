@@ -1,6 +1,7 @@
 # Slider
 
-A Range Slider (or Slider) tool is used to interact with a presentation and allows users to select a value from within a pre-defined range of values.
+A Range Slider (or just "Slider") tool is used to interact with a presentation and allows users to select a value
+from within a pre-defined range of values.
 
 The Slider tool requires definition of a function on the Project Notebook.
 

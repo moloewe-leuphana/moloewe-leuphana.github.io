@@ -1,6 +1,7 @@
 # Graph
 
-A Graph Tool is used to display a Plotly graph during a presentation. Additionally, it supports input from other tools such as Dropdown Tool and Slider Tool.
+A Graph Tool is used to display a Plotly graph or Echarts graph during a presentation.
+Additionally, it supports input from other tools such as Dropdown Tool and Slider Tool.
 
 The Graph tool requires definition of a function on the Project Notebook.
 
