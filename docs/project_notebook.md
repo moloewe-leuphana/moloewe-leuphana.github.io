@@ -11,22 +11,36 @@ The required steps to achieve this are presented in this chapter.
 (Note: Some MoLöwe tools do not require to be set up in the Project Notebook, see the
 [**Tools Chapter**](docs/moloewe-tools/00_overview.md))
 
+:::note
+Although you will set up Molöwe tools using Python, programming experience with Python is **not** required.
+This tutorial is set up for users with no Python experience.
+:::note
+
 ## **1 Acquiring the Project Notebook**
 
 When a new MoLöwe project is created, a Project Notebook is automatically generated (named "Template Notebook").
 Please download the Notebook of your project by visiting the Notebooks page in your [**Project Page**](user-interface.md#3-edit-mode)
 (see [**here**](docs/edit-mode/02_notebooks.md#3-download-a-project-notebook) on how to download a Project Notebook).
 
-## **2 Access and Edit the Project Notebook**
+## **2 Accessing the Project Notebook**
 
-You can access and edit the Project Notebook using **JupyterHub**. 
+You can access the Project Notebook using **JupyterHub**.
 You have received a username and password for JupyterHub together with your MoLöwe user account.
 
-You can open Jupyterhub [**here**](https://jupyter.leuphana.de/hub/login?next=%2Fhub%2F).
+You can open JupyterHub [**here**](https://jupyter.leuphana.de/hub/login?next=%2Fhub%2F).
+
+Once you logged in to JupyterHub, please upload the Project Notebook by clicking the "Upload Files" button and choosing
+the Project Notebook from your download folder.
+
+![](/img/doc/project_notebook_1.png)
+
+Now open the Project Notebook by double-clicking on it in the left sidebar.
+
+![](/img/doc/project_notebook_2.png)
 
 ## **3 Structure of a Project Notebook**
 
-All Project Notebooks must follow the same structure outlined below:
+Project Notebooks follow the structure outlined below:
 
 1. **Mandatory Section**
    1. Definition of project paths
