@@ -54,7 +54,7 @@ In the tools chapter, please note if the tools you want to use need to be set up
 This will determine if the following step will be relevant for you.
 :::info
 
-## <Highlight> 4 Prepare a Project Notebook </Highlight>
+## <Highlight> 4 Prepare the Project Notebook </Highlight>
 
 This step is relevant for you, if the tools you want to use need to be set up in the Project Notebook.
 In this case, please follow chapter [**Project Notebook**](docs/project_notebook.md).

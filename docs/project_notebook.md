@@ -19,8 +19,10 @@ This tutorial is set up for users with no Python experience.
 ## **1 Acquiring the Project Notebook**
 
 When a new MoLöwe project is created, a Project Notebook is automatically generated (named "Template Notebook").
-Please download the Notebook of your project by visiting the Notebooks page in your [**Project Page**](user-interface.md#3-edit-mode)
-(see [**here**](docs/edit-mode/02_notebooks.md#3-download-a-project-notebook) on how to download a Project Notebook).
+Please download the Notebook of your project by visiting the Notebooks page and follow the steps described
+[**here**](docs/edit-mode/02_notebooks.md#3-download-a-project-notebook).
+
+(see [**here**](docs/edit-mode/02_notebooks.md#1-download-a-project-notebook) how to get to the Notebooks page)
 
 ## **2 Accessing the Project Notebook**
 
@@ -62,3 +64,5 @@ For your purposes (setting up MoLöwe tools) only the following cells are releva
 - python code ist in einzelnen tool kapiteln (wichtig: plotly nicht kommentieren!)
 
 ## **4 Uploading the Project Notebook to MoLöwe**
+
+see steps in chapter notebooks

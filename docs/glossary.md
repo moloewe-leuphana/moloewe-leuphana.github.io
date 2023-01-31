@@ -16,13 +16,12 @@ Projects can entail a presentation (several slides), a specific notebook, upload
 screens and (saved) sessions of the presented slides.
 
 ## **Project Notebook**
-The Project Notebook contains the Python functions needed for the MoLöwe tools.
-Each project starts with a template Project Notebook that can be downloaded, edited and uploaded again with customized
-tool functions.
+Each MoLöwe project contains a Project Notebook, where you can set up some of the MoLöwe tools using Python programming.
+When a new MoLöwe project is created, a Project Notebook is automatically generated (named "Template Notebook") that
+can be downloaded, edited and uploaded again with customized tools.
 
 ## **File**
-A file can be uploaded into a project to use for a presentation/for slides; i.e. images, video or text files,
-markdown or HTML files.
+A file can be uploaded into a project to use for a presentation; e.g. images, video, text files, HTML files.
 
 ## **Slide**
 The terms "Slide(s)" are used in MoLöwe are not the same as the slides that are created for PowerPoint (or Keynote) presentations.
