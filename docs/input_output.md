@@ -4,6 +4,13 @@ sidebar_position: 3
 
 # Data Input & Output
 
+:::note MoLöwe is not an analysis tool
+Before starting to work with the MoLöwe researchers have **already** generated content that serves as
+input data for the workshop. This is the **starting point** for every MoLöwe project.
+This data depends on the specific research project and can be in the form of numbers, ratings, scenarios, maps,
+pictures, text or videos. The next step is to prepare this data for the MoLöwe Software.
+:::note
+
 ***Data input*** refers to data you present to your audience, 
 such as numbers, ratings, scenarios, maps, pictures, text or videos.
 You may already have content that serves as input data for your workshop.

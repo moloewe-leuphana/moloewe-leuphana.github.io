@@ -16,6 +16,8 @@ Although you will set up MoLöwe tools using Python, programming experience with
 This tutorial is set up for users with no Python experience.
 :::note
 
+SEE CHAPTER FOR ADVANCED USERS
+
 ## **1 Acquiring the Project Notebook**
 
 When a new MoLöwe project is created, a Project Notebook is automatically generated (named "Template Notebook").
