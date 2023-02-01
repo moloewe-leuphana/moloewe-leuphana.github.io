@@ -1,32 +1,30 @@
 # Files
 
-Once you select a project, you can visit the Files page of the project by clicking on "Files" on the left panel of the user interface.
+Once you select a project, you can visit the Files Page of the project by clicking on "Files" in the sidebar on the left.
 
-The files page displays the files associated with a selected project. Additionally, this page allows users to upload
-files that they need for their project.
+The Files Page displays the files that were uploaded to the project. Additionally, this page allows users to upload
+files to their project.
 
 ![](/img/doc/06_files_page.jpg)
 
 ## **1 Supported Files**
 
-Files that are uploaded to MoLöwe are placed in a certain project directory based on the extension of the uploaded file.
-
 Below are the files that can be uploaded and the directories in the project that they will be placed in.
 
-| File Extension | Project Dir. Location | Description          |
-| ----------- |-----------------------|----------------------|
-| `.PNG`        | text                  | Image                |
-| `.JPG` or `.jpg`        | text                  | Image                |
-| `.JPEG` or `.jpeg`        | text                  | Image                |
-| `.MP4` or `.mp4`        | `/video`              | Video file           |
-| `.txt`        | `/text`               | Text file            |
-| `.md`        | `/text`               | Markdown file        |
-| `.html` or `.HTML`        | `/text`               | HTML file            |
-| `.shp`, `.shx`, `.prj` and `.dbf`        | `/data`               | Shapefile extensions |
+| File Extension                    | Project Directory | Description          |
+|-----------------------------------|-------------------|----------------------|
+| `.PNG`                            | `/image`          | Image                |
+| `.JPG` or `.jpg`                  | `/image`          | Image                |
+| `.JPEG` or `.jpeg`                | `/image`          | Image                |
+| `.MP4` or `.mp4`                  | `/video`          | Video file           |
+| `.txt`                            | `/text`           | Text file            |
+| `.md`                             | `/text`           | Markdown file        |
+| `.html` or `.HTML`                | `/text`           | HTML file            |
+| `.shp`, `.shx`, `.prj` and `.dbf` | `/data`           | Shapefile extensions |
 
 :::info
-Accessing files via the Project Notebook is discussed in the chapter on
-[**Template Notebook**](docs/05-working-with-notebooks/00_template_notebook.md).
+Accessing files via the Project Notebook is discussed in chapter
+[**Setting up Tools**](docs/project_notebook/setting_up_tools.md).
 :::
 
 ## **2 Upload a new File**

@@ -117,8 +117,6 @@ You can start Presentation Mode directly from Edit Mode by pressing on the butto
 
 When this button is pressed, the Presentation Mode will open which allows users to start a presentation by selecting a project.
 
-![](/img/doc/11_presentation_selection_page.jpg)
-
 Of course, you can also start Presentation Mode from the selection page if you prefer.
 
 ## **4 Presentation Mode**

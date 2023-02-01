@@ -1,4 +1,8 @@
-# Setting up an Environment
+---
+sidebar_position: 2
+---
+
+# Advanced: Setting up an Environment
 
 MoLöwe projects are set up using a Jupyter Notebook file, called *MoLöwe Notebook*, and the options available on the MoLöwe platform.
 

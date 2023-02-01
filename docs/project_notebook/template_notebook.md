@@ -1,4 +1,8 @@
-# Template Notebook
+---
+sidebar_position: 3
+---
+
+# Advanced: Template Notebook
 
 Each MoLöwe project contains a [**Project Notebook**](glossary.md#notebook).
 It is used to set up some of the MoLöwe tools, using a Python code written in a specific structure (i.e. function).

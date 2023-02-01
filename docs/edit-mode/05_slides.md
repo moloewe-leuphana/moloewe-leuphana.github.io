@@ -25,20 +25,19 @@ If a user has appropriate access rights, she can create a new slide by pressing 
 
 ![](/img/doc/29_create_slide.jpg)
 
-Then, the users will be presented a page where the slide being created can be given a name (in the example below,
+The user will be presented a page where the slide being created can be given a name (in the example below,
 the new slide is named as "Slide 2").
 
 ![](/img/doc/30_create_slide_interface.jpg)
 
 After naming the slide, users can click on "Save" button to confirm creation of the slide.
 
-In the same page, users can also change other metadata of the slide; namely, slide name, slide description,
+In the same page, users can also change other metadata of the slide: slide name, slide description,
 slide background image or slide background color.
 
 ## **2 Editing Slide Details**
 
-Slides can be given custom names, descriptions, and a background color or an image. To edit these parameters of slides,
-users can click on the "**i**" icon on the right hand side of the name of the slide.
+To edit slide details, click on the "**i**" icon on the right-hand side of the name of the slide.
 
 ![](/img/doc/31_edit_slide_button.jpg)
 
@@ -88,13 +87,6 @@ Edit Mode allows users to edit the contents of the slide. This means that any [*
 To edit a slide (in this case "Slide 1"), click on the name of the slide.
 
 ![](/img/doc/33_enter_edit_mode.jpg)
-
-:::info
-
-Loading slides runs the contents of the [**Template Notebook**](docs/working-with-notebooks/00_template_notebook.md).
-Depending on the amount of code placed in the notebook, it might take some time to load the slide.
-
-:::
 
 In Edit Mode, an empty slide with a gray background looks like the following.
 

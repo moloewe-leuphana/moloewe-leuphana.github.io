@@ -57,7 +57,7 @@ This will determine if the following step will be relevant for you.
 ## <Highlight> 4 Prepare the Project Notebook </Highlight>
 
 This step is relevant for you, if the tools you want to use need to be set up in the Project Notebook.
-In this case, please follow chapter [**Project Notebook**](docs/project_notebook.md).
+In this case, please follow chapter [**Setting up Tools**](docs/project_notebook/setting_up_tools.md).
 
 **Otherwise, you can skip to the next step.**
 
@@ -74,6 +74,8 @@ Open a new tab for each monitor and select respective screen and mode.
 Erklären, dass man im Presentation Mode nicht slides öffnet, sondern screens.
 Für jeden Screen einen neuen tab.
 
+GIF erstellen
+
 ---
 
 **About User privileges**
@@ -89,7 +91,8 @@ For each user account privileges may be given to certain functionalities in Edit
 - Based on open standard frameworks (_plotly, Echarts, mapbox_).
 - With control elements for interactive data visualisation (button, switch, dropdown, slider).
 - User programs interactive content and tools in _jupyter notebook_ ( _Python_ language).
-- Content that is not interactive (video, image, slideshow, textbox) can be added via the MoLöwe Software directly (not programmed in  _jupyter notebook_ ).
+- Content that is not interactive (video, image, slideshow, textbox) can be added via the MoLöwe Software directly
+(not programmed in  _jupyter notebook_ ).
 - Users upload their _jupyter notebook_ based on the jupyter notebook template for their project.
 - Users upload files, like images, videos, text and data for their project.
 - MoLöwe Software runs with any browser, but use Mozilla Firefox for optimal results.

@@ -1,9 +1,9 @@
 # Notebooks
 
-Once you select a project, you can visit the Notebooks page of the project by clicking on "Notebooks" in the sidebar
+Once you select a project, you can visit the Notebooks Page by clicking on "Notebooks" in the sidebar
 on the left.
 
-This page displays the Project Notebook of the selected project.
+Here you can find the Project Notebook of the project.
 
 ![](/img/doc/05_notebooks_page.jpg)
 
