@@ -6,12 +6,13 @@ sidebar_position: 1
 
 Each MoLöwe project contains a [**Project Notebook**](../glossary.md#project-notebook). 
 Here you can set up some of the **MoLöwe tools** using Python programming.
+
 The required steps to achieve this are presented in this chapter.
 
 (Note: Some MoLöwe tools do not need to be set up in the Project Notebook, see the
 [**Tools Chapter**](docs/moloewe-tools/00_overview.md))
 
-:::note Python
+:::note Python Experience
 Although you will set up MoLöwe tools using Python, programming experience with Python is **not** required.
 This chapter is set up for users with no Python experience.
 
@@ -22,8 +23,8 @@ you can also check out the chapter for [**Advanced Users**](docs/project_noteboo
 ## **1 Acquiring the Project Notebook**
 
 When a new MoLöwe project is created, a Project Notebook is automatically generated (named "Template Notebook").
-Please go to your [**Project Page**](docs/user-interface.md#3-edit-mode) and download the Project Notebook with the
-steps described [**here**](docs/edit-mode/02_notebooks.md#1-download-a-project-notebook).
+Please go to your [**Project Page**](docs/user-interface.md#3-edit-mode) and download the Project Notebook from
+the Notebooks Subpage with the steps described [**here**](docs/edit-mode/02_notebooks.md#1-download-a-project-notebook).
 
 ## **2 Accessing the Project Notebook**
 
@@ -41,12 +42,12 @@ Now open the Project Notebook by double-clicking on it in the left sidebar. The 
 
 ![](/img/doc/project_notebook_2.png)
 
-## **3 Structure of a Project Notebook**
+## **3 Structure of the Project Notebook**
 
-In order to make the Python code easier to read, the Project Notebook is arranged into cells.
+In order to make the Python code easier to read, the Project Notebook is arranged into **cells**.
 Each cell fulfills a specific task in the notebook.
 
-For your purposes (setting up MoLöwe tools) only the following cells are relevant/need to be edited:
+For your purpose (setting up MoLöwe tools) only the following cells are relevant/need to be edited:
 
 **Preparatory code:**
 * Import modules
@@ -54,7 +55,7 @@ For your purposes (setting up MoLöwe tools) only the following cells are releva
 * Global Variables, Constants, Settings
 * Notebook Functions
 
-** Tool Functions:**
+**Tool Code:**
 * Tool Switch
 * Tool Dropdown
 * Tool Button
@@ -62,7 +63,43 @@ For your purposes (setting up MoLöwe tools) only the following cells are releva
 * Tool Map
 * Tool Graph
 
-- python code ist in einzelnen tool kapiteln (wichtig: plotly nicht kommentieren!)
+The following two sections will explain how these cells need to be edited in order to set up MoLöwe tools.
+
+## **4 Preparatory code**
+
+In this section we will explain how the cells of the **preparatory** part of the Project Notebook need to be edited.
+
+### 4.1 Import Modules
+
+In the cell "Import Modules", please add the following two lines:
+
+`import geopandas as gpd`
+
+`import plotly.express as px`
+
+Like this:
+
+![](/img/doc/project_notebook_3.jpg)
+
+### 4.2 Access Tokens and API Keys
+
+The cell "Access Tokens and API Keys" needs to be edited if you want to show a map using mapbox.
+
+Please see the chapter on [**Maps**](docs/moloewe-tools/07_map.md).
+
+### 4.3 Global Variables, Constants, Settings
+
+The cell "Global Variables, Constants, Settings" is different for every tool.
+Therefore, please refer to the specific
+[**tool code**](#5-tool-code) to find out what code you exactly need here.
+
+### 4.4 Notebook Functions
+
+The cell "Notebook Functions" is different for every tool.
+Therefore, please refer to the specific
+[**tool code**](#5-tool-code) to find out what code you exactly need here.
+
+## **5 Tool Code**
 
 Tools using the Project Notebook are defined as either a `get_` function or a pair of `get_` and `set_` functions.
 All the functions that belong to a category of tools are placed within a single dedicated Python `class`. Hence, a Python class
@@ -70,7 +107,21 @@ is defined for each of the tool mentioned here. For instance, if one needs to cr
 they need to place two `get_` functions with unique names (eg. `get_first_chart` and `get_second_chart`) under a single
 class named `tool_graph`.
 
-Below are the files that can be uploaded and the directories in the project that they will be placed in.
+- siehe außerdem user examples
+
+### 5.1 Switch
+
+### 5.2 Dropdown
+
+### 5.3 Button
+
+### 5.4 Slider
+
+### 5.5 Map
+
+### 5.6 Graph
+
+### ?
 
 | File Extension                    | Project Directory | Description          |
 |-----------------------------------|-------------------|----------------------|
@@ -83,6 +134,10 @@ Below are the files that can be uploaded and the directories in the project that
 | `.html` or `.HTML`                | `/text`           | HTML file            |
 | `.shp`, `.shx`, `.prj` and `.dbf` | `/data`           | Shapefile extensions |
 
+
 ## **4 Uploading the Project Notebook to MoLöwe**
+
+Below are the files that can be uploaded and the directories in the project that they will be placed in.
+
 
 see steps in chapter notebooks

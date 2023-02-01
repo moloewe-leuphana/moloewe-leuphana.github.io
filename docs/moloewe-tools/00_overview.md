@@ -13,18 +13,18 @@ to learn how to upload files to MoLöwe.
 ## **Tools Overview**
 ✅ Yes/❌ No
 
-| Tool                                         | Description                                                                                       | Requires Project Notebook? | Requires Files?               |
-|----------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------|-------------------------------|
-| [**Textbox**](01_textbox.md)                 | Displays a text during a presentation                                                             | ❌                          | ✅                             |
-| [**Image**](02_image.md)                     | Displays an image during a presentation                                                           | ❌                          | ✅                             |
-| [**Video**](03_video.md)                     | Displays a video during a presentation                                                            | ❌                          | ✅                             |
-| [**Slideshow**](04_slideshow.md)             | Displays multiple images in sequence during a presentation                                        | ❌                          | ✅                             |
-| [**Button**](05_button.md)                   | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> ❌ <br/> ✅          | ❌                             |
-| [**Graph**](06_graph.md)                     | Display a graph during a presentation                                                             | ✅                          | ❌                             |
-| [**Map**](07_map.md)                         | Display a Map during a presentation                                                               | ✅                          | ❌                             |
-| [**Range Slider**](08_slider.md)             | Select a value from within a pre-defined range of values                                          | ✅                          | ❌                             |
-| [**Switch**](09_switch.md)                   | Switch the value stored in a variable from one to another                                         | ✅                          | ❌                             |
-| [**Dropdown List**](10_dropdown.md)          | Select a value from pre-defined options                                                           | ✅                          | ❌                             |
+| Tool                                        | Description                                                                                       | Requires Project Notebook? | Requires Files?               |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------|-------------------------------|
+| [**Textbox**](01_textbox.md)                | Displays a text during a presentation                                                             | ❌                          | ✅                             |
+| [**Image**](02_image.md)                    | Displays an image during a presentation                                                           | ❌                          | ✅                             |
+| [**Video**](03_video.md)                    | Displays a video during a presentation                                                            | ❌                          | ✅                             |
+| [**Slideshow**](04_slideshow.md)            | Displays multiple images in sequence during a presentation                                        | ❌                          | ✅                             |
+| [**Button**](05_button.md)                  | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> ❌ <br/> ✅          | ❌                             |
+| [**Graph**](06_graph.md)                    | Display a graph during a presentation                                                             | ✅                          | ❌                             |
+| [**Map**](07_map.md)                        | Display a Map during a presentation                                                               | ✅                          | ❌                             |
+| [**Range Slider**](08_slider.md)            | Select a value from within a pre-defined range of values                                          | ✅                          | ❌                             |
+| [**Switch**](09_switch.md)                  | Switch the value stored in a variable from one to another                                         | ✅                          | ❌                             |
+| [**Dropdown**](10_dropdown.md)          | Select a value from pre-defined options                                                           | ✅                          | ❌                             |
 | [**Change Scene Button**](11_change-scene.md) | Switch several screens to different slides at the same time                                       | ❌                          | ❌                             |
 
 

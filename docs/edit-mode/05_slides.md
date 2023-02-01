@@ -62,8 +62,8 @@ When it comes to accessing Slides in MoLöwe, there are three main modes: "Edit 
 
 ### 3.1 Edit Mode
 
-Edit Mode allows users to edit the contents of the slide. This means that any MoLöwe Tool
-(e.g. Graphs, Maps, Range Sliders, Buttons, etc.) that the user wants to place into a slide can be done by entering the Edit Mode.
+Edit Mode allows users to edit the contents of the slide. This means that adding a [**MoLöwe Tool**](docs/moloewe-tools/00_overview.md)
+(e.g. Graphs, Maps, Range Sliders, Buttons, etc.) to a slide needs to be done by entering the Edit Mode.
 
 Details on how to access Edit Mode are presented in Section 4 of this page.
 
@@ -81,8 +81,8 @@ interact with MoLöwe in Presentation Mode.
 
 ## **4 Editing Slides (Edit Mode)**
 
-Edit Mode allows users to edit the contents of the slide. This means that any [**MoLöwe Tool**](docs/moloewe-tools/00_overview.md)
-(e.g. Graphs, Maps, Range Sliders, Buttons, etc.) that the user wants to place into a slide can be done by entering the Edit Mode.
+Edit Mode allows users to edit the contents of the slide. This means that adding a [**MoLöwe Tool**](docs/moloewe-tools/00_overview.md)
+(e.g. Graphs, Maps, Range Sliders, Buttons, etc.) to a slide needs to be done by entering the Edit Mode.
 
 To edit a slide (in this case "Slide 1"), click on the name of the slide.
 
@@ -123,7 +123,7 @@ Clicking on this icon opens an interface that allows users to select the graph t
 
 The required fields in this interface are **Tool Name** and **Get Function**.
 The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* is a function that is defined in the
-[Project Notebook](docs/working-with-notebooks/00_template_notebook.md). The Header and Footer text are optional.
+[Project Notebook](docs/project_notebook/setting_up_tools.md). The Header and Footer text are optional.
 
 :::note
 
@@ -167,7 +167,7 @@ appears when they hover over the container using their mouse.
 
 The required fields in this interface are **Tool Name**, **Get Function**, and **Set Function**.
 The *Tool Name* is a unique identifier for the tool, whereas the *Get Function* and the *Set Function* are
-functions that are defined in the [Project Notebook](docs/working-with-notebooks/00_template_notebook.md).
+functions that are defined in the [Project Notebook](docs/project_notebook/setting_up_tools.md).
 The Header, Footer, and Description texts are optional.
 
 :::note
