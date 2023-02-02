@@ -36,11 +36,11 @@ You can open JupyterHub [**here**](https://jupyter.leuphana.de/hub/login?next=%2
 Once you logged in to JupyterHub, please upload the Project Notebook by clicking the "Upload Files" button and choose
 the Project Notebook from your download folder.
 
-![](/img/doc/project_notebook_1.jpg)
+![](/img/doc/project_notebook_1_upload_notebook.jpg)
 
 Now open the Project Notebook by double-clicking on it in the left sidebar. The notebook will open in a new tab.
 
-![](/img/doc/project_notebook_2.png)
+![](/img/doc/project_notebook_2_access_notebook.png)
 
 ## **3 Structure of the Project Notebook**
 
@@ -79,7 +79,7 @@ In the cell "Import Modules", please add the following two lines:
 
 Like this:
 
-![](/img/doc/project_notebook_3.jpg)
+![](/img/doc/project_notebook_3_import_modules.jpg)
 
 ### 4.2 Access Tokens and API Keys
 
@@ -91,16 +91,41 @@ Please see the chapter on [**Maps**](docs/moloewe-tools/07_map.md).
 
 The cell "Global Variables, Constants, Settings" is different for every tool.
 Therefore, please refer to the specific
-[**tool code**](#5-tool-code) to find out what code you exactly need here.
+[**tool code**](#5-tool-codes) to find out what code you exactly need here.
 
 ### 4.4 Notebook Functions
 
 The cell "Notebook Functions" is different for every tool.
 Therefore, please refer to the specific
-[**tool code**](#5-tool-code) to find out what code you exactly need here.
+[**tool code**](#5-tool-codes) to find out what code you exactly need here.
 
-## **5 Tool Code**
+## **5 Tool Codes**
 
+### 5.1 General Code Structure
+
+Before you jump into the individual tool codes, you should familiarize yourself with their **general code structure**.
+
+**<u>Placement in tool classes</u>**
+
+The code of a tool needs to be placed in the cell that contains the respective **tool class**.
+
+**Example**:
+
+You would put the code for the **Switch Tool** in the cell *"Tool Switch"* beneath the line `class tool_switch`.
+The code for the **Dropdown Tool**, on the other hand, belongs in the cell *"Tool Dropdown"* beneath the line `class tool_dropdown`.
+
+Like this:
+
+![](/img/doc/project_notebook_4_classes.jpg)
+
+:::info Indentation
+Be aware that your tool code needs to be **indented**, it needs to be on the same "level" as line `pass`.
+You can add an indentation using the Tab key on your keyboard.
+
+![](/img/doc/project_notebook_5_indentation.jpg)
+
+<img src="/img/doc/project_notebook_6_tabkey.png" alt="tabkey" width="120"/>
+:::info
 Tools using the Project Notebook are defined as either a `get_` function or a pair of `get_` and `set_` functions.
 All the functions that belong to a category of tools are placed within a single dedicated Python `class`. Hence, a Python class
 is defined for each of the tool mentioned here. For instance, if one needs to create 2 different Plotly charts,
@@ -109,17 +134,17 @@ class named `tool_graph`.
 
 - siehe außerdem user examples
 
-### 5.1 Switch
+### 5.2 Switch
 
-### 5.2 Dropdown
+### 5.3 Dropdown
 
-### 5.3 Button
+### 5.4 Button
 
-### 5.4 Slider
+### 5.5 Slider
 
-### 5.5 Map
+### 5.6 Map
 
-### 5.6 Graph
+### 5.7 Graph
 
 ### ?
 
