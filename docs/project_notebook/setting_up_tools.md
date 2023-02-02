@@ -103,9 +103,10 @@ Therefore, please refer to the specific
 
 ### 5.1 General Code Structure
 
-Before you jump into the individual tool codes, you should familiarize yourself with their **general code structure**.
+Before you jump into the individual tool codes, you should familiarize yourself with the **general code structure**
+of MoLöwe tools described in this section.
 
-**<u>Placement in tool classes</u>**
+**<u>5.1.1 Where to place the tool codes </u>**
 
 The code of a tool needs to be placed in the cell that contains the respective **tool class**.
 
@@ -119,14 +120,48 @@ Like this:
 ![](/img/doc/project_notebook_4_classes.jpg)
 
 :::info Indentation
-Be aware that your tool code needs to be **indented**, it needs to be on the same "level" as line `pass`.
-You can add an indentation using the Tab key on your keyboard.
+Be aware that your tool code needs to be **indented**. It needs to be on the same "level" as the line `pass`.
+You can add an indentation with the Tab key on your keyboard.
 
 ![](/img/doc/project_notebook_5_indentation.jpg)
 
 <img src="/img/doc/project_notebook_6_tabkey.png" alt="tabkey" width="120"/>
 :::info
-Tools using the Project Notebook are defined as either a `get_` function or a pair of `get_` and `set_` functions.
+
+If you want to create a second tool of the same kind, e.g. a second switch, you can place the code for the second
+switch right after the code of the first one.
+
+**<u>5.1.2 The 'get' and 'set' function</u>**
+
+MoLöwe tool codes are formulated as so-called **functions**.
+
+Simply put, a function is a set of **instructions** that is executed when the function is called (i.e. when the tool is
+executed).
+There are two functions that we need to define for a MoLöwe Tool: the `get_` function and the `set_` function.
+
+
+**The `get_` function**
+
+In the `get_` function we define the **initial state** of a tool, meaning its default parameters.
+
+Example:
+In the `get_` function of the Dropdown Tool, you define which option of the dropdown list is selected by
+default when you open the slide. Also, you define which other options should appear in the dropdown list.
+
+
+**The `set_` function**
+
+:::note
+Naturally, some tools do not require both the `get_` and the `set_` function.
+
+The Graph tool, for example, only needs the `get_` function, containing the data you want to display in the graph.
+
+The Button tool, on the other hand, only needs the `set_` function, containing instructions on what to do when the button is pressed
+(i.e. when its function is called).
+
+:::note
+
+
 All the functions that belong to a category of tools are placed within a single dedicated Python `class`. Hence, a Python class
 is defined for each of the tool mentioned here. For instance, if one needs to create 2 different Plotly charts,
 they need to place two `get_` functions with unique names (eg. `get_first_chart` and `get_second_chart`) under a single
