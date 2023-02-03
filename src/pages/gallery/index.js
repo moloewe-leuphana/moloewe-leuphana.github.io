@@ -89,7 +89,7 @@ export default function Home() {
     <a className={styles.lightbox} href="#10">
        <img src='/img/gallery/10.JPG'/>
     </a>
-    <div className={styles.lightbox_target} id="1ß">
+    <div className={styles.lightbox_target} id="10">
        <img src='/img/gallery/10.JPG'/>
        <a className={styles.lightbox_close} href="#"></a>
     </div>
@@ -177,7 +177,7 @@ export default function Home() {
     <a className={styles.lightbox} href="#moloewe">
        <img src='/img/gallery/moloewe.JPG'/>
     </a>
-    <div className={styles.lightbox_target} id="moloewe">
+    <div className={styles.lightbox_target} id="moloewe_jpg">
        <img src='/img/gallery/moloewe.JPG'/>
        <a className={styles.lightbox_close} href="#"></a>
     </div>
