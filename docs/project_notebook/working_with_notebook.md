@@ -1,15 +1,110 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Setting up MoLöwe Tools
+# Working with the Project Notebook
 
-## **1 General Code Structure**
+Each MoLöwe project contains a [**Project Notebook**](../glossary.md#project-notebook). 
+Here you can set up some of the **MoLöwe tools** using Python programming.
+
+The required steps to achieve this are presented in this chapter.
+
+(Note: Some MoLöwe tools do not need to be set up in the Project Notebook, see the
+[**Tools Chapter**](docs/moloewe-tools/00_overview.md))
+
+:::note Python Experience
+Although you will set up MoLöwe tools using Python, programming experience with Python is **not** required.
+This chapter is set up for users with no Python experience.
+
+However, if you're experienced with Python and would like to explore more advanced applications,
+you can also check out the chapter for [**Advanced Users**](docs/project_notebook/setting_up_environment.md).
+:::note
+
+## **1 Acquiring the Project Notebook**
+
+When a new MoLöwe project is created, a Project Notebook is automatically generated (named "Template Notebook").
+Please go to your [**Project Page**](docs/user-interface.md#3-edit-mode) and download the Project Notebook from
+the Notebooks Subpage with the steps described [**here**](docs/edit-mode/02_notebooks.md#1-download-a-project-notebook).
+
+## **2 Accessing the Project Notebook**
+
+You can access the Project Notebook using **JupyterHub**.
+You have received a username and password for JupyterHub together with your MoLöwe user account.
+
+You can open JupyterHub [**here**](https://jupyter.leuphana.de/hub/login?next=%2Fhub%2F).
+
+Once you logged in to JupyterHub, please upload the Project Notebook by clicking the "Upload Files" button and choose
+the Project Notebook from your download folder.
+
+![](/img/doc/project_notebook_1_upload_notebook.jpg)
+
+Now open the Project Notebook by double-clicking on it in the left sidebar. The notebook will open in a new tab.
+
+![](/img/doc/project_notebook_2_access_notebook.png)
+
+## **3 Structure of the Project Notebook**
+
+In order to make the Python code easier to read, the Project Notebook is arranged into **cells**.
+Each cell fulfills a specific task in the notebook.
+
+For your purpose (setting up MoLöwe tools) only the following cells are relevant/need to be edited:
+
+**Preparatory code:**
+* Import modules
+* Access Tokens and API Keys
+* Global Variables, Constants, Settings
+* Notebook Functions
+
+**Tool Code:**
+* Tool Switch
+* Tool Dropdown
+* Tool Button
+* Tool Slider
+* Tool Map
+* Tool Graph
+
+The following two sections will explain how these cells need to be edited in order to set up MoLöwe tools.
+
+## **4 Preparatory code**
+
+In this section we will explain how the cells of the **preparatory** part of the Project Notebook need to be edited.
+
+### 4.1 Import Modules
+
+In the cell "Import Modules", please add the following two lines:
+
+`import geopandas as gpd`
+
+`import plotly.express as px`
+
+Like this:
+
+![](/img/doc/project_notebook_3_import_modules.jpg)
+
+### 4.2 Access Tokens and API Keys
+
+The cell "Access Tokens and API Keys" needs to be edited if you want to show a map using mapbox.
+
+Please see the chapter on [**Maps**](docs/moloewe-tools/07_map.md).
+
+### 4.3 Global Variables, Constants, Settings
+
+The cell "Global Variables, Constants, Settings" is different for every tool.
+Therefore, please refer to the specific
+[**tool code**](#5-tool-codes) to find out what code you exactly need here.
+
+### 4.4 Notebook Functions
+
+The cell "Notebook Functions" is different for every tool.
+Therefore, please refer to the specific
+[**tool code**](#5-tool-codes) to find out what code you exactly need here.
+
+## **5 Tool Codes: Code Structure**
 
 Before you jump into the individual tool codes, you should familiarize yourself with the **general code structure**
 of MoLöwe tools described in this section.
 
-### 1.1 Where to Place Tool Codes
+### 5.1 Where to Place Tool Codes
 
 The code of a tool needs to be placed in the cell that contains the respective **tool class**.
 
@@ -34,14 +129,14 @@ You can add an indentation with the Tab key on your keyboard.
 If you want to create a second tool of the same kind, e.g. a second switch, you can place the code for the second
 switch right after the code of the first one.
 
-### 1.2 The `get_` and `set_` Function
+### 5.2 The `get_` and `set_` Function
 
 MoLöwe tool codes are formulated as so-called **functions**.
 
 Simply put, a function is a set of **instructions** that is executed when the function is called.
 There are two functions that we need to define for a MoLöwe Tool: the `get_` function and the `set_` function.
 
-#### 1.2.1 The `get_` Function
+#### 5.2.1 The `get_` Function
 
 In the `get_` function, we define the **initial state** of a tool, meaning its default parameters.
 
@@ -50,7 +145,7 @@ In the `get_` function, we define the **initial state** of a tool, meaning its d
 In the `get_` function of the Dropdown Tool, you define which options should appear/are available
 in the dropdown list and, in addition, which option will be selected by **default** (i.e. when you open the slide)
 
-#### 1.2.2 The `set_` Function
+#### 5.2.2 The `set_` Function
 
 In the `set_` function, we define what happens when the tool **executed**.
 

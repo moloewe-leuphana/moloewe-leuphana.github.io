@@ -174,11 +174,11 @@ export default function Home() {
        <a className={styles.lightbox_close} href="#"></a>
     </div>
 
-    <a className={styles.lightbox} href="#moloewe">
-       <img src='/img/gallery/moloewe.JPG'/>
+    <a className={styles.lightbox} href="#moloewe_photo">
+       <img src='/img/gallery/moloewe.jpg'/>
     </a>
-    <div className={styles.lightbox_target} id="moloewe_jpg">
-       <img src='/img/gallery/moloewe.JPG'/>
+    <div className={styles.lightbox_target} id="moloewe_photo">
+       <img src='/img/gallery/moloewe.jpg'/>
        <a className={styles.lightbox_close} href="#"></a>
     </div>
 
