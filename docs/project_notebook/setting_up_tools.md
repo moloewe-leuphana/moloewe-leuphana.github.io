@@ -129,25 +129,24 @@ You can add an indentation with the Tab key on your keyboard.
 If you want to create a second tool of the same kind, e.g. a second switch, you can place the code for the second
 switch right after the code of the first one.
 
-### 5.2 The `get_` and `set_` function
+### 5.2 The `get_` and `set_` Function
 
 MoLöwe tool codes are formulated as so-called **functions**.
 
-Simply put, a function is a set of **instructions** that is executed when the function is called (i.e. when the tool is
-executed).
+Simply put, a function is a set of **instructions** that is executed when the function is called.
 There are two functions that we need to define for a MoLöwe Tool: the `get_` function and the `set_` function.
 
-#### 5.2.1 The `get_` function
+#### 5.2.1 The `get_` Function
 
 In the `get_` function, we define the **initial state** of a tool, meaning its default parameters.
 
 **Example:**
 
 In the `get_` function of the Dropdown Tool, you define which option of the dropdown list is selected by
-**default** when you open the slide. Also, you define which other options should appear/are available
+**default** (i.e. when you open the slide). Also, you define which other options should appear/are available
 in the dropdown list.
 
-#### 5.2.2 The `set_` function
+#### 5.2.2 The `set_` Function
 
 In the `set_` function, we define what happens when the tool **executed**.
 
@@ -156,6 +155,8 @@ This way, we can set up **interactions** between tools.
 
 **Example:**
 
+Using the `set_` function of a Button Tool, you can change the parameter displayed on the Y-Axis of a Graph Tool.
+
 ---
 :::note
 Naturally, some tools do **not** require both the `get_` and the `set_` function.
@@ -163,13 +164,16 @@ Naturally, some tools do **not** require both the `get_` and the `set_` function
 The Graph tool, for example, only needs the `get_` function, containing the data you want to display in the graph.
 
 The Button tool, on the other hand, only needs the `set_` function, containing instructions on what to do when the button is pressed
-(i.e. when its function is called).
+(i.e. when its `set_` function is called).
 
 :::note
 
-- siehe außerdem user examples
-
 ## **6 Tool Codes**
+
+Here we will present the **basic code** for each tool.
+You can copy this code into your Project Notebook and adjust it to your needs.
+
+Also, please see our **User Examples** in the left sidebar.
 
 ### 6.1 Switch
 
