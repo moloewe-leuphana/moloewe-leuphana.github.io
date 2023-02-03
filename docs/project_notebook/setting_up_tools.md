@@ -142,16 +142,15 @@ In the `get_` function, we define the **initial state** of a tool, meaning its d
 
 **Example:**
 
-In the `get_` function of the Dropdown Tool, you define which option of the dropdown list is selected by
-**default** (i.e. when you open the slide). Also, you define which other options should appear/are available
-in the dropdown list.
+In the `get_` function of the Dropdown Tool, you define which options should appear/are available
+in the dropdown list and, in addition, which option will be selected by **default** (i.e. when you open the slide)
 
 #### 5.2.2 The `set_` Function
 
 In the `set_` function, we define what happens when the tool **executed**.
 
 We can configure the `set_` function in such a way that it changes a parameter value of another tool.
-This way, we can set up **interactions** between tools.
+This is how we can set up **interactions** between tools.
 
 **Example:**
 
@@ -173,7 +172,7 @@ The Button tool, on the other hand, only needs the `set_` function, containing i
 Here we will present the **basic code** for each tool.
 You can copy this code into your Project Notebook and adjust it to your needs.
 
-Also, please see our **User Examples** in the left sidebar.
+Also, please see our **User Examples** (left sidebar).
 
 ### 6.1 Switch
 
