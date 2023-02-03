@@ -61,11 +61,11 @@ In this case, please follow chapter [**Setting up Tools**](docs/project_notebook
 
 **Otherwise, you can skip to the next step.**
 
-## <Highlight> ? Create Slides </Highlight>
+## <Highlight> 5 Create Slides & Screens </Highlight>
 
 Add Slide names to your storyboard
 
-## <Highlight> ? Start a Test Presentation </Highlight>
+## <Highlight> 6 Start a Test Presentation </Highlight>
 
 See the [**Presentation Mode chapter**](docs/edit-mode.md#4-presentation-mode).
 

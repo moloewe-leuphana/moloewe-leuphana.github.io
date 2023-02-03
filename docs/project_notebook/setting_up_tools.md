@@ -99,14 +99,12 @@ The cell "Notebook Functions" is different for every tool.
 Therefore, please refer to the specific
 [**tool code**](#5-tool-codes) to find out what code you exactly need here.
 
-## **5 Tool Codes**
-
-### 5.1 General Code Structure
+## **5 Tool Codes: Code Structure**
 
 Before you jump into the individual tool codes, you should familiarize yourself with the **general code structure**
 of MoLöwe tools described in this section.
 
-**<u>5.1.1 Where to place the tool codes </u>**
+### 5.1 Where to Place Tool Codes
 
 The code of a tool needs to be placed in the cell that contains the respective **tool class**.
 
@@ -131,7 +129,7 @@ You can add an indentation with the Tab key on your keyboard.
 If you want to create a second tool of the same kind, e.g. a second switch, you can place the code for the second
 switch right after the code of the first one.
 
-**<u>5.1.2 The 'get' and 'set' function</u>**
+### 5.2 The `get_` and `set_` function
 
 MoLöwe tool codes are formulated as so-called **functions**.
 
@@ -139,20 +137,28 @@ Simply put, a function is a set of **instructions** that is executed when the fu
 executed).
 There are two functions that we need to define for a MoLöwe Tool: the `get_` function and the `set_` function.
 
+#### 5.2.1 The `get_` function
 
-**The `get_` function**
+In the `get_` function, we define the **initial state** of a tool, meaning its default parameters.
 
-In the `get_` function we define the **initial state** of a tool, meaning its default parameters.
+**Example:**
 
-Example:
 In the `get_` function of the Dropdown Tool, you define which option of the dropdown list is selected by
-default when you open the slide. Also, you define which other options should appear in the dropdown list.
+**default** when you open the slide. Also, you define which other options should appear/are available
+in the dropdown list.
 
+#### 5.2.2 The `set_` function
 
-**The `set_` function**
+In the `set_` function, we define what happens when the tool **executed**.
 
+We can configure the `set_` function in such a way that it changes a parameter value of another tool.
+This way, we can set up **interactions** between tools.
+
+**Example:**
+
+---
 :::note
-Naturally, some tools do not require both the `get_` and the `set_` function.
+Naturally, some tools do **not** require both the `get_` and the `set_` function.
 
 The Graph tool, for example, only needs the `get_` function, containing the data you want to display in the graph.
 
@@ -161,25 +167,21 @@ The Button tool, on the other hand, only needs the `set_` function, containing i
 
 :::note
 
-
-All the functions that belong to a category of tools are placed within a single dedicated Python `class`. Hence, a Python class
-is defined for each of the tool mentioned here. For instance, if one needs to create 2 different Plotly charts,
-they need to place two `get_` functions with unique names (eg. `get_first_chart` and `get_second_chart`) under a single
-class named `tool_graph`.
-
 - siehe außerdem user examples
 
-### 5.2 Switch
+## **6 Tool Codes**
 
-### 5.3 Dropdown
+### 6.1 Switch
 
-### 5.4 Button
+### 6.2 Dropdown
 
-### 5.5 Slider
+### 6.3 Button
 
-### 5.6 Map
+### 6.4 Slider
 
-### 5.7 Graph
+### 6.5 Map
+
+### 6.6 Graph
 
 ### ?
 
