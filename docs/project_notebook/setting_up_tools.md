@@ -174,21 +174,27 @@ Also, please see our **User Examples** (left sidebar).
 
 ### 6.1 Switch
 
-All the Switch tools that needs to be defined for a presentation need to be placed under a single class named `tool_switch`.
+Place the code for the Switch tool in the cell that contains the class `tool_switch`.
 
-Each Switch tool is defined using a pair of `get_` and `set_` functions. It is recommended that the naming of the `get_` and `set_` functions is set in a consistent manner as shown in the example below.
+The Switch tool requires both a `get_` and a `set_` function.
 
-:::note Example Scenario
+#### 6.1.1 Example Scenario
 
-We need a Switch tool that allows users to select between two strings: "light" and "dark". The selected string is eventually used to change the color mode of a Map from Light Mode to Dark Mode and vice-versa.
+We need a Switch tool that allows users to select between two strings: "light" and "dark". The selected string is
+eventually used to change the color mode of a Map from Light Mode to Dark Mode and vice-versa.
 
-:::
+The code snippet below represents the entirety of code that needs to be written to create one Switch that allows
+users to select a value between `"light"` and `"dark"`.
 
-The code snippet below represents the entirety of code that needs to be written to create one Switch that allows users to select a value between `"light"` and `"dark"`.
+First, a global variable that stores a default value of the switch tool needs to be defined. In the example below,
+the global variable is named `current_map_style` and the "default" or "initial" value that it contains is 20.
+As such, `current_map_style = "light"` even when the user has not interacted with the switch tool at all.
 
-First, a global variable that stores a default value of the switch tool needs to be defined. In the example below, the global variable is named `current_map_style` and the "default" or "initial" value that it contains is 20. As such, `current_map_style = "light"` even when the user has not interacted with the switch tool at all.
-
-Second, under the class `tool_switch`, a pair of `get_` and `set_` functions are defined. The `get_` function is used to define the switch state based on the value stored in the global variable `current_map_style`. Whereas, the `set_` function is used by the system back-end to change value stored in the variable `current_map_style` when a user makes a selection using the switch. Note that the naming scheme between the `get_` and `set_` functions are consistent as they both have the exact same name except the `get_` and `set_` prefixes.
+Second, under the class `tool_switch`, a pair of `get_` and `set_` functions are defined. The `get_` function is used
+to define the switch state based on the value stored in the global variable `current_map_style`. Whereas, the `set_`
+function is used by the system back-end to change value stored in the variable `current_map_style` when a user makes
+a selection using the switch. Note that the naming scheme between the `get_` and `set_` functions are consistent as
+they both have the exact same name except the `get_` and `set_` prefixes.
 
 ```python
 global current_map_style
@@ -210,13 +216,19 @@ class tool_switch:
             current_map_style = "dark"
 ```
 
-The `get_change_map_style` function first calls the global variable `current_map_style`. This way, the value stored in the global variable can be changed from within the local scope of the function. Then, the function returns a boolean value either `True` or `False` based on the value currently stored in the global variable `current_map_style`.
+The `get_change_map_style` function first calls the global variable `current_map_style`. This way, the value stored in
+the global variable can be changed from within the local scope of the function. Then, the function returns a boolean
+value either `True` or `False` based on the value currently stored in the global variable `current_map_style`.
 
-The `set_change_map_style` is used by the MoLöwe back-end to pass the selection made by a user with the Switch tool. This function contains a keyword argument named `switch_state` which is used by the MoLöwe back-end change the value stored in the global variable `current_map_style` to a value that is different from the value initially stored in it before the switch was toggled by the user (as can be seen in the code within the function).
+The `set_change_map_style` is used by the MoLöwe back-end to pass the selection made by a user with the Switch tool.
+This function contains a keyword argument named `switch_state` which is used by the MoLöwe back-end change the value
+stored in the global variable `current_map_style` to a value that is different from the value initially stored in it
+before the switch was toggled by the user (as can be seen in the code within the function).
 
 Once the `get_` and `set_` functions have been defined, a Switch tool can be placed on a slide by opening the slide in Edit Mode.
 
-If another switch tool is required for the presentation, say one that lets users change line width of a different line in the plot, a new pair of get and set functions need to be defined under the class `tool_switch` as shown below:
+If another switch tool is required for the presentation, say one that lets users change line width of a different
+line in the plot, a new pair of get and set functions need to be defined under the class `tool_switch` as shown below:
 
 ```python
 global current_map_style
@@ -259,13 +271,346 @@ class tool_switch:
 
 ### 6.2 Dropdown
 
+Place the code for the Dropdown tool in the cell that contains the class `tool_dropdown`.
+
+The Dropdown tool requires both a `get_` and a `set_` function.
+
+#### 6.2.1 Example Scenario
+
+We need a Dropdown tool that allows users to select a value of 10, 20, or 30 during a presentation. The selected
+values will be used to set the font size of a chart.
+
+
+The code snippet below represents the entirety of code that needs to be written to create one dropdown menu that allows
+users to select a value from a set of three values (10, 20, and 30 in this example).
+
+First, a global variable that stores a default value of the dropdown tool needs to be defined. In the example below,
+the global variable is named `font_size` and the "default" or "initial" value that it contains is 20. As such,
+`font_size = 20` even when the user has not interacted with the dropdown tool at all.
+
+Second, under the class `tool_dropdown`, a pair of `get_` and `set_` functions are defined. The `get_` function is
+used to define the dropdown list options that are to be presented to the user when the user interacts with the
+dropdown tool during a presentation. Whereas, the `set_` function is used by the system back-end to change value
+stored in the variable `font_size` when a user makes a selection from the dropdown list. Note that the naming scheme
+between the `get_` and `set_` functions are consistent as they both have the exact same name except the `get_` and `set_` prefixes.
+
+```python
+global font_size
+font_size = 20
+
+class tool_dropdown:
+    def get_plot_font_size(self):
+        global font_size
+        return {
+            "values": [10, 20, 30],
+            "default": font_size
+        }
+
+    def set_plot_font_size(self, dropbox_selection):
+        global font_size
+        font_size = dropbox_selection
+```
+
+The `get_plot_font_size` function first calls the global variable `font_size`. This way, the value stored in the
+global variable can be changed from within the local scope of the function. Then, the function returns a dictionary
+with two key-value pairs. The first item is a key named `values` which is mapped to a list of values that form the
+options presented to the users during a presentation. The second item is a key named `default` which contains the
+global variable as its value.
+
+The `set_plot_font_size` is used by the MoLöwe back-end to pass the selection made by a user with the dropdown tool.
+This function contains a keyword argument named `dropdown_selection` which is used by the MoLöwe back-end change the
+value stored in the global variable `font_size` (as can be seen in the code within the function).
+
+Once the `get_` and `set_` functions have been defined, a dropdown tool can be placed on a slide by opening the slide
+in Edit Mode.
+
+If another dropdown tool is required for the presentation, say one that lets users select from different cities in
+Germany, a new pair of get and set functions need to be defined under the class `tool_dropdown` as shown below:
+
+```python
+global font_size
+font_size = 20
+
+global german_city
+german_city = "Berlin"
+
+class tool_dropdown:
+    def get_plot_font_size(self):
+        global font_size
+        return {
+            "values": [10, 20, 30],
+            "default": font_size
+        }
+
+    def set_plot_font_size(self, dropbox_selection):
+        global font_size
+        font_size = dropbox_selection
+
+    def get_german_city(self):
+        global german_city
+        return {
+            "values": ["Berlin", "Munich", "Lüneburg", "Kiel"],
+            "default": german_city
+        }
+    def set_german_city(self, dropbox_selection):
+        global german_city
+        german_city = dropbox_selection
+```
+
 ### 6.3 Button
+
+Place the code for the Button tool in the cell that contains the class `tool_button`.
+
+The Button tool requires only a `set_` function.
+
+#### 6.3.1 Example Scenario
+
+An example function that needs to be defined in order to use this feature is presented below (along with the class definition).
+In this example, the variable whose value is being changed is `stored_value` which has `0` as its initial value.
+Likewise, the function `set_to_one()` is executed when the button is pressed (while at Presentation or Controller Mode)
+to change the value stored in `stored_value` from `0` to `1`.
+
+```python
+global stored_value
+stored_value = 0
+
+class tool_button:
+    def set_to_one(self):
+        global stored_value
+        stored_value = 1
+
+```
 
 ### 6.4 Slider
 
-### 6.5 Map
+Place the code for the Slider tool in the cell that contains the class `tool_slider`.
 
-### 6.6 Graph
+The Slider tool requires both a `get_` and a `set_` function.
+
+#### 6.4.1 Example Scenario
+
+We need a Slider tool that allows users to select a value between 1 and 20. Additionally, only integer values are allowed.
+The selected values will be used to set the line width of a chart.
+
+The code snippet below represents the entirety of code that needs to be written to create one Slider that allows users
+to select a value from a range between 1 and 20.
+
+First, a global variable that stores a default value of the slider tool needs to be defined. In the example below,
+the global variable is named `line_width_1` and the "default" or "initial" value that it contains is 20.
+As such, `line_width_1 = 1` even when the user has not interacted with the slider tool at all.
+
+Second, under the class `tool_slider`, a pair of `get_` and `set_` functions are defined. The `get_` function is used
+to define the slider options (minimum value, maximum value, and the step by which the value changes when user moves
+the slider left or right) that are to be presented to the user when the user interacts with the Slider tool during a
+presentation. Whereas, the `set_` function is used by the system back-end to change value stored in the variable
+`line_width_1` when a user makes a selection using the slider. Note that the naming scheme between the `get_` and
+`set_` functions are consistent as they both have the exact same name except the `get_` and `set_` prefixes.
+
+
+```python
+global line_width_1
+line_width_1 = 1
+
+class tool_slider:
+    def get_plot_line_width_1(self):
+        global line_width_1
+        return {
+            "Minimum": 1,
+            "Maximum": 20,
+            "Step": 1,
+            "Default": line_width_1
+        }
+
+    def set_plot_line_width_1(self, slider_selection):
+        global line_width_1
+        line_width_1 = float(slider_selection)
+```
+
+The `get_plot_line_width_1` function first calls the global variable `line_width_1`.
+This way, the value stored in the global variable can be changed from within the local scope of the function.
+Then, the function returns a dictionary with four key-value pairs as follows.
+The first item in the dictionary is a key named `Minimum`, with the value mapped to it signifying the lowest value
+that can be set using the slider. Likewise, the second item in the dictionary is a key named `Maximum`,
+with the value mapped to it signifying the highest value that can be set using the slider.
+The third item in the dictionary is a key named `Step`, which contains the value by which the number is
+incremented when the slider is moved for just one step. The final item in the dictionary is a key named
+`Default` which signifies the default value of the Slider tool when the tool has not been interacted with.
+The value mapped to this key is the global variable `line_width_1`.
+
+The `set_plot_line_width_1` is used by the MoLöwe back-end to pass the selection made by a user with the Slider tool.
+This function contains a keyword argument named `slider_selection` which is used by the MoLöwe back-end change the
+value stored in the global variable `line_width_1` (as can be seen in the code within the function).
+
+Once the `get_` and `set_` functions have been defined, a Slider tool can be placed on a slide by opening the slide in Edit Mode.
+
+If another slider tool is required for the presentation, say one that lets users change line width of a different line
+in the plot, a new pair of get and set functions need to be defined under the class `tool_slider` as shown below:
+
+```python
+global line_width_1
+line_width_1 = 1
+
+global line_width_2
+line_width_2 = 7
+
+class tool_slider:
+
+    # first line
+    def get_plot_line_width_1(self):
+        global line_width_1
+        return {
+            "Minimum": 1,
+            "Maximum": 20,
+            "Step": 1,       # value increments by +/- 1
+            "Default": line_width_1
+        }
+
+    def set_plot_line_width_1(self, slider_selection):
+        global line_width_1
+        line_width_1 = float(slider_selection)
+
+    # second line
+    def get_plot_line_width_2(self):
+        global line_width_2
+        return {
+            "Minimum": 5,
+            "Maximum": 15,
+            "Step": 1.5,     # value increments by +/- 1.5
+            "Default": line_width_2
+        }
+
+    def set_plot_line_width_2(self, slider_selection):
+        global line_width_2
+        line_width_2 = float(slider_selection)
+```
+
+### 6.5 Graph
+
+Place the code for the Graph tool in the cell that contains the class `tool_graph`.
+
+The Graph tool only requires a `get_` function.
+
+#### 6.5.1 Loading Data from Files or URLs
+
+Users can upload data files to MoLöwe and load the data so that they can use it for a graph or a map.
+
+#### 6.5.2 Loading Data from a File
+
+The following example shows how to load data from a file named `diabetes.csv`:
+
+```python
+
+class tool_graph:
+    
+    def get_some_chart(self):
+
+        # Load data from a file
+        global data
+        diabetes = pd.read_csv(data + "diabetes.csv")
+
+        #                            #
+        # rest of the code goes here #
+        #                            #
+
+        return fig.to_dict()
+```
+
+The project path defined in the beginning of the Project Notebook (more [**here**](docs/05-working-with-notebooks/00_template_notebook.md#21-mandatory-section)) allows loading the data using the relative path. The relative path is stored in a global variable named `data`. The user does not have to know that is stored in `data`; as long as a user knows the file name of a data file, they can load the data by simply using the relative path to the file that is created by concatenating the string of the file name to the `data` variable.
+
+#### 6.5.3 Loading Data from URL
+
+The following example shows how to load data from a file named `diabetes.csv`:
+
+```python
+
+class tool_graph:
+    
+    def get_some_other_chart(self):
+
+        # Load data from a URL
+        diabetes = pd.read_csv("https://www.<link>.com/to/data/file.csv")
+
+        #                            #
+        # rest of the code goes here #
+        #                            #
+
+        return fig.to_dict()
+```
+
+As you can see, loading data from a URL quite straightforward. 
+
+#### 6.5.4 Example Scenario
+
+```python
+class tool_graph:
+    
+    def get_plotly_font_lwd_test_chart(self):
+
+        global line_width_1  # input from Slider Tool
+        global line_width_2  # input from Slider Tool
+        global font_size     # input from Dropdown Tool
+
+        fig = go.Figure()
+
+        # 1.  Make the two line plots
+        # Trace 1
+        fig.add_trace(go.Scatter(
+            x=[0, 1, 2, 3, 4, 5, 6, 7, 8],
+            y=[0, 1, 2, 3, 4, 5, 6, 7, 8],
+            name="Line 1",
+            mode="lines",
+            line=dict(width=line_width_1)
+        ))
+        # Trace 2
+        fig.add_trace(go.Scatter(
+            x=[0, 1, 2, 3, 4, 5, 6, 7, 8],
+            y=[1, 0, 3, 2, 5, 4, 7, 6, 8],
+            name="Line 2",
+            mode="lines+markers",
+            line=dict(width=line_width_2) # Line width
+            
+        ))
+
+        # 2. Add text related settings
+        fig.update_layout(
+            title="Plot Title (default: {})".format(font_size),
+            xaxis=dict(title="X-axis title", automargin=True),
+            yaxis=dict(title="Y-axis title", automargin=True),
+        )
+        
+        # 3. Update plotly template and margin sizes
+        fig.update_layout(
+            template="plotly_white",
+            margin=go.layout.Margin(l=100, r=0, b=100, t=font_size*2.5, pad=0),
+        )
+        
+        # 4. Font size
+        fig.update_layout(font=go.layout.Font(size=font_size))
+
+        return fig.to_dict()
+```
+
+The `get_plotly_font_lwd_test_chart` function contains code that is used to create Plotly charts.
+This example chart (which is a line chart) displays two lines. Additionally, this code also takes input from other
+interactive tools such as Slider Tool (in case of `line_width_1` and `line_width_2`) and Dropdown Tool (in case of `font_size`).
+Depending on the values selected using the different interactive tools, the looks of the graph
+(the data and the graph properties) can be changed.
+
+The global variables called within the function allows access to the values stored in the different variables that
+correspond to the different MoLöwe tools.
+
+Please note the following:
+
+- the name of the function must start with `get_` and end with `_chart`
+- the function must return a dictionary of the figure (`fig.to_dict()`)
+
+Users are referred to the official Plotly documentations for information on how to create [Plotly charts](https://plotly.com/python/).
+
+### 6.6 Map
+
+The maps created using the Map tool are essentially Plotly charts. As a result, many aspects of the way the map tool is
+defined and used bear resemblance to the Graph Tool.
+Hence, readers are advised to read the documentation on the Graph Tool to learn about the Map Tool.
 
 ### ?
 

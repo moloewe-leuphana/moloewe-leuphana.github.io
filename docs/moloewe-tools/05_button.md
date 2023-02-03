@@ -24,7 +24,8 @@ This will place a container for the Button Tool onto the slide.
 
 ![](/img/doc/38_tool_field.jpg)
 
-When a user hovers over this container, they will be presented with a gear icon (on the top right of the container) that they can click on.
+When a user hovers over this container, they will be presented with a gear icon (on the top right of the container)
+that they can click on.
 
 ![](/img/doc/39_hover_tool_container.jpg)
 
@@ -69,7 +70,8 @@ Optionally, the user can also set a Header and a Footer Text for the button tool
 
 Finally, the user can click on the save button in order to create the tool with the correct settings.
 
-Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool) the tool as they desire.
+Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool)
+the tool as they desire.
 
 The final result is a button with the selected action placed on a slide as shown in the example below.
 Do note that this slide is currently in Edit Mode. The rectangular box around the button does not appear when the slide
@@ -95,7 +97,8 @@ Optionally, the user can also set a Header and a Footer Text for the button tool
 
 Finally, the user can click on the save button in order to create the tool with the correct settings.
 
-Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool) the tool as they desire.
+Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool)
+the tool as they desire.
 
 The final result is a button with the selected action placed on a slide. 
 
@@ -103,28 +106,9 @@ Do note that when the slide is in Edit Mode, a rectangular box appears around th
 
 ### Change value of a variable
 
-With this feature, a button that can be used to change a value stored in a variable in the Project Notebook. As such, operating this tool requires that a function is defined in the Project Notebook that allows an interaction between the variable defined in the Project Notebook and the button tool to take place.
-
-#### On Project Notebook
-
-All the functions that correspond to this feature of the button need to be placed under a single class named `tool_button`.
-The functions are executed when users press a corresponding button while in Presentation Mode or Controller Mode.
-
-An example function that needs to be defined in order to use this feature is presented below (along with the class definition).
-In this example, the variable whose value is being changed is `stored_value` which has `0` as its initial value.
-Likewise, the function `set_to_one()` is executed when the button is pressed (while at Presentation or Controller Mode)
-to change the value stored in `stored_value` from `0` to `1`.
-
-```python
-global stored_value
-stored_value = 0
-
-class tool_button:
-    def set_to_one(self):
-        global stored_value
-        stored_value = 1
-
-```
+With this feature, a button that can be used to change a value stored in a variable in the Project Notebook.
+As such, operating this tool requires that a function is defined in the Project Notebook that allows an interaction
+between the variable defined in the Project Notebook and the button tool to take place.
 
 #### Using the Edit Mode on the Front-End
 
