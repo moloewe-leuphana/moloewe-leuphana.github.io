@@ -77,6 +77,10 @@ In the cell "Import Modules", please add the following two lines:
 
 `import plotly.express as px`
 
+`from moloewe_chart import MoloeweChart`
+
+`my_chart = MoloeweChart()`
+
 Like this:
 
 ![](/img/doc/project_notebook_3_import_modules.jpg)
@@ -132,6 +136,7 @@ switch right after the code of the first one.
 MoLöwe tool codes are formulated as so-called **functions**.
 
 Simply put, a function is a set of **instructions** that is executed when the function is called.
+
 There are two functions that we need to define for a MoLöwe Tool: the `get_` function and the `set_` function.
 
 #### 5.2.1 The `get_` Function
@@ -174,104 +179,28 @@ Also, please see our **User Examples** (left sidebar).
 
 ### 6.1 Switch
 
-Place the code for the Switch tool in the cell that contains the class `tool_switch`.
+The purpose of the Switch Tool is to change the value of a variable (i.e. parameter) from one to another.
 
-The Switch tool requires both a `get_` and a `set_` function.
+For that, you first need to define the variable that you want to change with the Switch Tool in the cell
+*"Global Variables, Constants, Settings"*.
 
-#### 6.1.1 Example Scenario
+In this example, we have named the variable "switch_value" and given it the value "0".
 
-We need a Switch tool that allows users to select between two strings: "light" and "dark". The selected string is
-eventually used to change the color mode of a Map from Light Mode to Dark Mode and vice-versa.
+![](/img/doc/project_notebook_6_switch_1.jpg)
 
-The code snippet below represents the entirety of code that needs to be written to create one Switch that allows
-users to select a value between `"light"` and `"dark"`.
+Now you need to define both a `get_` and a `set_` function. 
 
-First, a global variable that stores a default value of the switch tool needs to be defined. In the example below,
-the global variable is named `current_map_style` and the "default" or "initial" value that it contains is 20.
-As such, `current_map_style = "light"` even when the user has not interacted with the switch tool at all.
+In this example,...
 
-Second, under the class `tool_switch`, a pair of `get_` and `set_` functions are defined. The `get_` function is used
-to define the switch state based on the value stored in the global variable `current_map_style`. Whereas, the `set_`
-function is used by the system back-end to change value stored in the variable `current_map_style` when a user makes
-a selection using the switch. Note that the naming scheme between the `get_` and `set_` functions are consistent as
-they both have the exact same name except the `get_` and `set_` prefixes.
+Place the code in the cell *"Tool Switch"* beneath the line `class tool_switch`.
 
-```python
-global current_map_style
-current_map_style = "light"
+![](/img/doc/project_notebook_6_switch_2.png)
 
-class tool_switch:
-    def get_change_map_style(self):
-        global current_map_style
-        if current_map_style == "light":
-            return True
-        else:
-            return False
-
-    def set_change_map_style(self, switch_state):
-        global current_map_style
-        if switch_state:
-            current_map_style = "light"
-        else:
-            current_map_style = "dark"
-```
-
-The `get_change_map_style` function first calls the global variable `current_map_style`. This way, the value stored in
-the global variable can be changed from within the local scope of the function. Then, the function returns a boolean
-value either `True` or `False` based on the value currently stored in the global variable `current_map_style`.
-
-The `set_change_map_style` is used by the MoLöwe back-end to pass the selection made by a user with the Switch tool.
-This function contains a keyword argument named `switch_state` which is used by the MoLöwe back-end change the value
-stored in the global variable `current_map_style` to a value that is different from the value initially stored in it
-before the switch was toggled by the user (as can be seen in the code within the function).
-
-Once the `get_` and `set_` functions have been defined, a Switch tool can be placed on a slide by opening the slide in Edit Mode.
-
-If another switch tool is required for the presentation, say one that lets users change line width of a different
-line in the plot, a new pair of get and set functions need to be defined under the class `tool_switch` as shown below:
-
-```python
-global current_map_style
-current_map_style = "light"
-
-global current_bulb_state
-current_bulb_state = 0
-
-class tool_switch:
-    # first switch
-    def get_change_map_style(self):
-        global current_map_style
-        if current_map_style == "light":
-            return True
-        else:
-            return False
-
-    def set_change_map_style(self, switch_state):
-        global current_map_style
-        if switch_state:
-            current_map_style = "light"
-        else:
-            current_map_style = "dark"
-
-    # second switch
-    def get_change_bulb_state(self):
-        global current_bulb_state
-        if current_bulb_state == 0:
-            return True
-        else:
-            return False
-    
-    def set_change_map_style(self, switch_state):
-        global current_bulb_state
-        if switch_state:
-            current_bulb_state = 0
-        else:
-            current_bulb_state = 1
-```
+See another example for the Switch Tool in the User Examples Chapter [**here**](docs/moloewe-tools/07_map.md).
 
 ### 6.2 Dropdown
 
-Place the code for the Dropdown tool in the cell that contains the class `tool_dropdown`.
+Place the code for the Dropdown tool in the cell *"Tool Dropdown"* beneath the line `class tool_dropdown`.
 
 The Dropdown tool requires both a `get_` and a `set_` function.
 
@@ -359,7 +288,7 @@ class tool_dropdown:
 
 ### 6.3 Button
 
-Place the code for the Button tool in the cell that contains the class `tool_button`.
+Place the code for the Button tool in the cell *"Tool Button"* beneath the line `class tool_button`.
 
 The Button tool requires only a `set_` function.
 
@@ -383,7 +312,7 @@ class tool_button:
 
 ### 6.4 Slider
 
-Place the code for the Slider tool in the cell that contains the class `tool_slider`.
+Place the code for the Slider tool in the cell *"Tool Slider"* beneath the line `class tool_slider`.
 
 The Slider tool requires both a `get_` and a `set_` function.
 
@@ -486,7 +415,7 @@ class tool_slider:
 
 ### 6.5 Graph
 
-Place the code for the Graph tool in the cell that contains the class `tool_graph`.
+Place the code for the Graph tool in the cell *"Tool Graph"* beneath the line `class tool_graph`.
 
 The Graph tool only requires a `get_` function.
 
@@ -608,6 +537,10 @@ Users are referred to the official Plotly documentations for information on how 
 
 ### 6.6 Map
 
+Place the code for the Map tool in the cell *"Tool Map"* beneath the line `class tool_map`.
+
+The Graph tool only requires a `get_` function.
+
 The maps created using the Map tool are essentially Plotly charts. As a result, many aspects of the way the map tool is
 defined and used bear resemblance to the Graph Tool.
 Hence, readers are advised to read the documentation on the Graph Tool to learn about the Map Tool.
@@ -625,8 +558,11 @@ Hence, readers are advised to read the documentation on the Graph Tool to learn 
 | `.html` or `.HTML`                | `/text`           | HTML file            |
 | `.shp`, `.shx`, `.prj` and `.dbf` | `/data`           | Shapefile extensions |
 
+## **7 Downloading the Project Notebook**
 
-## **4 Uploading the Project Notebook to MoLöwe**
+rename notebook to name with lower case
+
+## **8 Uploading the Project Notebook to MoLöwe**
 
 Below are the files that can be uploaded and the directories in the project that they will be placed in.
 

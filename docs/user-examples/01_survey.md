@@ -1,4 +1,4 @@
-# 📝 Create a Survey
+# Create a Survey
 
 There are many cases where opinions or polls from the audience are needed. This section provides you with one approach using the Switch Tool.
 

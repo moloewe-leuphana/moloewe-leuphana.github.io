@@ -1,4 +1,4 @@
-# 📈 House Data Visualization
+# House Data Visualization
 
 Prerequisite: You need to install our `moloewe_chart` package from `moloewe_chart.zip`.
 

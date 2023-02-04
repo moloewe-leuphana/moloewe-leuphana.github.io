@@ -1,4 +1,4 @@
-# 🗺️ Maps
+# Maps
 
 ## **1 Required Skills & Software**
 
@@ -8,20 +8,20 @@
 
 ## **2 How to start**
 
-There are two ways to incorporate a map in MoLöwe: [**Here's a simple flowchart**](https://miro.com/app/board/uXjVPfd4oZ8=/?share_link_id=811493081374)
+There are two ways to incorporate a map in MoLöwe.
 
-If your gis file (e.g. shapefile) is…
+If your GIS file (e.g. shapefile) is…
 - **smaller** than 45 Mb: use Mapbox
-- **bigger** than 45 Mb: create a map locally in a GIS and load it as an image file (either from the MoLöwe-Server or from Git-repo) into MoLöwe
+- **bigger** than 45 Mb: create a map locally in a GIS and load it as an image file (either from the MoLöwe-Server or
+from Git-repo) into MoLöwe
 
-
-In the following, the two ways are presented in detail. Example maps, their data and python codes are given. The examples are intended to give you a glimpse into what’s possible with maps in the MoLöwe.
 
 ---
 
 :::tip Before you start
 
-You can copy/paste the given python codes in your notebook and adjust them to your needs. However, you must import the following modules in your notebook first:
+You can copy/paste the given python codes in your notebook and adjust them to your needs. However,
+you must import the following modules in your notebook first:
 
 ```python
 import pandas as pd
@@ -50,7 +50,7 @@ All GIS processing and plotting is happening “from scratch” each time you ac
 - wide range of basemaps to ease orientation
 
 #### Cons
-- difficulties loading larger (?mb) file sizes
+- difficulties loading larger file sizes
 - plotting time depends on amount of data points: plotting large amount of data points will take a while
 
 ---
@@ -526,28 +526,3 @@ def get_trees_buffer_map(self):
         
 setattr(tool_map, "get_trees_buffer_map", get_trees_buffer_map)
 ```
-
----
-
-## **4 Creating Map/s Locally**
-
-**Pros**
-
-- 
-
-**Cons**
-
-- 
-
-**Loading your Map/s into MoLöwe**
-
-**Two Options:**
-
-- If you want to show only 1 map or switch between less than 5 Maps: **Load Map/s from MoLöwe-Server**
-- If you have more than 5 maps that you want to switch between: **Load Map from Git-Repo**
-    - the import on the MoLöwe-Server would be very time-consuming otherwise
-
-### 4.1 Load Map/s from MoLöwe-Server
-
-
-### 4.2 Load Map/s from Git-Repo
