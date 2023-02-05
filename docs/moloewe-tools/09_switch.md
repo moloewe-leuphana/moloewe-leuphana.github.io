@@ -5,12 +5,12 @@ from one to another.
 
 The Switch tool requires definition of a function on the Project Notebook.
 
-## **Placing a Switch Tool on a Slide (Edit Mode)**
-
-To place a Switch Tool on a Slide, first define the Switch Tool on the Project Notebook and upload the notebook to MoLöwe.
 See [**here**](docs/project_notebook/setting_up_tools.md) on how to set up the Switch Tool in the Project
 Notebook.
 
+## **Placing a Switch Tool on a Slide (Edit Mode)**
+
+To place a Switch Tool on a Slide, first define the Switch Tool on the Project Notebook and upload the notebook to MoLöwe.
 
 Then, open the slide in which the Switch Tool needs to be placed in Edit Mode.
 

@@ -5,6 +5,9 @@ Additionally, it supports input from other tools such as Dropdown Tool and Slide
 
 The Graph tool requires definition of a function on the Project Notebook.
 
+See [**here**](docs/project_notebook/setting_up_tools.md) on how to set up the Graph Tool in the Project
+Notebook.
+
 ## **Placing Graph on a Slide (Edit Mode)**
 
 To place a Graph Tool on a Slide, first define the Graph Tool on the Project Notebook and upload the notebook to MoLöwe.
@@ -52,14 +55,17 @@ In case of this example, the resized chart that has been placed in the slide loo
 
 ## **Viewing a Graph during Presentation**
 
-During presentation (i.e. while at Presentation Mode or Controller Mode), users can view the Graph tool that was defined in the Edit Mode using the steps described above.
+During presentation (i.e. while at Presentation Mode or Controller Mode), users can view the Graph tool that was defined
+in the Edit Mode using the steps described above.
 
 ## **Combining Graphs with Other Tools**
 
-A graph defined using the Graph tool can be manipulated by using other MoLöwe tools that allow users to select/change values (eg. Dropdown tool). The general order of operation to achieve this is as follows:
+A graph defined using the Graph tool can be manipulated by using other MoLöwe tools that allow users to select/change
+values (eg. Dropdown tool). The general order of operation to achieve this is as follows:
 
 1. Define all the interactive tools necessary in the Project Notebook.
-2. Define the Graph in the Project Notebook as described above. The global variables that correspond to the different interactive tools from Step 1 also need to be called within this function in order for them to be used.
+2. Define the Graph in the Project Notebook as described above. The global variables that correspond to the different
+interactive tools from Step 1 also need to be called within this function in order for them to be used.
 3. Place the different interactive tools on a slide in Edit Mode.
 4. Place the Graph Tool on a slide in Edit Mode.
 5. Resize and/or reposition the tools as necessary.

@@ -35,14 +35,18 @@ Clicking on this icon opens an interface that allows users to select the Image t
 
 ![](/img/doc/66_image_1.jpg)
 
-The required fields in this interface are **Tool Name** and **Select Image**. The *Tool Name* is a unique identifier for the tool, whereas the *Select Image* is a list of images that the users can select from. The Header and Footer text are optional.
+The required fields in this interface are **Tool Name** and **Select Image**. The *Tool Name* is a unique identifier for
+the tool, whereas the *Select Image* is a list of images that the users can select from. The Header and Footer text are optional.
 
 Once the tool name has been defined and an image has been selected, users are taken back to the slide in Edit Mode.
 
-Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool) the tool as they desire.
+Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool)
+the tool as they desire.
 
-Do note that when the slide is in Edit Mode, a rectangular box appears around the tool. This box does not appear around the tool when the slide is viewed in Presentation or Controller Modes.
+Do note that when the slide is in Edit Mode, a rectangular box appears around the tool. This box does not appear around the
+tool when the slide is viewed in Presentation or Controller Modes.
 
 ## **Viewing an Image during Presentation**
 
-During presentation (i.e. while at Presentation Mode or Controller Mode), users can view the Image tool that was defined in the Edit Mode using the steps described above.
+During presentation (i.e. while at Presentation Mode or Controller Mode), users can view the Image tool that was defined
+in the Edit Mode using the steps described above.

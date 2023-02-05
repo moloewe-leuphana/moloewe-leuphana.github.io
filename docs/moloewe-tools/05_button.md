@@ -9,6 +9,9 @@ The Button tool is used to interact with the presentation and allows users to pe
 The first two features of the Button tool do not require any definition in the Project Notebook.
 For the third feature (changing the value of a variable), a function needs to be defined in the Project Notebook.
 
+See [**here**](docs/project_notebook/setting_up_tools.md) on how to set up the Button Tool in the Project
+Notebook.
+
 ## **Place Button on a Slide**
 
 In order to put a button on a slide, follow the following steps:
@@ -102,7 +105,8 @@ the tool as they desire.
 
 The final result is a button with the selected action placed on a slide. 
 
-Do note that when the slide is in Edit Mode, a rectangular box appears around the button. This box does not appear around the button when the slide is viewed in Presentation or Controller Modes.
+Do note that when the slide is in Edit Mode, a rectangular box appears around the button. This box does not appear around
+the button when the slide is viewed in Presentation or Controller Modes.
 
 ### Change value of a variable
 
@@ -115,7 +119,8 @@ between the variable defined in the Project Notebook and the button tool to take
 Provided that a function has been defined in the Project Notebook as shown above, the button feature can be activated
 in the Edit Mode by selecting "Change value of variable" from the "Choose option" dropdown menu.
 When a user clicks on this option, they will be presented with an additional dropdown menu called "Set Function"
-where the user can select a tool that has already been placed on the current slide (in this example, the `set_to_one` function will be presented).
+where the user can select a tool that has already been placed on the current slide (in this example, the `set_to_one`
+function will be presented).
 
 ![](/img/doc/61_button_feature_3_1.jpg)
 
@@ -125,7 +130,8 @@ Optionally, the user can also set a Header and a Footer Text for the button tool
 
 Finally, the user can click on the save button in order to create the tool with the correct settings.
 
-Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool) the tool as they desire.
+Following this, the user can [**resize**](00_overview.md#resize-a-tool) or [**reposition**](00_overview.md#reposition-a-tool)
+the tool as they desire.
 
 The final result is a button with the selected action placed on a slide. Do note that when the slide is in Edit Mode,
 a rectangular box appears around the button. This box does not appear around the button when the slide is viewed in
@@ -134,4 +140,5 @@ Presentation or Controller Modes.
 ## **Using Features of a Button (Presentation Mode)**
 
 While viewing a slide that contains a Button Tool on Presentation Mode, users can interact with the button by
-clicking it with their mouse pointer (if using a desktop computer with a mouse) or by pressing on it (if using a touchscreen display device).
+clicking it with their mouse pointer (if using a desktop computer with a mouse) or by pressing on it (if using a touchscreen
+display device).

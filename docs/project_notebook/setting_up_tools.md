@@ -73,13 +73,12 @@ In this section we will explain how the cells of the **preparatory** part of the
 
 In the cell "Import Modules", please add the following two lines:
 
-`import geopandas as gpd`
-
-`import plotly.express as px`
-
-`from moloewe_chart import MoloeweChart`
-
-`my_chart = MoloeweChart()`
+```python
+import geopandas as gpd
+import plotly.express as px
+from moloewe_chart import MoloeweChart
+my_chart = MoloeweChart()
+```
 
 Like this:
 
@@ -181,22 +180,74 @@ Also, please see our **User Examples** (left sidebar).
 
 The purpose of the Switch Tool is to change the value of a variable (i.e. parameter) from one to another.
 
-For that, you first need to define the variable that you want to change with the Switch Tool in the cell
+#### 6.1.1 Global Variables, Constants, Settings
+
+First, you need to define the variable that you want to change with the Switch Tool in the cell
 *"Global Variables, Constants, Settings"*.
 
 In this example, we have named the variable "switch_value" and given it the value "0".
 
-![](/img/doc/project_notebook_6_switch_1.jpg)
+![](/img/doc/project_notebook_6_switch_1_variable.jpg)
 
-Now you need to define both a `get_` and a `set_` function. 
+#### 6.1.2 `get_` and a `set_` Function
 
-In this example,...
+Now you need to define a `get_` and a `set_` function.
+
+The `get_` function of the Switch Tool defines if the default mode of the Switch should be "turned on" or "turned off".
+If we want to translate that to Python, we need to define the Switch as "True" (for "turned on") or "False" (for "turned off").
+
+To this end, the `get_` function of the Switch Tool works with **conditions**.
+Meaning, before the default mode is defined as "True" or "False", the `get_` function first checks the value of the 
+variable that we have defined in *"Global Variables, Constants, Settings"*.
+
+In our example, we want the default mode to be "turned off".
+We set up a condition that turns the Switch to "False" if the variable "switch_value" is "0".
+Since we've initially defined "switch_value" as "0", the Switch will automatically be "False" i.e. "turned off" as default.
+
+```python
+def get_my_switch(self):
+    if switch_value == 0:
+        return False
+    else:
+        return True
+```
+
+![](/img/doc/project_notebook_6_switch_2_off.jpg)
+
+If you want the default mode of your Switch to be "turned on", you can replace "False" with "True".
+
+```python
+def get_my_switch(self):
+    if switch_value == 0:
+        return True
+    else:
+        return False
+```
+
+![](/img/doc/project_notebook_6_switch_3_on.jpg)
+
+---
+
+The `set_` function of the Switch Tool
+
+```python
+def set_my_switch(self, switch_state):
+    global switch_value
+    if switch_state:
+        switch_value = 1
+    else:
+        switch_value = 0
+```
+
+---
 
 Place the code in the cell *"Tool Switch"* beneath the line `class tool_switch`.
 
-![](/img/doc/project_notebook_6_switch_2.png)
+![](/img/doc/project_notebook_6_switch_get_set.png)
 
-See another example for the Switch Tool in the User Examples Chapter [**here**](docs/moloewe-tools/07_map.md).
+#### 6.1.3 Interacting with other Tools
+
+See another example for the Switch Tool in the User Examples Chapter [**here**](docs/user-examples/switch.md).
 
 ### 6.2 Dropdown
 
@@ -444,7 +495,12 @@ class tool_graph:
         return fig.to_dict()
 ```
 
-The project path defined in the beginning of the Project Notebook (more [**here**](docs/05-working-with-notebooks/00_template_notebook.md#21-mandatory-section)) allows loading the data using the relative path. The relative path is stored in a global variable named `data`. The user does not have to know that is stored in `data`; as long as a user knows the file name of a data file, they can load the data by simply using the relative path to the file that is created by concatenating the string of the file name to the `data` variable.
+The project path defined in the beginning of the Project Notebook
+(more [**here**](docs/project_notebook/template_notebook.md#21-mandatory-section)) allows loading the data
+using the relative path. The relative path is stored in a global variable named `data`.
+The user does not have to know that is stored in `data`; as long as a user knows the file name of a data file,
+they can load the data by simply using the relative path to the file that is created by concatenating the string of the
+file name to the `data` variable.
 
 #### 6.5.3 Loading Data from URL
 
@@ -533,7 +589,8 @@ Please note the following:
 - the name of the function must start with `get_` and end with `_chart`
 - the function must return a dictionary of the figure (`fig.to_dict()`)
 
-Users are referred to the official Plotly documentations for information on how to create [Plotly charts](https://plotly.com/python/).
+Users are referred to the official Plotly documentations for information on how to create
+[Plotly charts](https://plotly.com/python/).
 
 ### 6.6 Map
 
