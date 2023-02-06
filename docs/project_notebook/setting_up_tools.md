@@ -130,7 +130,69 @@ You can add an indentation with the Tab key on your keyboard.
 If you want to create a second tool of the same kind, e.g. a second switch, you can place the code for the second
 switch right after the code of the first one.
 
-### 5.2 The `get_` and `set_` Function
+### 5.2 Accessing Files
+
+Here we will show you how to **access a file** in the Project Notebook.
+You can access files that you've uploaded to MoLöwe beforehand or files from a URL.
+
+For files that you've uploaded to MoLöwe beforehand, the file path is always prefixed by the **project directory** where
+the file comes from.
+
+An overview of the respective project directories for each file type is shown here:
+
+
+| File Extension                    | Project Directory | Description         |
+|-----------------------------------|------------------|---------------------|
+| `.PNG`                            | `/image`         | Image               |
+| `.JPG` or `.jpg`                  | `/image`         | Image               |
+| `.JPEG` or `.jpeg`                | `/image`         | Image               |
+| `.MP4` or `.mp4`                  | `/video`         | Video file          |
+| `.txt`                            | `/text`          | Text file           |
+| `.md`                             | `/text`          | Markdown file       |
+| `.html` or `.HTML`                | `/text`          | HTML file           |
+| `.shp`, `.shx`, `.prj` and `.dbf` | `/data`          | Shapefile extensions |
+| `.csv`                            | `/data`          | CSV File            |
+
+---
+
+***Example 1:***
+
+You want to build a Graph from a csv file named `my_data.csv` (containing the respective data x- & y-data) that you've
+uploaded to MoLöwe beforehand.
+The code to read that file in a Project Notebook would be the following:
+
+```python
+data_file = data + "my_data.csv"
+```
+
+You can then load the file into a Pandas DataFrame by using the code shown below:
+
+```python
+df = pd.read_csv(data_file)
+```
+
+Now you can use the file to build a graph (see section 6.5)
+
+---
+
+***Example 2:***
+
+The following example shows how to load data from a URL:
+
+```python
+df = pd.read_csv(pd.read_csv("https://www.<link>.com/to/data/file.csv"))
+```
+
+As you can see, loading data from a URL quite straightforward. 
+
+---
+
+:::note
+The code to access a file must be in the tool code of the tool that will access the file! It cannot be in a different
+cell.
+:::
+
+### 5.3 The `get_` and `set_` Function
 
 MoLöwe tool codes are formulated as so-called **functions**.
 
@@ -138,27 +200,34 @@ Simply put, a function is a set of **instructions** that is executed when the fu
 
 There are two functions that we need to define for a MoLöwe Tool: the `get_` function and the `set_` function.
 
-#### 5.2.1 The `get_` Function
+#### 5.3.1 The `get_` Function
 
 In the `get_` function, we define the **initial state** of a tool, meaning its default parameters.
+
+---
 
 ***Example:***
 
 In the `get_` function of the Dropdown Tool, you define which options should appear/are available
 in the dropdown list and, in addition, which option will be selected by **default** (i.e. when you open the slide)
 
-#### 5.2.2 The `set_` Function
+---
+
+#### 5.3.2 The `set_` Function
 
 In the `set_` function, we define what happens when the tool is **executed**.
 
 We can configure the `set_` function in such a way that it changes a parameter value of another tool.
 This is how we can set up **interactions** between tools.
 
+---
+
 ***Example:***
 
 Using the `set_` function of a Button Tool, you can change the parameter displayed on the Y-Axis of a Graph Tool.
 
 ---
+
 :::note
 Naturally, some tools do **not** require both the `get_` and the `set_` function.
 
@@ -474,124 +543,26 @@ Place the code for the Graph tool in the cell *"Tool Graph"* beneath the line `c
 
 The Graph tool only requires a `get_` function.
 
-#### 6.5.1 Loading Data from Files or URLs
+---
 
-Users can upload data files to MoLöwe and load the data so that they can use it for a graph or a map.
-
-#### 6.5.2 Loading Data from a File
-
-The following example shows how to load data from a file named `diabetes.csv`:
-
-```python
-
-class tool_graph:
-    
-    def get_some_chart(self):
-
-        # Load data from a file
-        global data
-        diabetes = pd.read_csv(data + "diabetes.csv")
-
-        #                            #
-        # rest of the code goes here #
-        #                            #
-
-        return fig.to_dict()
-```
-
-The project path defined in the beginning of the Project Notebook
-(more [**here**](docs/project_notebook/template_notebook.md#21-mandatory-section)) allows loading the data
-using the relative path. The relative path is stored in a global variable named `data`.
-The user does not have to know that is stored in `data`; as long as a user knows the file name of a data file,
-they can load the data by simply using the relative path to the file that is created by concatenating the string of the
-file name to the `data` variable.
-
-#### 6.5.3 Loading Data from URL
-
-The following example shows how to load data from a file named `diabetes.csv`:
-
-```python
-
-class tool_graph:
-    
-    def get_some_other_chart(self):
-
-        # Load data from a URL
-        diabetes = pd.read_csv("https://www.<link>.com/to/data/file.csv")
-
-        #                            #
-        # rest of the code goes here #
-        #                            #
-
-        return fig.to_dict()
-```
-
-As you can see, loading data from a URL quite straightforward. 
-
-#### 6.5.4 Example Scenario
+****Example:***
 
 ```python
 class tool_graph:
     
-    def get_plotly_font_lwd_test_chart(self):
+    def get_apple_shares(self):
 
-        global line_width_1  # input from Slider Tool
-        global line_width_2  # input from Slider Tool
-        global font_size     # input from Dropdown Tool
+        df = pd.read_csv(data + 'apple_data.csv')
 
-        fig = go.Figure()
+        fig = px.line(df, x = 'AAPL_x', y = 'AAPL_y', title='Apple Share Prices over time (2014)')
 
-        # 1.  Make the two line plots
-        # Trace 1
-        fig.add_trace(go.Scatter(
-            x=[0, 1, 2, 3, 4, 5, 6, 7, 8],
-            y=[0, 1, 2, 3, 4, 5, 6, 7, 8],
-            name="Line 1",
-            mode="lines",
-            line=dict(width=line_width_1)
-        ))
-        # Trace 2
-        fig.add_trace(go.Scatter(
-            x=[0, 1, 2, 3, 4, 5, 6, 7, 8],
-            y=[1, 0, 3, 2, 5, 4, 7, 6, 8],
-            name="Line 2",
-            mode="lines+markers",
-            line=dict(width=line_width_2) # Line width
-            
-        ))
-
-        # 2. Add text related settings
-        fig.update_layout(
-            title="Plot Title (default: {})".format(font_size),
-            xaxis=dict(title="X-axis title", automargin=True),
-            yaxis=dict(title="Y-axis title", automargin=True),
-        )
-        
-        # 3. Update plotly template and margin sizes
-        fig.update_layout(
-            template="plotly_white",
-            margin=go.layout.Margin(l=100, r=0, b=100, t=font_size*2.5, pad=0),
-        )
-        
-        # 4. Font size
-        fig.update_layout(font=go.layout.Font(size=font_size))
-
-        return fig.to_dict()
+        return my_chart.moloewe_chart_plot(plotly_data = fig.to_dict(), plotly_config=dict())
 ```
 
-The `get_plotly_font_lwd_test_chart` function contains code that is used to create Plotly charts.
-This example chart (which is a line chart) displays two lines. Additionally, this code also takes input from other
-interactive tools such as Slider Tool (in case of `line_width_1` and `line_width_2`) and Dropdown Tool (in case of `font_size`).
-Depending on the values selected using the different interactive tools, the looks of the graph
-(the data and the graph properties) can be changed.
+The `get_apple_shares` function contains code that is used to create a Plotly chart with Apple share prices from 2014.
+This line chart displays two lines.
 
-The global variables called within the function allows access to the values stored in the different variables that
-correspond to the different MoLöwe tools.
-
-Please note the following:
-
-- the name of the function must start with `get_` and end with `_chart`
-- the function must return a dictionary of the figure (`fig.to_dict()`)
+---
 
 Users are referred to the official Plotly documentations for information on how to create
 [Plotly charts](https://plotly.com/python/).
@@ -605,19 +576,6 @@ The Graph tool only requires a `get_` function.
 The maps created using the Map tool are essentially Plotly charts. As a result, many aspects of the way the map tool is
 defined and used bear resemblance to the Graph Tool.
 Hence, readers are advised to read the documentation on the Graph Tool to learn about the Map Tool.
-
-### 7 Accessing Files
-
-| File Extension                    | Project Directory | Description          |
-|-----------------------------------|-------------------|----------------------|
-| `.PNG`                            | `/image`          | Image                |
-| `.JPG` or `.jpg`                  | `/image`          | Image                |
-| `.JPEG` or `.jpeg`                | `/image`          | Image                |
-| `.MP4` or `.mp4`                  | `/video`          | Video file           |
-| `.txt`                            | `/text`           | Text file            |
-| `.md`                             | `/text`           | Markdown file        |
-| `.html` or `.HTML`                | `/text`           | HTML file            |
-| `.shp`, `.shx`, `.prj` and `.dbf` | `/data`           | Shapefile extensions |
 
 ## **7 Downloading the Project Notebook**
 
