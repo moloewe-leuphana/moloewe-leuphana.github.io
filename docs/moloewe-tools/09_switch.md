@@ -3,8 +3,11 @@
 The Switch tool is used to interact with a presentation and allows users to change the value of a variable (i.e. parameter)
 from one to another.
 
-The Switch tool requires definition of a function on the Project Notebook.
+***Examples:***
+* Activate/deactivate a certain parameter in a Graph using a Switch
+* Conduct Surveys, where each option can be selected with its respective Switch
 
+The Switch tool requires definition of a function on the Project Notebook.
 See [**here**](docs/project_notebook/setting_up_tools.md) on how to set up the Switch Tool in the Project
 Notebook.
 

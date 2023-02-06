@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Setting Up Tools
+# Setting up Tools and Content
 
 Each MoLöwe project contains a [**Project Notebook**](../glossary.md#project-notebook). 
 Here you can set up some of the **MoLöwe tools** using Python programming.
@@ -189,12 +189,14 @@ In this example, we have named the variable "switch_value" and given it the valu
 
 ![](/img/doc/project_notebook_6_switch_1_variable.jpg)
 
-#### 6.1.2 `get_` and a `set_` Function
+:::note
+You can use this variable in a Graph Tool and thereby control the Graph with the Switch Tool.
+:::
 
-Now you need to define a `get_` and a `set_` function.
+#### 6.1.2 `get_` Function
 
-The `get_` function of the Switch Tool defines if the default mode of the Switch should be "turned on" or "turned off".
-If we want to translate that to Python, we need to define the Switch as "True" (for "turned on") or "False" (for "turned off").
+The `get_` function of the Switch Tool defines if the default mode of the Switch should be **"turned on"** or **"turned off"**.
+If we want to translate that to Python, we need to define the Switch as **"True"** (for "turned on") or **"False"** (for "turned off").
 
 To this end, the `get_` function of the Switch Tool works with **conditions**.
 Meaning, before the default mode is defined as "True" or "False", the `get_` function first checks the value of the 
@@ -202,7 +204,7 @@ variable that we have defined in *"Global Variables, Constants, Settings"*.
 
 In our example, we want the default mode to be "turned off".
 We set up a condition that turns the Switch to "False" if the variable "switch_value" is "0".
-Since we've initially defined "switch_value" as "0", the Switch will automatically be "False" i.e. "turned off" as default.
+Since we initially defined "switch_value" as "0", the Switch will automatically be "False" i.e. "turned off" as default.
 
 ```python
 def get_my_switch(self):
@@ -227,6 +229,8 @@ def get_my_switch(self):
 ![](/img/doc/project_notebook_6_switch_3_on.jpg)
 
 ---
+
+#### 6.1.2 `set_` Function
 
 The `set_` function of the Switch Tool
 
@@ -602,7 +606,7 @@ The maps created using the Map tool are essentially Plotly charts. As a result, 
 defined and used bear resemblance to the Graph Tool.
 Hence, readers are advised to read the documentation on the Graph Tool to learn about the Map Tool.
 
-### ?
+### 7 Accessing Files
 
 | File Extension                    | Project Directory | Description          |
 |-----------------------------------|-------------------|----------------------|

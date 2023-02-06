@@ -7,25 +7,25 @@ The only way to place a tool on a slide is from the [**Edit Mode**](docs/edit-mo
 However, some tools need to be set up in the Project Notebook first.
 Also, for some tools you need to upload a file to MoLöwe first.
 For example, if you want to show an image on a slide, you need to **first** upload the image to MoLöwe and **then**
-add the image tool to the slide. Please visit the [**Files Subchapter**](docs/edit-mode/03_files.md#2-upload-a-new-file)
+add the image tool to the slide. Please visit the [**Files Chapter**](docs/edit-mode/03_files.md#2-upload-a-new-file)
 to learn how to upload files to MoLöwe.
 
 ## **Tools Overview**
 ✅ Yes/❌ No
 
-| Tool                                        | Description                                                                                       | Requires Project Notebook? | Requires Files?               |
-|---------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------|-------------------------------|
-| [**Textbox**](01_textbox.md)                | Displays a text during a presentation                                                             | ❌                          | ✅                             |
-| [**Image**](02_image.md)                    | Displays an image during a presentation                                                           | ❌                          | ✅                             |
-| [**Video**](03_video.md)                    | Displays a video during a presentation                                                            | ❌                          | ✅                             |
-| [**Slideshow**](04_slideshow.md)            | Displays multiple images in sequence during a presentation                                        | ❌                          | ✅                             |
-| [**Button**](05_button.md)                  | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable | ❌ <br/> ❌ <br/> ✅          | ❌                             |
-| [**Graph**](06_graph.md)                    | Display a graph during a presentation                                                             | ✅                          | ❌                             |
-| [**Map**](07_map.md)                        | Display a Map during a presentation                                                               | ✅                          | ❌                             |
-| [**Range Slider**](08_slider.md)            | Select a value from within a pre-defined range of values                                          | ✅                          | ❌                             |
-| [**Switch**](09_switch.md)                  | Switch the value stored in a variable from one to another                                         | ✅                          | ❌                             |
-| [**Dropdown**](10_dropdown.md)          | Select a value from pre-defined options                                                           | ✅                          | ❌                             |
-| [**Change Scene Button**](11_change-scene.md) | Switch several screens to different slides at the same time                                       | ❌                          | ❌                             |
+| Tool                                        | Description                                                                                                     | Requires Project Notebook? | Requires Files?               |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------|-------------------------------|
+| [**Textbox**](01_textbox.md)                | Displays a text during a presentation                                                                           | ❌                          | ✅                             |
+| [**Image**](02_image.md)                    | Displays an image during a presentation                                                                         | ❌                          | ✅                             |
+| [**Video**](03_video.md)                    | Displays a video during a presentation                                                                          | ❌                          | ✅                             |
+| [**Slideshow**](04_slideshow.md)            | Displays multiple images in sequence during a presentation                                                      | ❌                          | ✅                             |
+| [**Button**](05_button.md)                  | - Switch screen to a different slide<br/> - Show or Hide a Tool<br/> - Change value of a variable (interactive) | ❌ <br/> ❌ <br/> ✅          | ❌                             |
+| [**Graph**](06_graph.md)                    | Display a graph during a presentation                                                                           | ✅                          | ❌                             |
+| [**Map**](07_map.md)                        | Display a Map during a presentation                                                                             | ✅                          | ❌                             |
+| [**Range Slider**](08_slider.md)            | Select a value from within a pre-defined range of values (interactive)                                          | ✅                          | ❌                             |
+| [**Switch**](09_switch.md)                  | Switch the value stored in a variable from one to another (interactive)                                         | ✅                          | ❌                             |
+| [**Dropdown**](10_dropdown.md)          | Select a value from pre-defined options (interactive)                                                           | ✅                          | ❌                             |
+| [**Change Scene Button**](11_change-scene.md) | Switch several screens to different slides at the same time (interactive)                                                    | ❌                          | ❌                             |
 
 
 ## **Resize a Tool**
