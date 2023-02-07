@@ -9,22 +9,23 @@ files to their project.
 
 ## **1 Supported Files**
 
-Below are the files that can be uploaded and the directories in the project that they will be placed in.
+Below are the files that can be uploaded to the MoLöwe:
 
-| File Extension                    | Project Directory | Description          |
-|-----------------------------------|-------------------|----------------------|
-| `.PNG`                            | `/image`          | Image                |
-| `.JPG` or `.jpg`                  | `/image`          | Image                |
-| `.JPEG` or `.jpeg`                | `/image`          | Image                |
-| `.MP4` or `.mp4`                  | `/video`          | Video file           |
-| `.txt`                            | `/text`           | Text file            |
-| `.md`                             | `/text`           | Markdown file        |
-| `.html` or `.HTML`                | `/text`           | HTML file            |
-| `.shp`, `.shx`, `.prj` and `.dbf` | `/data`           | Shapefile extensions |
+| File Extension                    | Description          |
+|-----------------------------------|----------------------|
+| `.PNG`                            |  Image               |
+| `.JPG` or `.jpg`                  |  Image               |
+| `.JPEG` or `.jpeg`                |  Image               |
+| `.MP4` or `.mp4`                  |  Video file          |
+| `.txt`                            |  Text file           |
+| `.md`                             |  Markdown file       |
+| `.html` or `.HTML`                |  HTML file           |
+| `.shp`, `.shx`, `.prj` and `.dbf` | Shapefile extensions |
+| `.csv`                            |  CSV File            |
 
 :::info
 Accessing files via the Project Notebook is discussed in chapter
-[**Setting up Tools**](docs/project_notebook/setting_up_tools.md).
+[**Setting up Tools and Content**](docs/project_notebook/setting_up_tools.md).
 :::
 
 ## **2 Upload a new File**

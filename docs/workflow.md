@@ -57,21 +57,28 @@ This will determine if the following step will be relevant for you.
 ## <Highlight> 4 Set Up Tools in the Project Notebook </Highlight>
 
 This step is relevant for you, if the tools you want to use need to be set up in the Project Notebook.
-In this case, please follow chapter [**Setting up Tools**](docs/project_notebook/setting_up_tools.md).
+In this case, please follow chapter [**Setting up Tools and Content**](docs/project_notebook/setting_up_tools.md).
 
 **Otherwise, you can skip to the next step.**
 
-## <Highlight> 5 Create Slides & Screens </Highlight>
+## <Highlight> 5 Upload Files </Highlight>
 
-Add Slide names to your storyboard
+If you have external files (e.g. images, videos) that you want to use in your workshop, please upload them to MoLöwe
+following the steps [**here**](docs/edit-mode/03_files.md).
 
-## <Highlight> 6 Start a Test Presentation </Highlight>
+## <Highlight> 6 Create Slides </Highlight>
 
-See the [**Presentation Mode chapter**](docs/edit-mode.md#4-presentation-mode).
+Now you can create slides and add tools/content following the steps described
+[**here**](docs/edit-mode/05_slides.md).
 
-Open a new tab for each monitor and select respective screen and mode.
+## <Highlight> 7 Create Screens </Highlight>
 
-Erklären, dass man im Presentation Mode nicht slides öffnet, sondern screens.
-Für jeden Screen einen neuen tab.
+Now that you have created Slides, you need to create Screens and add the Slides to their respective Screens.
 
-GIF erstellen
+Please follow the steps described [**here**](docs/edit-mode/06_screens.md).
+
+---
+
+** Your project is now ready to present.**
+
+See the [**Presentation Mode chapter**](docs/user-interface.md#4-presentation-mode).

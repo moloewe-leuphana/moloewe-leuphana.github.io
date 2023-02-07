@@ -64,8 +64,8 @@ When in Controller Mode, the dropdown tool appears as following on a slide.
 
 ![](/img/doc/62_dropdown_3.jpg)
 
-Users can click on the Dropdown Tool in order to be presented with the different options. When an option is clicked on,
-the menu collapses and the value that has been selected is stored in the corresponding global variable as defined by
+Users can click on the Dropdown Tool in order to be presented with the different options. When an option is clicked,
+the menu collapses and the value that has been selected is stored in the corresponding variable as defined by
 the `set_` function.
 
 ![](/img/doc/62_dropdown_4.jpg)

@@ -1,21 +1,30 @@
+---
+sidebar_position: 3
+---
+
 # Create a Survey
 
-There are many cases where opinions or polls from the audience are needed. This section provides you with one approach using the Switch Tool.
+There are many cases where opinions or polls from the audience are needed.
+This section provides you with one approach using the Switch Tool.
 
 ## **1 Scenario**
 
-You want to create a live survey about the mensa at the Leuphana. The audience is divided into 5 groups, each have a tablet. On each tablet, there is a slide containing following YES/NO questions:
+You want to create a live survey about the mensa at the Leuphana. The audience is divided into 5 groups, each have a tablet.
+On each tablet, there is a slide containing following YES/NO questions:
 
 - Does the food served come from various cuisines?
 - Are the food served priced reasonably?
 - Are the food served nutritious enough?
 
-On the monitor, a bar chart displays the survey results (questions on X-axis, votes on Y-axis). This means, for this survey, you need to create 6 slides: 5 for the tablets, 1 for the monitor.
+On the monitor, a bar chart displays the survey results (questions on X-axis, votes on Y-axis).
+This means, for this survey, you need to create 6 slides: 5 for the tablets, 1 for the monitor.
 
 ## **2 Overall logic - How it works**
 
 - Since they are YES/NO questions, we opt for the Switch tool to record the answers.
-- For each of the question, you create **one** switch with **one** variable that contains any of/all votes from the tablets. This switch can later be placed on each of the tablet's slide, and is independent from the number of tablets you may have (you can have 10 groups and still only need one switch function for one question).
+- For each of the question, you create **one** switch with **one** variable that contains any of/all votes from the tablets.
+This switch can later be placed on each of the tablet's slide, and is independent of the number of tablets you may have
+(you can have 10 groups and still only need one switch function for one question).
 - All switches are off on initializing the tablets.
 - Each time a switch is flipped on (a group votes YES), the tally variable +=1.
 - Each time a switch is flipped back off (a group retracts their vote), the tally variable -=1.
@@ -23,20 +32,28 @@ On the monitor, a bar chart displays the survey results (questions on X-axis, vo
 
 ## **3 Template for the switches**
 
-Here I already wrote a function called `switch_template`. As the name suggests, this serves as a template to create the `get_` and `set_` function pair, as well as the tally variable for any switch you might need. For example,
-`def switch_template(switch_name='mensa', index=1)`
-will create:
+Here I already wrote a function called `switch_template`. As the name suggests, this serves as a template to create the
+`get_` and `set_` function pair, as well as the tally variable for any switch you might need.
+For example, `def switch_template(switch_name='mensa', index=1)` will create:
 
 - Function `get_switch_mensa_nr_1`
 - Function `get_switch_mensa_nr_1`
 - Tally variable `mensa_nr_1_total`
 
 :::tip Python exkurs
-Instead of naming the tally variable for each of the questions manually, we use `globals()` to create a variable from a string. This way we can create loops and numbering our variables efficiently.
+Instead of naming the tally variable for each of the questions manually, we use `globals()` to create a variable from a string.
+This way we can create loops and numbering our variables efficiently.
 :::
 
 :::danger Disclaimer: Accidental browser refresh vs. incorrect survey results
-Because of the connection between the backend (this notebook) and the frontend (the web browsers), there is currently no way to pinpoint which version of the switch is on which tablet. In other words, we only have this accumulated information of _how many votes are casted in total_, not _which groups have casted the votes_. This plays a crucial role in an error occurred during the beta phase, where a tablet browser from a group is accidentally refreshed during voting, which leads to a reset in the tally variable but not the state of the switch (e.x. switch still turned on but tally variable doesn't count the vote). Thus, if the group decides to turn off the switch, it cause the tally variable to incorrectly be subtracted, and in some cases leads to negative results. I prevented this with an `elif` in the `set_switch` function. If it happens that a browser is refreshed, a quick fix would be to tell all groups to turn all the switch off and vote again.
+Because of the connection between the backend (this notebook) and the frontend (the web browsers), there is currently no way
+to pinpoint which version of the switch is on which tablet. In other words, we only have this accumulated information of 
+_how many votes are cast in total_, not _which groups have cast the votes_. This plays a crucial role in an error
+occurred during the beta phase, where a tablet browser from a group is accidentally refreshed during voting, which leads
+to a reset in the tally variable but not the state of the switch (e.x. switch still turned on but tally variable doesn't
+count the vote). Thus, if the group decides to turn off the switch, it causes the tally variable to incorrectly be subtracted,
+and in some cases leads to negative results. I prevented this with an `elif` in the `set_switch` function.
+If it happens that a browser is refreshed, a quick fix would be to tell all groups to turn all the switch off and vote again.
 :::
 
 ```python
@@ -78,7 +95,8 @@ def switch_template(switch_name, index):
 
 ### 3.1 Switches for all questions
 
-Warping it one more time in a loop allows us to "clone" the switch functions for however many questions we need in a survey. In our case, we need `create_switches(switch_name='mensa', amount=3)`
+Warping it one more time in a loop allows us to "clone" the switch functions for however many questions we need in a survey.
+In our case, we need `create_switches(switch_name='mensa', amount=3)`
 
 Again, the amount here refers to the number of the questions, not the number of the tablets/audience groups.
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # House Data Visualization
 
 Prerequisite: You need to install our `moloewe_chart` package from `moloewe_chart.zip`.
@@ -108,7 +112,7 @@ Now that we have the "skeleton" of your interactive plot in place, let's make th
 First, we need to check out all the possible values to be displayed in the dropdown list under a variable. Here, we extract all the unique values of the column bedrooms, and warp it in a list comprehension to produce a python list. We also sort the list, so the output would make more sense when being incorporated into the dropdown list.
 
 ```python
-# Get all possible values your dropdown list
+# Get all possible values your dropdown.md list
 bedroom_number = [i for i in house_data["bedrooms"].unique()]
 bedroom_number.sort()
 print(bedroom_number)
@@ -306,7 +310,7 @@ Let's start by setting up our bedroom number dropdown.
 The first step is to create two global variables, one contains all possible values for a dropdown, and one contains the selected values. The selected value we set now in this initialization phase will be the default value for the plot. For now, we just copy the values we saw before and feed it in the `bedroom_number_all` variable. (Sidenote: we can actually make these variable dynamic by loading them directly from the data, but that adds another layer of explanation, so for now I just do this manually. Once you get the logic of MoLöwe, it would be easier to then try this alternative out).
 
 ```python
-# Get all possible values your dropdown list
+# Get all possible values your dropdown.md list
 global bedroom_number_all
 bedroom_number_all = [1, 2, 3, 4, 5, 6]
 
@@ -346,7 +350,7 @@ Now we set up the function `set_bedroom_number`. This function allows you to cha
 # Define set function
 def set_bedroom_number(self, dropdown_selection):  # here you put the function name
     global bedroom_number_selected # here you call the global variable
-    bedroom_number_selected = dropdown_selection # assign the variable as the selected dropdown content
+    bedroom_number_selected = dropdown_selection # assign the variable as the selected dropdown.md content
 
 # Append the function to class tool_dropdown
 setattr(tool_dropdown, "set_bedroom_number", set_bedroom_number)
@@ -379,14 +383,14 @@ def get_houseprice_chart(self):
     # Initialize instance of MoloeweChart
     my_chart = MoloeweChart()
 
-    # We call the selected variable (passed from the dropdown)
+    # We call the selected variable (passed from the dropdown.md)
     global bedroom_number_selected
 
     # Load data (this global variable data contains the directory to our asset folder "data" on the server, where we upload house-prices.csv)
     global data
     house_data = pd.read_csv(data + "house-prices.csv")
 
-    # Now we subset the data based on the dropdown value
+    # Now we subset the data based on the dropdown.md value
     # We replace the value we chose earlier (2) with bedroom_number_selected
     df_bedroom = house_data[house_data["bedrooms"] == bedroom_number_selected] 
 
@@ -458,7 +462,7 @@ tool_slider_test = tool_slider()
 Now you can check all the functions we wrote above. They show you all the possible values within the dropdown bedroom number, the currently selected value, and the corresponding plot with that value. You can go back and try selecting another bedroom number, then call the `moloewe_plot_preview` function to see the change in plot.
 
 ```python
-# Check all values contained in the dropdown bedroom number
+# Check all values contained in the dropdown.md bedroom number
 tool_dropdown_test.get_bedroom_number()
 {'values': [1, 2, 3, 4, 5, 6], 'default': 1}
 ```

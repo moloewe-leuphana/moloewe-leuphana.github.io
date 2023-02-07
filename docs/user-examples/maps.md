@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Maps
 
 ## **1 Required Skills & Software**
@@ -144,7 +148,7 @@ Note: After making a selection in the dropdown list, the map must be refreshed (
 **Dropdown List Functions**
 
 ```python
-# define default dropdown selection
+# define default dropdown.md selection
 trees_health = "excellent"
 
 

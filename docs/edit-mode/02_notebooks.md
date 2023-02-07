@@ -22,6 +22,10 @@ Then click on the "Export Notebook" button.
 
 ## **2 Upload a new Project Notebook** 
 
+:::info
+Before you upload a Project Notebook, make sure that its filename is in lower case!
+:::
+
 Users can upload a new Project Notebook by clicking on the "Import Notebook" button.
 
 ![](/img/doc/19_import_notebook.jpg)
