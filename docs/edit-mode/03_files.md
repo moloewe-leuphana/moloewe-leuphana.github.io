@@ -18,6 +18,7 @@ Below are the files that can be uploaded to the MoLöwe:
 | `.JPEG` or `.jpeg`                |  Image               |
 | `.MP4` or `.mp4`                  |  Video file          |
 | `.txt`                            |  Text file           |
+| `.pdf`			    |  PDF file		   |					
 | `.md`                             |  Markdown file       |
 | `.html` or `.HTML`                |  HTML file           |
 | `.shp`, `.shx`, `.prj` and `.dbf` | Shapefile extensions |
