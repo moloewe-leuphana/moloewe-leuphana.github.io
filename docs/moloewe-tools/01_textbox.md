@@ -11,7 +11,7 @@ It does not require definition of a function on the Project Notebook.
 The text files that need to be placed on a slide can be uploaded with the
 [**process described here**](docs/edit-mode/03_files.md#2-upload-a-new-file).
 
-The supported file formats are `.txt`, `.md`, and `.html`.
+The supported file formats are `.txt`, `.md`, `.pdf` and `.html`.
 
 ## **Placing a Text on a Slide (Edit Mode)**
 
