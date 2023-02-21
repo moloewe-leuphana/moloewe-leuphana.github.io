@@ -133,7 +133,7 @@ This dropdown list contains all projects the user has access rights to and that 
 
 ### 4.2 Select screen
 
-This dropdown list shows all screens meaning all available 5 Monitors (for further clarification, see [**Glossary**](glossary.md#screen)).
+This dropdown list shows all screens meaning all defined Screens in Edit Mode. Here, it make sense to have names as the devices in use, for example, Monitor 1 and Tablet 3 etc. (for further clarification, see [**Glossary**](glossary.md#screen)).
 
 ### 4.3 Presentation
 
